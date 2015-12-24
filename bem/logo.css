@@ -1,0 +1,12 @@
+.logo {
+	display: block;
+	position: absolute;
+	width: 338px;
+	height: 117px;
+	background: url(../img/logo2.png);
+	border-bottom: 3px solid #e2e2e2;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	top: -1px;
+}

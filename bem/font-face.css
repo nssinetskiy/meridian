@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Brutal Type';
+	src: url('../fonts/brutaltype-webfont.eot');
+	src: url('../fonts/brutaltype-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brutaltype-webfont.ttf') format('truetype'),
+		 url('../fonts/brutaltype-webfont.woff') format('woff'),
+		 url('../fonts/brutaltype-webfont.woff2') format('woff2');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Brutal Type';
+	src: url('../fonts/brutaltype-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brutaltype-light-webfont.ttf') format('truetype'),
+		 url('../fonts/brutaltype-light-webfont.woff') format('woff'),
+		 url('../fonts/brutaltype-light-webfont.woff2') format('woff2');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Brutal Type';
+	src: url('../fonts/brutaltype-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brutaltype-medium-webfont.ttf') format('truetype'),
+		 url('../fonts/brutaltype-medium-webfont.woff') format('woff'),
+		 url('../fonts/brutaltype-medium-webfont.woff2') format('woff2');
+	font-weight: 700;
+}

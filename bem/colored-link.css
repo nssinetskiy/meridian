@@ -1,0 +1,19 @@
+.colored-link {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 10px 39px 10px 33px;
+}
+.colored-link_red {
+	background: #f3292e;
+}
+.colored-link_red:hover {
+	background: #ff161c;
+	color: #fff;
+	text-decoration: none;
+}
+.colored-link_red:active {
+	background: #b50005;
+	text-decoration: none
+}

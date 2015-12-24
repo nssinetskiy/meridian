@@ -1,0 +1,41 @@
+.menu {
+	list-style: none;
+}
+.menu_top {
+	line-height: 18px;
+	margin-left: -10px;
+}
+.menu__item {
+	display: inline-block;
+	font-size: 15px;
+}
+.menu__link {
+	color: #1a1a1a;
+	text-decoration: none;
+	position: relative;
+}
+.menu__link:hover {
+	color: #f3292e;
+}
+.menu__link:active {
+	color: #0f95bb;
+}
+.menu__link:hover:after,
+.menu__link:active:after {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	content: "";
+	width: 39px;
+	height: 2px;
+	background: #f3292e;
+}
+.menu__link:hover:after {
+	background: #f3292e;
+}
+.menu__link:active:after {
+	background: #0f95bb;
+}
+.menu__link .glyphicon {
+	font-size: 10px;
+}
