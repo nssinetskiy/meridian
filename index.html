@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -11,6 +11,9 @@
 	<!-- Latest jQuery -->
 	<link rel="stylesheet" href="non-responsive.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
 </head>
 <body>
 	<div class="wrapper">
@@ -18,7 +21,7 @@
 			<div class="header__block">
 				<div class="container">
 					<div class="col-xs-4">
-						<a href="/" class="logo"></a>
+						<a href="/" class="header-logo"></a>
 					</div>
 					<div class="col-xs-8">
 						<!--<ul class="menu menu_top">
@@ -106,19 +109,66 @@
 				<div class="container">
 					<div class="col-xs-4"></div>
 					<div class="col-xs-8">
-						<div class="header__section">Купить кавртиру от застройщика в Тюмени<br><a class="header__lowest-price">от 1 250 000 руб.</a></div>
-						<div class="header__section">
-							<a href="" class="colored-link colored-link_red">Заказать звонок</a>
+						<div class="header__block-inner">
+							<div class="header__section header__section_left">Купить кавртиру от застройщика в Тюмени<br><a class="header__lowest-price">от 1 250 000 руб.</a></div>
+							<div class="header__section header__section_middle">
+								<a href="" class="btn colored-link colored-link_red">Заказать звонок</a>
+							</div>
+							<div class="header__section header__section_right">пн-пт: 9:00 &mdash; 20:00 сб: 10:00 &mdash; 16:00<br><span class="header__phone"><span class="header__phone header__prhone_grey">+7 (3452)</span> 69-23-97</span></div>
 						</div>
-						<div class="header__section header__section_right">пн-пт: 9:00 &mdash; 20:00 сб: 10:00 &mdash; 16:00<br><span class="header__phone"><span class="header__phone header__prhone_grey">+7 (3452)</span> 69-23-97</span></div>
+					</div>
+				</div>
+			</div>
+			<div class="header__block_lower">
+				<div class="container">
+					<div id="navbar" class="menu">
+						<ul class="nav navbar-nav menu_main">
+							<li class="menu__item">
+								<a class="menu__link menu__link_main" href="">каталог квартир <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">от 1&nbsp;250&nbsp;000 руб.</div></a>
+							</li>
+							<li class="menu__item divider_vertical"></li>
+							<li class="menu__item">
+								<a class="menu__link menu__link_main" href="">каталог проектов <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">390 квартир в 4 жилых кварталах</div></a>
+							</li>
+							<li class="menu__item divider_vertical"></li>
+							<li class="menu__item">
+								<a class="menu__link menu__link_main" href="">подбор квартиры в ипотеку<div class="menu__item-subtitle">ежемесячный платеж от 9&nbsp;900 руб.</div></a>
+							</li>
+							<li class="menu__item divider_vertical"></li>
+							<li class="menu__item">
+								<a class="menu__link menu__link_main menu__link_last" href="">контакты<div class="menu__item-subtitle">офис продаж и схемы проезда</div></a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</header>
+		<div id="js-main-slider" class="main-slider">
+			<div class="main-slider__item" style="background: url('img/sliderimg1.jpg'); background-size: cover;">
+				<div class="container">
+					
+				</div>
+			</div>
+			<div class="main-slider__item" style="background: url('img/sliderimg2.jpg'); background-size: cover;">
+			</div>
+		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!-- Latest Bootstrap compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="scripts/ui-bootstrap-0.14.3.min.js"></script>
+	<script src="owl-carousel/owl.carousel.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('#js-main-slider').owlCarousel({
+			items: 1,
+			itemsCustom: [1200, 1],
+			pagination: false,
+			responsive: false,
+			rewindNav: false,
+			navigation: true
+		});
+	});
+	</script>
 </body>
 </html>

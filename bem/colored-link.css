@@ -3,7 +3,8 @@
 	color: #fff;
 	font-weight: 700;
 	text-decoration: none;
-	padding: 10px 39px 10px 33px;
+	padding: 7px 38px 9px 32px;
+	border-radius: 0;
 }
 .colored-link_red {
 	background: #f3292e;

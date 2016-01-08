@@ -3,11 +3,27 @@
 }
 .menu_top {
 	line-height: 18px;
-	margin-left: -10px;
+	margin-left: -35px;
+	padding-top: 2px;
+}
+.menu_main {
+	margin-left: -30px;
+	padding: 15px 0 15px 16px;
 }
 .menu__item {
 	display: inline-block;
 	font-size: 15px;
+	margin-right: 10px;
+}
+.menu__item:last-child {
+	margin-right: 0;
+}
+.menu__item-subtitle {
+	font-size: 13px;
+	color: #767676;
+	font-weight: normal;
+	text-transform: none;
+	padding-top: 6px;
 }
 .menu__link {
 	color: #1a1a1a;
@@ -36,6 +52,8 @@
 .menu__link:active:after {
 	background: #0f95bb;
 }
-.menu__link .glyphicon {
-	font-size: 10px;
+.menu__link_main {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
 }

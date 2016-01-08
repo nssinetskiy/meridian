@@ -1,9 +1,11 @@
 .city-selector {
-	float: right;
+	position: relative;
+	right: -95px;
 }
 .city-selector__item {
 	color: #f3292e;
 	border-bottom: 1px dotted #f3292e;
+	margin-right: 10px;
 }
 .city-selector .menu__link:hover > .city-selector__item,
 .city-selector .menu__link:active > .city-selector__item {
