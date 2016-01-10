@@ -3,11 +3,19 @@
 	color: #fff;
 	font-weight: 700;
 	text-decoration: none;
-	padding: 7px 38px 9px 32px;
 	border-radius: 0;
+	text-align: center;
 }
 .colored-link_red {
 	background: #f3292e;
+}
+.colored-link_header {
+	width: 200px;
+	padding: 7px 0 9px 0;
+}
+.colored-link_main-slider {
+	width: 220px;
+	padding: 9px 0 12px 0;
 }
 .colored-link_red:hover {
 	background: #ff161c;

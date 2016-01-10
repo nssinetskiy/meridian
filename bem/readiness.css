@@ -1,0 +1,14 @@
+.readiness {}
+.readiness__value {
+	font-size: 18px;
+}
+.readiness__scale {
+	width: 240px;
+	height: 4px;
+	background: #e2e2e2;
+	margin-top: 9px;
+}
+.readiness__current {
+	height: 4px;
+	background: #0f94bb;
+}
