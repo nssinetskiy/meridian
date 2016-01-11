@@ -12,7 +12,56 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-
+	<style>
+		/* Ширина слайдера */
+#slider {
+	width: 370px;
+}
+/* Контейнер слайдера */
+.ui-slider {
+	position: relative;
+}
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	width: 17px;   /* Задаем нужную ширину */
+	height: 18px;  /* и высоту */
+	background: #f3292e; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+	cursor: pointer
+}
+.ui-slider .ui-slider-handle:before {
+	display: block;
+	position: absolute;
+	top: -16px;
+	content: "";
+	border: 8px solid transparent;
+	border-bottom: 8px solid #f3292e;
+}
+.ui-slider .ui-slider-handle:focus {
+	outline: none;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal {
+	 height: 1px; /* задаем высоту согласно дизайна */
+}
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle { 
+	top: 16px;
+	margin-left: -6px;
+}
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content { 
+	background: #999;
+}
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header { 
+	background: #0f94bb;
+	height: 3px !important;
+}
+	</style>
 </head>
 <body>
 	<div class="wrapper">
@@ -171,7 +220,47 @@
 					</div>
 				</div>
 				<div class="item">
-					<div class="main-slider__item" style="background: url('img/sliderimg2.jpg'); background-size: cover;"></div>
+					<div class="main-slider__item" style="background: url('img/sliderimg2.jpg'); background-size: cover;">
+						<div class="container">
+							<div class="main-slider__details">
+								<div class="grey-text main-slider__grey-text">Жилой квартал</div>
+								<div class="main-slider__item-title">Новый мыс 2.0</div>
+								<div class="readiness">
+									Процент готовности: <span class="readiness__value">82%</span>
+									<div class="readiness__scale">
+										<div class="readiness__current" style="width: 82%;"></div>
+									</div>
+								</div>
+								<div class="main-slider__item-price">от 1&nbsp;250&nbsp;000 руб.</div>
+								<a href="" class="btn colored-link colored-link_red colored-link_main-slider">Подробнее об объекте</a>
+								<div class="main-slider__links">
+									<div class="main-slider__links_top">
+										<div class="main-slider__col main-slider__col_left">
+											<a class="link link_main-slider" href="">Студии (26)</a>
+											<a class="link link_main-slider" href="">2 комнатные (34)</a>
+											<a class="link link_main-slider" href="">С ремонтом (16)</a>
+										</div>
+										<div class="main-slider__col">
+											<a class="link link_main-slider" href="">1 комнатные (273)</a>
+											<a class="link link_main-slider" href="">Со скидкой (10)</a>
+											<a class="link link_main-slider" href="">Готовые (18)</a>
+										</div>
+									</div>
+									<div class="main-slider__links_bottom">
+										<div>
+											<a class="link link_main-slider" href="">Материнский капитал (16)</a>
+										</div>
+										<div>
+											<a class="link link_main-slider" href="">Программа переселения</a>
+										</div>
+										<div>
+											<a class="link link_main-slider" href="">Бюджетники</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="container main-slider__container">
@@ -193,6 +282,34 @@
 			<div class="container">
 				<div class="content-block__title">продажа недвижимости в тюмени</div>
 				<div class="grey-text grey-text_selection">Найти квартиру своей мечты прямо сейчас!</div>
+				<form action="" class="flat-search">
+					<div class="flat-search__row">
+						<div class="flat-search__field">
+							<label for="flat-search__price" class="flat-search__label">Цена</label>
+							<div id="flat-search__price" class="flat-search__price">
+								<div class="flat-search__price-inputs-wrapper">
+									<input class="flat-search__price-input" type="text" id="minCost" value="1250000">
+									<span class="flat-search__caption-dash">&mdash;</span>
+									<input class="flat-search__price-input" type="text" id="maxCost" value="4200000">
+									<span class="flat-search__caption">руб.</span>
+								</div>
+								<div id="slider"></div>
+							</div>
+						</div>
+						<div class="flat-search__field">
+							<label for="flat-search__objects" class="flat-search__label">Объекты</label>
+							<select name="" id="flat-search__objects">
+								<option value="">Любой объект</option>
+								<option value="">Хороший</option>
+								<option value="">ЖК &laquo;Новый мыс 2.0&raquo;</option>
+								<option value="">ЖК &laquo;Новый мыс&raquo;</option>
+							</select>
+						</div>
+						<div class="flat-search__field">
+							<label for="flat-search__flats" class="flat-search__label">Квартиры</label>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 		<div class="content-block popular-slider__wrapper">
@@ -380,7 +497,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!-- Latest Bootstrap compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="scripts/ui-bootstrap-0.14.3.min.js"></script>
+	<script src="scripts/jquery.ui-slider.js"></script>
 	<script src="owl-carousel/owl.carousel.js"></script>
 	<script>
 	$(document).ready(function() {
@@ -397,7 +514,46 @@
 			itemsCustom: [1200, 3],
 			responsive: false,
 			rewindNav: false
-		})
+		});
+		$('#slider').slider({
+			min: 1250000,
+			max: 4200000,
+			values: [1250000, 4200000],
+			range: true,
+			stop: function(event, ui) {
+				$("input#minCost").val($("#slider").slider("values",0));
+				$("input#maxCost").val($("#slider").slider("values",1));
+			},
+			slide: function(event, ui) {
+				$("input#minCost").val($("#slider").slider("values",0));
+				$("input#maxCost").val($("#slider").slider("values",1));
+			}
+		});
+		$("input#minCost").change(function() {
+			var value1 = $("input#minCost").val();
+			var value2 = $("input#maxCost").val();
+			if (value1 < 1250000) {
+				value1 = 1250000;
+				$("input#minCost").val(1250000)
+			}
+			if (parseInt(value1) > parseInt(value2)) {
+				value1 = value2;
+				$("input#minCost").val(value1);
+			}
+			$("#slider").slider("values", 0, value1);
+		});
+		$("input#maxCost").change(function() {
+			var value1 = $("input#minCost").val();
+			var value2 = $("input#maxCost").val();
+			if (value2 > 4200000) {
+				value2 = 4200000;
+				$("input#maxCost").val(4200000)
+			}
+			if (parseInt(value1) > parseInt(value2)) {
+				value2 = value1;
+				$("input#maxCost").val(value2);
+			}
+		});
 	});
 	</script>
 </body>
