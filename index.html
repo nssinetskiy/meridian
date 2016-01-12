@@ -10,58 +10,12 @@
 	<!-- Latest jQuery -->
 	<link rel="stylesheet" href="non-responsive.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="ui-slider.css">
+	<link rel="stylesheet" href="btn-objects.css">
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-	<style>
-		/* Ширина слайдера */
-#slider {
-	width: 370px;
-}
-/* Контейнер слайдера */
-.ui-slider {
-	position: relative;
-}
-/* Ползунок */
-.ui-slider .ui-slider-handle {
-	position: absolute;
-	width: 17px;   /* Задаем нужную ширину */
-	height: 18px;  /* и высоту */
-	background: #f3292e; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
-	cursor: pointer
-}
-.ui-slider .ui-slider-handle:before {
-	display: block;
-	position: absolute;
-	top: -16px;
-	content: "";
-	border: 8px solid transparent;
-	border-bottom: 8px solid #f3292e;
-}
-.ui-slider .ui-slider-handle:focus {
-	outline: none;
-}
-.ui-slider .ui-slider-range {
-	position: absolute;
-}
-/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
-.ui-slider-horizontal {
-	 height: 1px; /* задаем высоту согласно дизайна */
-}
-/* позиционируем ползунки */
-.ui-slider-horizontal .ui-slider-handle { 
-	top: 16px;
-	margin-left: -6px;
-}
-/* оформление полосы по которой ходит ползунок */
-.ui-widget-content { 
-	background: #999;
-}
-/* оформление активного участка (между двумя ползунками) */
-.ui-widget-header { 
-	background: #0f94bb;
-	height: 3px !important;
-}
-	</style>
+	<!-- Compiled and minified bootstrap-select CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -75,14 +29,14 @@
 						<div id="navbar" class="menu menu_top">
 							<ul class="nav navbar-nav">
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">О компании <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">О компании <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
-											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
 										</li>
 										<li class="divider"></li>
 										<li>
-											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
 										</li>
 									</ul>
 								</li>
@@ -93,26 +47,26 @@
 									<a class="menu__link" href="">Акции</a>
 								</li>
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">Для дольщиков <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">Для дольщиков <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
-											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
 										</li>
 										<li class="divider"></li>
 										<li>
-											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
 										</li>
 									</ul>
 								</li>
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">Как купить <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">Как купить <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
-											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
 										</li>
 										<li class="divider"></li>
 										<li>
-											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon-cmenuright"></i></a>
 										</li>
 									</ul>
 								</li>		
@@ -121,13 +75,13 @@
 						<div class="city-selector">
 							<ul class="nav navbar-nav">
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">
-										<span class="city-selector__item">Тюмень</span>
-										<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+									<a class="menu__link link_nav dropdown-toggle" data-toggle="dropdown" href="">
+										<span class="link_red-dotted">Тюмень</span>
+										<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
 									</a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
-											<a>Тобольск <i class="pull-right glyphicon ng-scope glyphicon-chevron-right"></i></a>
+											<a>Тобольск <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
 										</li>
 									</ul>
 								</li>
@@ -298,12 +252,22 @@
 						</div>
 						<div class="flat-search__field">
 							<label for="flat-search__objects" class="flat-search__label">Объекты</label>
-							<select name="" id="flat-search__objects">
+							<select name="" id="flat-search__objects" class="selectpicker" data-style="btn-objects">
 								<option value="">Любой объект</option>
 								<option value="">Хороший</option>
 								<option value="">ЖК &laquo;Новый мыс 2.0&raquo;</option>
 								<option value="">ЖК &laquo;Новый мыс&raquo;</option>
 							</select>
+							<div class="flat-search__advanced">
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a class="link_nav link_advanced-search dropdown-toggle" data-toggle="dropdown" href="">
+										<span class="link_red-dotted link_no-margin">Расширенный поиск</span>
+										<span class="glyphicon glyphicon-menu-down red" aria-hidden="true"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
 						</div>
 						<div class="flat-search__field">
 							<label for="flat-search__flats" class="flat-search__label">Квартиры</label>
@@ -498,6 +462,10 @@
 	<!-- Latest Bootstrap compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="scripts/jquery.ui-slider.js"></script>
+	<!-- Compiled and minified bootstrap-select JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+	<!-- (Optional) Compiled and minified bootstrap-select JavaScript translation files -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/i18n/defaults-*.min.js"></script>
 	<script src="owl-carousel/owl.carousel.js"></script>
 	<script>
 	$(document).ready(function() {

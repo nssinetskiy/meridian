@@ -5,13 +5,13 @@
 .flat-search__field {
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 27px;
 }
 .flat-search__label {
 	display: block;
+	margin-bottom: 9px;
 }
-.flat-search__price {
-	margin-top: 9px;
-}
+.flat-search__price {}
 .flat-search__price-inputs-wrapper {
 	margin-bottom: 20px;
 }
@@ -32,4 +32,7 @@
 .flat-search__caption-dash {
 	vertical-align: 15%;
 	padding: 0 5px;
+}
+.flat-search__advanced {
+	font-size: 14px;
 }

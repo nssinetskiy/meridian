@@ -82,7 +82,7 @@
 	background-position: 0 30px;
 }
 .main-slider__link-right:hover > .main-slider__arrow_right {
-	background-position: 17px 30px;
+	background-position: 34px 30px;
 }
 .main-slider__arrows-divider {
 	display: block;
@@ -96,13 +96,13 @@
 	display: inline-block;
 	width: 17px;
 	height: 30px;
-	background: url('../img/arrows.png');
+	background: url('../img/ui-elements.png');
 }
 .main-slider__arrow_left {
 	background-position: 0 0;
 }
 .main-slider__arrow_right {
-	background-position: 17px 0;
+	background-position: 34px 0;
 }
 .main-slider__grey-text {
 	padding-bottom: 3px;

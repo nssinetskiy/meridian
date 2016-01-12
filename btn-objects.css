@@ -1,0 +1,60 @@
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: auto !important;
+}
+.btn-objects {
+	background: transparent;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	width: 166px !important;
+	height: 40px;
+	position: relative;
+	padding-left: 7px;
+	color: #302d2e;
+	margin-right: 4px;
+}
+.btn-objects:active,
+.btn-objects:focus,
+.btn-group.open .dropdown-toggle.btn-objects {
+	box-shadow: none;
+}
+.bootstrap-select .dropdown-toggle.btn-objects:focus {
+	outline: none !important;
+}
+.btn-objects > .bs-caret {
+	border-left: 1px solid #ccc;
+	position: absolute;
+	width: 35px;
+	height: 38px;
+	top: 0;
+	right: 0;
+}
+.btn-objects > .bs-caret > .caret {
+	display: block;
+	width: 12px;
+	height: 9px;
+	border: none;
+	background: url('img/ui-elements.png') -48px 0 no-repeat;
+	margin-top: -5px !important;
+}
+.bootstrap-select.btn-group .btn-objects + .dropdown-menu {
+	min-width: 184px;
+}
+.btn-objects + .dropdown-menu {
+	margin-top: -1px;
+	border-radius: 0;
+	color: #2f2f2f;
+	padding: 3px;
+}
+.btn-objects + .dropdown-menu > ul > li > a {
+	padding: 0 14px;
+	line-height: 33px;
+}
+.btn-objects + .dropdown-menu > ul > li:focus,
+.btn-objects + .dropdown-menu > ul > li > a:focus {
+	outline: none;
+}
+.btn-objects + .dropdown-menu > ul > li > a:focus,
+.btn-objects + .dropdown-menu > ul > li > a:hover {
+	background: #0f94bb;
+	color: #fff;
+}

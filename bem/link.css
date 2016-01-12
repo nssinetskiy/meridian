@@ -11,3 +11,21 @@
 .link_main-slider {
 	margin-bottom: 11px;
 }
+.link_red-dotted {
+	color: #f3292e;
+    border-bottom: 1px dotted #f3292e;
+    margin-right: 10px;
+}
+.link_no-margin {
+	margin: 0;
+}
+.link_nav:hover > .link_red-dotted,
+.link_nav:active > .link_red-dotted {
+	border: none;
+}
+.link_nav:active > .link_red-dotted {
+	color: #0f95bb;
+}
+.link_advanced-search {
+	padding-left: 0 !important;
+}

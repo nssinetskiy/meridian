@@ -1,0 +1,48 @@
+/* Ширина слайдера */
+#slider {
+	width: 370px;
+}
+/* Контейнер слайдера */
+.ui-slider {
+	position: relative;
+}
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	width: 17px;   /* Задаем нужную ширину */
+	height: 18px;  /* и высоту */
+	background: #f3292e; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+	cursor: pointer
+}
+.ui-slider .ui-slider-handle:before {
+	display: block;
+	position: absolute;
+	top: -16px;
+	content: "";
+	border: 8px solid transparent;
+	border-bottom: 8px solid #f3292e;
+}
+.ui-slider .ui-slider-handle:focus {
+	outline: none;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal {
+	 height: 1px; /* задаем высоту согласно дизайна */
+}
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle { 
+	top: 16px;
+	margin-left: -6px;
+}
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content { 
+	background: #999;
+}
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header { 
+	background: #0f94bb;
+	height: 3px !important;
+}
