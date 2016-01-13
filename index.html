@@ -29,7 +29,7 @@
 						<div id="navbar" class="menu menu_top">
 							<ul class="nav navbar-nav">
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">О компании <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<a class="link_nav menu__link dropdown-toggle" data-toggle="dropdown" href="">О компании <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
 											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
@@ -41,13 +41,13 @@
 									</ul>
 								</li>
 								<li class="menu__item">
-									<a class="menu__link" href="">Новости</a>
+									<a class="link_nav menu__link" href="">Новости</a>
 								</li>
 								<li class="menu__item">
-									<a class="menu__link" href="">Акции</a>
+									<a class="link_nav menu__link" href="">Акции</a>
 								</li>
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">Для дольщиков <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<a class="link_nav menu__link dropdown-toggle" data-toggle="dropdown" href="">Для дольщиков <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
 											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
@@ -59,7 +59,7 @@
 									</ul>
 								</li>
 								<li class="menu__item dropdown">
-									<a class="menu__link dropdown-toggle" data-toggle="dropdown" href="">Как купить <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<a class="link_nav menu__link dropdown-toggle" data-toggle="dropdown" href="">Как купить <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 									<ul class="dropdown-menu inverse-dropdown">
 										<li>
 											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon-menu-right"></i></a>
@@ -75,8 +75,8 @@
 						<div class="city-selector">
 							<ul class="nav navbar-nav">
 								<li class="menu__item dropdown">
-									<a class="menu__link link_nav dropdown-toggle" data-toggle="dropdown" href="">
-										<span class="link_red-dotted">Тюмень</span>
+									<a class="link_nav menu__link dropdown-toggle" data-toggle="dropdown" href="">
+										<span class="link_dotted">Тюмень</span>
 										<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
 									</a>
 									<ul class="dropdown-menu inverse-dropdown">
@@ -109,19 +109,19 @@
 					<div id="navbar" class="menu">
 						<ul class="nav navbar-nav menu_main">
 							<li class="menu__item">
-								<a class="menu__link menu__link_main" href="">каталог квартир <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">от 1&nbsp;250&nbsp;000 руб.</div></a>
+								<a class="link_nav menu__link menu__link_main" href="">каталог квартир <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">от 1&nbsp;250&nbsp;000 руб.</div></a>
 							</li>
 							<li class="menu__item divider_vertical"></li>
 							<li class="menu__item">
-								<a class="menu__link menu__link_main" href="">каталог проектов <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">390 квартир в 4 жилых кварталах</div></a>
+								<a class="link_nav menu__link menu__link_main" href="">каталог проектов <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">390 квартир в 4 жилых кварталах</div></a>
 							</li>
 							<li class="menu__item divider_vertical"></li>
 							<li class="menu__item">
-								<a class="menu__link menu__link_main" href="">подбор квартиры в ипотеку<div class="menu__item-subtitle">ежемесячный платеж от 9&nbsp;900 руб.</div></a>
+								<a class="link_nav menu__link menu__link_main" href="">подбор квартиры в ипотеку<div class="menu__item-subtitle">ежемесячный платеж от 9&nbsp;900 руб.</div></a>
 							</li>
 							<li class="menu__item divider_vertical"></li>
 							<li class="menu__item">
-								<a class="menu__link menu__link_main menu__link_last" href="">контакты<div class="menu__item-subtitle">офис продаж и схемы проезда</div></a>
+								<a class="link_nav menu__link menu__link_main menu__link_last" href="">контакты<div class="menu__item-subtitle">офис продаж и схемы проезда</div></a>
 							</li>
 						</ul>
 					</div>
@@ -252,7 +252,7 @@
 						</div>
 						<div class="flat-search__field">
 							<label for="flat-search__objects" class="flat-search__label">Объекты</label>
-							<select name="" id="flat-search__objects" class="selectpicker" data-style="btn-objects">
+							<select name="" id="flat-search__objects" class="selectpicker" data-style="btn-objects btn-objects_complex">
 								<option value="">Любой объект</option>
 								<option value="">Хороший</option>
 								<option value="">ЖК &laquo;Новый мыс 2.0&raquo;</option>
@@ -262,16 +262,41 @@
 							<ul class="nav navbar-nav">
 								<li class="dropdown">
 									<a class="link_nav link_advanced-search dropdown-toggle" data-toggle="dropdown" href="">
-										<span class="link_red-dotted link_no-margin">Расширенный поиск</span>
-										<span class="glyphicon glyphicon-menu-down red" aria-hidden="true"></span>
+										<span class="link_dotted link_no-margin">Расширенный поиск</span>
+										<span class="glyphicon glyphicon-menu-down glyphicon_advanced-search" aria-hidden="true"></span>
 									</a>
 								</li>
 							</ul>
 						</div>
 						</div>
-						<div class="flat-search__field">
+						<div class="flat-search__field last">
 							<label for="flat-search__flats" class="flat-search__label">Квартиры</label>
+							<div class="flats-row">
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms">Студия</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms">1 комнатная</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms">2 комнатная</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms last">3 комнатная</div>
+							</div>
+							<div class="flats-row">
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_terms">По акции</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_terms">Готовые</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_terms">С ремонтом</div>
+								<select name="" class="selectpicker" data-style="btn-objects btn-objects_social">
+									<option value="">Соц. программы</option>
+									<option value="">Материнский капитал</option>
+									<option value="">Программа переселения</option>
+									<option value="">Жильё бюджетникам</option>
+								</select>
+							</div>
+							<input type="hidden" id="flat-search__flats">
 						</div>
+					</div>
+					<div class="flat-search__row">
+						<div class="col-xs-3">
+							<input type="submit" value="Показать результаты" class="btn colored-link colored-link_blue colored-link_flat-search">
+						</div>
+						<div class="flat-search__found">Найдено<br>284 квартиры</div>
+						<div class="clearfix"></div>
 					</div>
 				</form>
 			</div>
@@ -520,6 +545,14 @@
 			if (parseInt(value1) > parseInt(value2)) {
 				value2 = value1;
 				$("input#maxCost").val(value2);
+			}
+		});
+		$('.js-checkbox-rect').on('click', function(e) {
+			if ($(this).hasClass("checkbox-rect_active")) {
+				$(this).removeClass("checkbox-rect_active");
+			}
+			else {
+				$(this).addClass("checkbox-rect_active");
 			}
 		});
 	});

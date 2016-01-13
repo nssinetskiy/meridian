@@ -26,3 +26,21 @@
 	background: #b50005;
 	text-decoration: none
 }
+.colored-link_blue {
+	background: #0f94bb;
+}
+.colored-link_blue:hover {
+	background: #00a6d6;
+	color: #fff;
+	text-decoration: none;
+}
+.colored-link_blue:active {
+	background: #0074d8;
+	text-decoration: none;
+}
+.colored-link_flat-search {
+	margin-left: -15px;
+	width: 103%;
+	font-size: 18px;
+	padding: 10px 0;
+}

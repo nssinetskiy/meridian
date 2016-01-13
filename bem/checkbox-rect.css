@@ -1,0 +1,28 @@
+.checkbox-rect {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	text-align: center;
+}
+.checkbox-rect:hover {
+	border: 1px solid #1a1a1a;
+}
+.checkbox-rect_active {
+	border: 1px solid #0f94bb;
+	color: #0d85a8;
+}
+.checkbox-rect_active:hover {
+	border: 1px solid #0f94bb;
+}
+.checkbox-rect_rooms,
+.checkbox-rect_terms {
+	line-height: 25px;
+	margin-right: 14px;
+}
+.checkbox-rect_rooms {
+	width: 128px;
+}
+.checkbox-rect_terms {
+	width: 110px;
+}

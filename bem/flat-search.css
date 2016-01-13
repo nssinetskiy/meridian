@@ -1,7 +1,9 @@
 .flat-search {
-	margin-top: 28px;
+	margin: 28px 0 59px 0;
 }
-.flat-search__row {}
+.flat-search__row {
+	margin-bottom: 37px;
+}
 .flat-search__field {
 	display: inline-block;
 	vertical-align: top;
@@ -35,4 +37,9 @@
 }
 .flat-search__advanced {
 	font-size: 14px;
+}
+.flat-search__found {
+	display: inline-block;
+	padding: 4px 8px;
+	line-height: 18px;
 }

@@ -1,16 +1,18 @@
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
 	width: auto !important;
 }
+.bootstrap-select.btn-group .dropdown-menu li a span.text {
+	white-space: normal;
+}
+.bootstrap-select>.dropdown-toggle.btn-objects {
+	padding-right: 40px;
+}
 .btn-objects {
 	background: transparent;
 	border: 1px solid #ccc;
 	border-radius: 0;
-	width: 166px !important;
-	height: 40px;
 	position: relative;
-	padding-left: 7px;
 	color: #302d2e;
-	margin-right: 4px;
 }
 .btn-objects:active,
 .btn-objects:focus,
@@ -20,11 +22,14 @@
 .bootstrap-select .dropdown-toggle.btn-objects:focus {
 	outline: none !important;
 }
-.btn-objects > .bs-caret {
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	white-space: normal;
+}
+.btn-objects.btn-objects_complex > .bs-caret {
 	border-left: 1px solid #ccc;
 	position: absolute;
 	width: 35px;
-	height: 38px;
+	height: 100%;
 	top: 0;
 	right: 0;
 }
@@ -36,8 +41,20 @@
 	background: url('img/ui-elements.png') -48px 0 no-repeat;
 	margin-top: -5px !important;
 }
+.btn-objects.btn-objects_social > .bs-caret {
+	border-left: 1px solid #ccc;
+	position: absolute;
+	width: 28px;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+.btn-objects.btn-objects_social > .bs-caret > .caret {
+	top: 52% !important;
+	right: 7px !important;
+}
 .bootstrap-select.btn-group .btn-objects + .dropdown-menu {
-	min-width: 184px;
+	width: 184px;
 }
 .btn-objects + .dropdown-menu {
 	margin-top: -1px;
@@ -57,4 +74,15 @@
 .btn-objects + .dropdown-menu > ul > li > a:hover {
 	background: #0f94bb;
 	color: #fff;
+}
+.btn-objects_complex {
+	width: 166px !important;
+	line-height: 26px;
+	padding-left: 7px;
+	margin-right: 4px;
+}
+.btn-objects_social {
+	line-height: 14px;
+	width: 182px !important;
+	padding-left: 26px;
 }

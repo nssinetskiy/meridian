@@ -30,12 +30,6 @@
 	text-decoration: none;
 	position: relative;
 }
-.menu__link:hover {
-	color: #f3292e;
-}
-.menu__link:active {
-	color: #0f95bb;
-}
 .menu__link:hover:after,
 .menu__link:active:after {
 	position: absolute;
