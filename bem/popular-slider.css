@@ -1,20 +1,21 @@
 .popular-slider {
-	padding-top: 27px;
-	margin-left: -17px;
-}
-.popular-slider__wrapper {
-	background: #f2f2f2;
-	padding-top: 58px;
-	padding-bottom: 35px;
+	width: 900px;
+	margin-left: -15px;
 }
 .popular-slider__item {
+	width: 270px;
+	height: 506px;
 	display: inline-block;
 	background: #fff;
 	text-align: center;
+	margin-right: 26px;
 	margin-bottom: 20px;
 }
+.popular-slider__item:last-child {
+	margin-right: 0;
+}
 .popular-slider__item-top {
-	padding: 25px 54px 13px 57px;
+	padding: 25px 0 13px 0;
 }
 .popular-slider__item-title {
 	font-size: 18px;
@@ -45,9 +46,9 @@
 	line-height: 20px;
 }
 .popular-slider__item-bottom {
-	padding: 15px 15px 36px 15px;
+	padding: 15px 0 30px;
 	border-top: 1px solid #e2e2e2;
 }
 .popular-slider__item-deadline {
-	margin-bottom: 15px;
+	margin-bottom: 13px;
 }
