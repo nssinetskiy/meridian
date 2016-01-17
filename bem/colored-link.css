@@ -5,6 +5,7 @@
 	text-decoration: none;
 	border-radius: 0;
 	text-align: center;
+	display: block;
 }
 .colored-link_red {
 	background: #f3292e;

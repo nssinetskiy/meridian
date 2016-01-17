@@ -38,8 +38,9 @@
 .flat-search__advanced {
 	font-size: 14px;
 }
-.flat-search__found {
+.flat-search__notice {
 	display: inline-block;
 	padding: 4px 8px;
 	line-height: 18px;
+	margin-right: 50px;
 }

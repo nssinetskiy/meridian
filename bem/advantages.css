@@ -1,0 +1,23 @@
+.advantages {
+	padding-top: 30px;
+}
+.advantages__item {
+	padding-bottom: 26px;
+}
+.advantages__item-img,
+.advantages__item-text {
+	display: inline-block;
+	vertical-align: top;
+}
+.advantages__item-img {
+	padding: 10px 21px;
+}
+.advantages__item-text {
+	width: 625px;
+	padding-left: 15px;
+}
+.advantages__title {
+	font-size: 24px;
+	color: #302d2e;
+	margin-bottom: 10px;
+}

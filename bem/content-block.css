@@ -3,3 +3,16 @@
 	font-size: 36px;
 	font-weight: 700;
 }
+.content-block__title_about {
+	margin-bottom: 21px;
+}
+.content-block__about {
+	margin-left: -16px;
+	padding-top: 59px;
+	width: 865px;
+}
+.content-block__subtitle {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+}

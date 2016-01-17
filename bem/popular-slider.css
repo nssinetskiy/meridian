@@ -5,14 +5,16 @@
 .popular-slider__wrapper {
 	background: #f2f2f2;
 	padding-top: 58px;
+	padding-bottom: 35px;
 }
 .popular-slider__item {
 	display: inline-block;
 	background: #fff;
 	text-align: center;
+	margin-bottom: 20px;
 }
 .popular-slider__item-top {
-	padding: 25px 33px 25px 37px;
+	padding: 25px 54px 13px 57px;
 }
 .popular-slider__item-title {
 	font-size: 18px;
@@ -30,9 +32,22 @@
 	font-size: 20px;
 	color: #0f94bb;
 	border: 1px solid #0f94bb;
-	padding: 3px 15px;
-	margin-left: -2px;
+	padding: 3px 16px 3px 13px;
+	margin: 0 0 12px -3px;
+}
+.popular-slider__item-payment {
+	font-size: 12px;
+	padding-top: 2px;
+}
+.popular-slider__item-hp {
+	font-family: Circe, sans-serif;
+	color: #302d2e;
+	line-height: 20px;
 }
 .popular-slider__item-bottom {
+	padding: 15px 15px 36px 15px;
 	border-top: 1px solid #e2e2e2;
+}
+.popular-slider__item-deadline {
+	margin-bottom: 15px;
 }
