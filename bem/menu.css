@@ -25,29 +25,3 @@
 	text-transform: none;
 	padding-top: 6px;
 }
-.menu__link {
-	color: #1a1a1a;
-	text-decoration: none;
-	position: relative;
-}
-.menu__link:hover:after,
-.menu__link:active:after {
-	position: absolute;
-	top: 0;
-	left: 15px;
-	content: "";
-	width: 39px;
-	height: 2px;
-	background: #f3292e;
-}
-.menu__link:hover:after {
-	background: #f3292e;
-}
-.menu__link:active:after {
-	background: #0f95bb;
-}
-.menu__link_main {
-	font-weight: 700;
-	font-size: 18px;
-	text-transform: uppercase;
-}
