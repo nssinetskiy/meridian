@@ -17,5 +17,10 @@
 	font-weight: 700;
 	font-size: 15px;
 	color: #fff;
-	line-height: 42px;
+	line-height: 41px;
+	padding-bottom: 1px
+}
+.contact-map__link:hover {
+	color: #fff;
+	text-decoration: none;
 }

@@ -1,4 +1,5 @@
 .wrapper {
+	min-width: 1270px;
 	min-height: 100%;
 	padding-bottom: 362px;
 }

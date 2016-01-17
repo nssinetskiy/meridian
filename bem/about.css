@@ -1,5 +1,5 @@
 .about {
-	padding: 22px 0 60px
+	padding: 22px 0 59px
 
 }
 .about__left,
@@ -9,10 +9,10 @@
 }
 .about__left {
 	border-right: 1px solid #e5e5e5;
-	padding-right: 29px;
+	padding-right: 31px;
 }
 .about__right {
-	padding-left: 29px;
+	padding-left: 27px;
 }
 .about__title {
 	color: #302d2e;

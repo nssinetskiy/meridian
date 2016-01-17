@@ -1,4 +1,5 @@
 .city-selector {
+	display: inline-block;
 	position: relative;
 	right: -95px;
 }
