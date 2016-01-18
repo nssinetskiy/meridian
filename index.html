@@ -102,7 +102,8 @@
 							<div class="header__section header__section_right">
 								<span class="working-time">пн-пт: 9:00 &mdash; 20:00 сб: 10:00 &mdash; 16:00</span>
 								<br>
-								<span class="phone-number"><span class="phone-number phone-number_grey">+7 (3452)</span> 69-23-97</span></div>
+								<span class="phone-number"><span class="phone-number phone-number_grey">+7 (3452)</span> 69-23-97</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -112,7 +113,7 @@
 					<div id="navbar" class="menu">
 						<ul class="nav navbar-nav menu_main">
 							<li class="menu__item">
-								<a class="link_nav link_menu link_menu-main" href="">каталог квартир <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">от 1&nbsp;250&nbsp;000 руб.</div></a>
+								<a class="link_nav link_menu link_menu-main js-catalog_flats" href="">каталог квартир <i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i><div class="menu__item-subtitle">от 1&nbsp;250&nbsp;000 руб.</div></a>
 							</li>
 							<li class="menu__item divider_vertical"></li>
 							<li class="menu__item">
@@ -793,6 +794,46 @@
 				</div>
 			</div>
 		</div>
+		<div class="popup-menu js-popup-menu_flats">
+			<div class="container">
+				<div class="popup-menu__wrapper">
+					<div class="popup-menu__row">
+						<a href="" class="link link_popup-menu-big">Все квартиры</a>
+						<a href="" class="link link_popup-menu">Материнский капитал</a>
+						<a href="" class="link link_popup-menu">Программа переселения</a>
+						<a href="" class="link link_popup-menu">Бюджетники</a>
+					</div>
+					<div class="popup-menu__row">
+						<div class="popup-menu__item_flats">
+							<a href="" class="link_red link_16">Студии</a>
+							<div class="popup-menu__item-price">от 1&nbsp;250&nbsp;000 руб.</div>
+						</div>
+						<div class="popup-menu__item_flats">
+							<a href="" class="link_red link_16">1 комнатные</a>
+							<div class="popup-menu__item-price">от 2&nbsp;250&nbsp;000 руб.</div>
+						</div>
+						<div class="popup-menu__item_flats">
+							<a href="" class="link_red link_16">2 комнатные</a>
+							<div class="popup-menu__item-price">от 3&nbsp;250&nbsp;000 руб.</div>
+						</div>
+						<div class="popup-menu__item_flats">
+							<a href="" class="link_red link_16">3 комнатные</a>
+							<div class="popup-menu__item-price">от 4&nbsp;250&nbsp;000 руб.</div>
+						</div>
+						<div class="popup-menu__item_flats popup-menu__item_promo">
+							<a href="" class="link_white link_16">Акции</a>
+						</div>
+						<div class="popup-menu__item_flats popup-menu__item_ready">
+							<a href="" class="link_white link_16">Готовые</a>
+						</div>
+						<div class="popup-menu__item_flats popup-menu__item_repair">
+							<a href="" class="link_white link_16">С ремонтом</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup-menu js-popup-menu_projects"></div>
 	</div>
 	<footer class="footer">
 			<div class="container">
@@ -904,6 +945,15 @@
 			aSep: ' ',
 			vMin: '0',
 			vMax: '9999999999'
+		});
+		$('.js-catalog_flats').on('mouseover', function() {
+			$('.js-popup-menu_flats').show();
+		});
+		$('.js-popup-menu_flats').on('mouseover', function() {
+			$(this).show();
+		});
+		$('.js-popup-menu_flats').on('mouseout', function() {
+			$(this).hide();
 		});
 	});
 	</script>

@@ -1,6 +1,6 @@
 .link {
 	display: inline;
-	border-bottom: 1px solid #d8d8d8;
+	border-bottom: 1px solid #dfdfdf;
 	color: #1a1a1a;
 }
 .link:hover {
@@ -42,9 +42,19 @@
 	border-bottom: 1px solid transparent;
 	text-decoration: none;
 }
+.link_white {
+	color: #fff;
+	text-decoration: underline;
+}
+.link_white:hover,
+.link_white:active {
+	color: #fff;
+	text-decoration: none;
+}
 .link_main-slider {
 	margin-bottom: 11px;
 	display: inline-block;
+	border-bottom: 1px solid #d8d8d8;
 }
 .link_dotted {
 	color: #f3292e;
@@ -153,4 +163,18 @@
 }
 .link_contents-subitem:hover {
 	color: #f4292f;
+}
+.link_popup-menu,
+.link_popup-menu-big {
+	vertical-align: bottom;
+}
+.link_popup-menu {
+	margin-right: 24px;
+}
+.link_popup-menu-big {
+	font-size: 22px;
+	margin-right: 48px;
+}
+.link_16 {
+	font-size: 16px;
 }

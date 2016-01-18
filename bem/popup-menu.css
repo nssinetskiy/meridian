@@ -1,0 +1,59 @@
+.popup-menu {
+	position: absolute;
+	min-width: 100%;
+	top: 244px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.55);
+	z-index: 99;
+}
+.js-popup-menu_flats {
+	display: none;
+}
+.js-popup-menu_projects {
+	display: none;
+}
+.popup-menu__wrapper {
+	margin-left: -15px;
+	width: 1200px;
+	background: #f2f2f2;
+	border-top: 2px solid #e4e4e4;
+	padding: 30px 40px 50px 45px;
+}
+.popup-menu__item_flats {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	height: 70px;
+	background: #fff;
+	margin-top: 26px;
+	margin-right: 17px;
+	padding: 16px;
+}
+.popup-menu__item_flats:last-child {
+	margin-right: 0;
+}
+.popup-menu__item-price {
+	font-size: 12px;
+}
+.popup-menu__item_promo {
+	background-color: #f6b94e;
+	background-image: url('../img/promo.png');
+	background-repeat: no-repeat;
+	background-position: 77px 24px;
+	margin-right: 15px;
+}
+.popup-menu__item_ready {
+	background-color: #96c55d;
+	background-image: url('../img/ready.png');
+	background-repeat: no-repeat;
+	background-position: 90px 25px;
+}
+.popup-menu__item_repair {
+	background-color: #0f95bb;
+	background-image: url('../img/repair.png');
+	background-repeat: no-repeat;
+	background-position: 102px 20px;
+	width: 150px;
+}
