@@ -39,6 +39,13 @@
 	background: #0074d8;
 	text-decoration: none;
 }
+.colored-link_white {
+	background: #fff;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 26px;
+    width: 160px;
+}
 .colored-link_flat-search {
 	margin-left: -15px;
 	width: 103%;

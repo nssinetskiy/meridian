@@ -44,12 +44,13 @@
 }
 .link_white {
 	color: #fff;
-	text-decoration: underline;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .link_white:hover,
 .link_white:active {
 	color: #fff;
 	text-decoration: none;
+	border-bottom: 0;
 }
 .link_main-slider {
 	margin-bottom: 11px;
@@ -174,7 +175,11 @@
 .link_popup-menu-big {
 	font-size: 22px;
 	margin-right: 48px;
+	font-weight: 700;
 }
 .link_16 {
 	font-size: 16px;
+}
+.link_catalog {
+	border-bottom: 1px solid #e0e0e0;
 }
