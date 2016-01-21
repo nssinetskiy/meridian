@@ -8,7 +8,6 @@
 }
 .popular__help {
 	width: 270px;
-	height: 506px;
 	margin-left: 8px;
 	text-align: center;
 	background-color: #fff;
@@ -30,7 +29,7 @@
 }
 .popular__person {
 	line-height: 24px;
-	margin-bottom: 11px;
+	margin-bottom: 17px;
 }
 .popular__person-name {
 	font-size: 18.01px;
@@ -42,6 +41,7 @@
 .popular__phone {
 	font-size: 24.11px;
 	margin-bottom: 25px;
+	line-height: 20px;
 }
 .popular__phone  > small {
 	font-size: 14.06px;
