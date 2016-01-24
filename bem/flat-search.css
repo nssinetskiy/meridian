@@ -4,6 +4,11 @@
 .flat-search__row {
 	margin-bottom: 37px;
 }
+.flat-search__row_advanced {
+	display: none;
+	margin-top: -5px;
+	padding-top: 24px;	
+}
 .flat-search__field {
 	display: inline-block;
 	vertical-align: top;
@@ -13,15 +18,20 @@
 	display: block;
 	margin-bottom: 9px;
 }
-.flat-search__price {}
-.flat-search__price-inputs-wrapper {
+.flat-search__slider-inputs-wrapper {
 	margin-bottom: 20px;
 }
-.flat-search__price-input {
+.flat-search__price-input,
+.flat-search__space-input {
 	border: 1px solid #ccc;
 	font-size: 25px;
-	width: 148px;
 	padding-left: 10px;
+}
+.flat-search__price-input {
+	width: 148px;
+}
+.flat-search__space-input {
+	width: 90px;
 }
 .flat-search__caption,
 .flat-search__caption-dash {

@@ -280,6 +280,133 @@
 				</div>
 			</div>
 		</header>
+		<div class="content-block">
+			<div class="container">
+				<ol class="breadcrumb">
+					<li>
+						<a class="link link_breadcrumb" href="#">Главная</a>
+					</li>
+					<li class="active">Каталог квратир</li>
+				</ol>
+				<div class="content-block__title">каталог квартир &laquo;меридиан констракшн&raquo;</div>
+				<div class="grey-text">Сейчас в продаже 3&nbsp;500 квартир</div>
+				<form action="" class="flat-search">
+					<div class="flat-search__row">
+						<div class="flat-search__field slider-wrapper">
+							<label for="flat-search__price" class="flat-search__label">Цена</label>
+							<div id="flat-search__price" class="flat-search__price">
+								<div class="flat-search__slider-inputs-wrapper">
+									<input class="flat-search__price-input js-price-input" type="text" id="minCost" value="1250000">
+									<span class="flat-search__caption-dash">&mdash;</span>
+									<input class="flat-search__price-input js-price-input" type="text" id="maxCost" value="4200000">
+									<span class="flat-search__caption">руб.</span>
+								</div>
+								<div id="slider-price"></div>
+							</div>
+						</div>
+						<div class="flat-search__field">
+							<label for="flat-search__objects" class="flat-search__label">Объекты</label>
+							<select name="" id="flat-search__objects" class="selectpicker" data-style="btn-objects btn-objects_complex">
+								<option value="">Любой объект</option>
+								<option value="">Хороший</option>
+								<option value="">ЖК &laquo;Новый мыс 2.0&raquo;</option>
+								<option value="">ЖК &laquo;Новый мыс&raquo;</option>
+							</select>
+							<div class="flat-search__advanced">
+								<a class="link_nav link_advanced-search js-link-advanced-search">
+									<span class="link_dotted link_no-margin">Расширенный поиск</span>
+									<span class="glyphicon glyphicon_nav glyphicon-menu-down glyphicon_advanced-search" aria-hidden="true"></span>
+								</a>
+							</div>
+						</div>
+						<div class="flat-search__field last">
+							<label for="flat-search__flats" class="flat-search__label">Квартиры</label>
+							<div class="flats-row">
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms">Студия</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms">1 комнатная</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms">2 комнатная</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_rooms last">3 комнатная</div>
+							</div>
+							<div class="flats-row">
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_terms">По акции</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_terms">Готовые</div>
+								<div class="js-checkbox-rect checkbox-rect checkbox-rect_terms">С ремонтом</div>
+								<select name="" class="selectpicker" data-style="btn-objects btn-objects_social">
+									<option value="">Соц. программы</option>
+									<option value="">Материнский капитал</option>
+									<option value="">Программа переселения</option>
+									<option value="">Жильё бюджетникам</option>
+								</select>
+							</div>
+							<input type="hidden" id="flat-search__flats">
+						</div>
+					</div>
+					<div class="flat-search__row flat-search__row_advanced bounded bounded_top js-flat-search-advanced">
+						<div class="flat-search__field slider-wrapper">
+							<label for="flat-search__space" class="flat-search__label">Площадь квартиры</label>
+							<div id="flat-search__space" class="flat-search__slider">
+								<div class="flat-search__slider-inputs-wrapper">
+									<input class="flat-search__space-input js-space-input" type="text" id="minSpace" value="18.00">
+									<span class="flat-search__caption-dash">&mdash;</span>
+									<input class="flat-search__space-input js-space-input" type="text" id="maxSpace" value="100.00">
+									<span class="flat-search__caption">м<sup>2</sup></span>
+								</div>
+								<div id="slider-space"></div>
+							</div>
+						</div>
+						<div class="flat-search__field">
+							<label class="flat-search__label">Год сдачи</label>
+							<div class="column">
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2015
+								</label>
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2016
+								</label>
+							</div>
+							<div class="column">
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2017
+								</label>
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2018
+								</label>
+							</div>
+						</div>
+						<div class="flat-search__field last">
+							<label class="flat-search__label">Год сдачи</label>
+							<label class="checkbox__label">
+								<input type="checkbox" class="checkbox">
+								<span></span>
+								Не первый
+							</label>
+							<label class="checkbox__label">
+								<input type="checkbox" class="checkbox">
+								<span></span>
+								Не последний
+							</label>
+						</div>
+					</div>
+					<div class="flat-search__row">
+						<div class="col-xs-3">
+							<input type="submit" value="Показать результаты" class="btn colored-link colored-link_blue colored-link_flat-search">
+						</div>
+						<div class="flat-search__notice">Найдено<br>284 квартиры</div>
+						<a href="" class="repeat"></a>
+						<div class="flat-search__notice">Популярные запросы<br><a href="" class="link_popular">от 1&nbsp;290&nbsp;000 руб. 1 комнатная Новый мыс 2.0</a></div>
+						<div class="clearfix"></div>
+					</div>
+				</form>
+			</div>
+		</div>
 		<div class="popup-menu js-popup-menu"></div>
 	</div>
 	<footer class="footer">

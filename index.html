@@ -390,16 +390,16 @@
 				<div class="grey-text grey-text_selection">Найти квартиру своей мечты прямо сейчас!</div>
 				<form action="" class="flat-search">
 					<div class="flat-search__row">
-						<div class="flat-search__field">
+						<div class="flat-search__field slider-wrapper">
 							<label for="flat-search__price" class="flat-search__label">Цена</label>
 							<div id="flat-search__price" class="flat-search__price">
-								<div class="flat-search__price-inputs-wrapper">
+								<div class="flat-search__slider-inputs-wrapper">
 									<input class="flat-search__price-input js-price-input" type="text" id="minCost" value="1250000">
 									<span class="flat-search__caption-dash">&mdash;</span>
 									<input class="flat-search__price-input js-price-input" type="text" id="maxCost" value="4200000">
 									<span class="flat-search__caption">руб.</span>
 								</div>
-								<div id="slider"></div>
+								<div id="slider-price"></div>
 							</div>
 						</div>
 						<div class="flat-search__field">
@@ -411,15 +411,11 @@
 								<option value="">ЖК &laquo;Новый мыс&raquo;</option>
 							</select>
 							<div class="flat-search__advanced">
-							<ul class="nav navbar-nav">
-								<li class="dropdown">
-									<a class="link_nav link_advanced-search dropdown-toggle" data-toggle="dropdown" href="">
-										<span class="link_dotted link_no-margin">Расширенный поиск</span>
-										<span class="glyphicon glyphicon_nav glyphicon-menu-down glyphicon_advanced-search" aria-hidden="true"></span>
-									</a>
-								</li>
-							</ul>
-						</div>
+								<a class="link_nav link_advanced-search js-link-advanced-search">
+									<span class="link_dotted link_no-margin">Расширенный поиск</span>
+									<span class="glyphicon glyphicon_nav glyphicon-menu-down glyphicon_advanced-search" aria-hidden="true"></span>
+								</a>
+							</div>
 						</div>
 						<div class="flat-search__field last">
 							<label for="flat-search__flats" class="flat-search__label">Квартиры</label>
@@ -441,6 +437,60 @@
 								</select>
 							</div>
 							<input type="hidden" id="flat-search__flats">
+						</div>
+					</div>
+					<div class="flat-search__row flat-search__row_advanced bounded bounded_top js-flat-search-advanced">
+						<div class="flat-search__field slider-wrapper">
+							<label for="flat-search__space" class="flat-search__label">Площадь квартиры</label>
+							<div id="flat-search__space" class="flat-search__slider">
+								<div class="flat-search__slider-inputs-wrapper">
+									<input class="flat-search__space-input js-space-input" type="text" id="minSpace" value="18.00">
+									<span class="flat-search__caption-dash">&mdash;</span>
+									<input class="flat-search__space-input js-space-input" type="text" id="maxSpace" value="100.00">
+									<span class="flat-search__caption">м<sup>2</sup></span>
+								</div>
+								<div id="slider-space"></div>
+							</div>
+						</div>
+						<div class="flat-search__field">
+							<label class="flat-search__label">Год сдачи</label>
+							<div class="column">
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2015
+								</label>
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2016
+								</label>
+							</div>
+							<div class="column">
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2017
+								</label>
+								<label class="checkbox__label">
+									<input type="checkbox" class="checkbox">
+									<span></span>
+									2018
+								</label>
+							</div>
+						</div>
+						<div class="flat-search__field last">
+							<label class="flat-search__label">Год сдачи</label>
+							<label class="checkbox__label">
+								<input type="checkbox" class="checkbox">
+								<span></span>
+								Не первый
+							</label>
+							<label class="checkbox__label">
+								<input type="checkbox" class="checkbox">
+								<span></span>
+								Не последний
+							</label>
 						</div>
 					</div>
 					<div class="flat-search__row">
