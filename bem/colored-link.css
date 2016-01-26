@@ -52,7 +52,8 @@
 	font-size: 18px;
 	padding: 10px 0;
 }
-.colored-link_popular {
+.colored-link_popular,
+.colored-link_support {
 	line-height: 30px;
 	width: 168px;
 	margin: 0 auto;
