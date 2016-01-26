@@ -110,6 +110,6 @@ $(document).ready(function() {
 	$('.js-drop, .js-drop-main').superfish({
 		popUpSelector: 'ul,div,.sf-mega',
 		delay: 0,
-		speed: 100
+		speed: 10
 	});
 });
