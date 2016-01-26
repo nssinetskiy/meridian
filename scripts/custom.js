@@ -107,4 +107,9 @@ $(document).ready(function() {
 		$(this).find('.glyphicon').toggleClass("glyphicon-menu-down glyphicon-menu-up");
 		$('.js-flat-search-advanced').toggleClass("active");
 	});
+	$('.js-drop, .js-drop-main').superfish({
+		popUpSelector: 'ul,div,.sf-mega',
+		delay: 0,
+		speed: 100
+	});
 });
