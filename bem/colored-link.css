@@ -46,6 +46,12 @@
     line-height: 26px;
     width: 160px;
 }
+.colored-link_transparent {
+	border: 2px solid #c7c7c7;
+	font-weight: 700;
+	font-size: 14px;
+	color: #1a1a1a;
+}
 .colored-link_flat-search {
 	margin-left: -15px;
 	width: 103%;
@@ -57,4 +63,11 @@
 	line-height: 30px;
 	width: 168px;
 	margin: 0 auto;
+}
+.colored-link_download-price {
+	position: absolute;
+    top: 19px;
+    right: 0px;
+    line-height: 42px;
+    padding: 0 20px 0 18px;
 }

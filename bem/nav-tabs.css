@@ -1,0 +1,22 @@
+.nav-tabs > li {
+	margin-bottom: -2px;
+}
+.nav-tabs > li > a {
+	border-radius: 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+	position: relative;
+	border: solid #e2e2e2;
+	border-width: 0 2px 0 2px;
+}
+.nav-tabs > li.active > a:after {
+	position: absolute;
+	height: 2px;
+	background: #f3292e;
+	top: 0;
+	right: -2px;
+	left: -2px;
+	content: "";
+}

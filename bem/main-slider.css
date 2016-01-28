@@ -82,7 +82,7 @@
 	background-position: 0 30px;
 }
 .main-slider__link-right:hover > .main-slider__arrow_right {
-	background-position: 34px 30px;
+	background-position: 75px 30px;
 }
 .main-slider__arrows-divider {
 	display: block;
@@ -102,7 +102,7 @@
 	background-position: 0 0;
 }
 .main-slider__arrow_right {
-	background-position: 34px 0;
+	background-position: -25px 0;
 }
 .main-slider__grey-text {
 	padding-bottom: 3px;

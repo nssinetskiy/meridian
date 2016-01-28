@@ -1,0 +1,9 @@
+.price-block {
+	position: relative;
+}
+.price-block__title {
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	line-height: 37px;
+}

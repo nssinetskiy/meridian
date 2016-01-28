@@ -6,10 +6,10 @@
 	left: 0;
 	width: 16px;
 	height: 16px;
-	background: url('../img/ui-elements.png') 16px 49px;
+	background: url('../img/ui-elements.png') 56px 49px;
 }
 .checkbox:checked + span {
-	background-position: 16px 28px;
+	background-position: 56px 28px;
 }
 .checkbox__label {
 	display: block;
