@@ -13,11 +13,17 @@
 	margin-left: -3px;
 }
 .main-slider__item-price {
+	display: block;
+	color: #1a1a1a;
 	font-size: 30px;
 	border-bottom: 1px solid #ccc;
 	padding-top: 15px;
 	margin: 0 19px 25px 0;
 	line-height: 40px;
+}
+.main-slider__item-price:hover {
+	text-decoration: none;
+	color: #1a1a1a;
 }
 .main-slider
 .main-slider__container {

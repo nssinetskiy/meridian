@@ -10,11 +10,12 @@
 }
 .link_red {
 	color: #ea2e33;
-	text-decoration: underline;
+	border-bottom: 1px solid rgba(234, 46, 51, 0.2);
 }
 .link_red:hover {
 	color: #ea2e33;
 	text-decoration: none;
+	border-bottom-color: transparent;
 }
 .link_red:active {
 	color: #a90005;
@@ -23,11 +24,12 @@
 .link_blue {
 	font-size: 16px;
 	color: #0f94bb;
-	text-decoration: underline;
+	border-bottom: 1px solid rgba(15, 148, 187, 0.2);
 }
 .link_blue:hover {
 	color: #0f94bb;
 	text-decoration: none;
+	border-bottom-color: transparent;
 }
 .link_blue:active {
 	color: #005974;
@@ -82,10 +84,12 @@
 .link_nav:hover,
 .link_nav:hover > .glyphicon_advanced-search {
 	color: #f3292e;
+	text-decoration: none;
 }
 .link_nav:active,
 .link_popular:active {
 	color: #0f95bb;
+	text-decoration: none;
 }
 .link_nav:hover > .link_dotted,
 .link_nav:active > .link_dotted {
@@ -100,36 +104,37 @@
 	text-decoration: none;
 	position: relative;
 }
-.link_menu-top:hover:after,
-.link_menu-top:active:after {
+.link_menu-top:hover > .menu__item-text:after,
+.link_menu-main:hover > .menu__item-text:after,
+.link_menu-top:active > .menu__item-text:after,
+.link_menu-main:active > .menu__item-text:after {
 	position: absolute;
-	top: 0;
-	left: 15px;
+	left: 0;
 	content: "";
-	width: 39px;
+	width: 100%;
+}
+.link_menu-top:hover > .menu__item-text:after,
+.link_menu-top:active > .menu__item-text:after {
+	top: -15px;
 	height: 2px;
 }
-.link_menu-top:hover:after,
-.link_menu-main:hover:after {
+.link_menu-main:hover > .menu__item-text:after,
+.link_menu-main:active > .menu__item-text:after {
+	top: -31px;
+	height: 3px;
+}
+.link_menu-top:hover > .menu__item-text:after,
+.link_menu-main:hover > .menu__item-text:after {
 	background: #f3292e;
 }
-.link_menu-top:active:after,
-.link_menu-main:active:after {
+.link_menu-top:active > .menu__item-text:after,
+.link_menu-main:active > .menu__item-text:after {
 	background: #0f95bb;
 }
 .link_menu-main {
 	font-weight: 700;
 	font-size: 18px;
 	text-transform: uppercase;
-}
-.link_menu-main:hover:after,
-.link_menu-main:active:after {
-	position: absolute;
-	top: 0;
-	left: 15px;
-	content: "";
-	width: 74px;
-	height: 3px;
 }
 .link_popular {
 	color: #f3292e;

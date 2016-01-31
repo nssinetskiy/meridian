@@ -4,6 +4,7 @@ $(document).ready(function() {
 		max: 4200000,
 		values: [1250000, 4200000],
 		range: true,
+		step: 1000,
 		stop: function(event, ui) {
 			$("input#minCost").val($("#slider-price").slider("values",0));
 			$("input#maxCost").val($("#slider-price").slider("values",1));
@@ -102,6 +103,14 @@ $(document).ready(function() {
 			$('.js-popup-menu').hide();
 		}
 	);
+/*$('.js-menu__item_popup').hover(function() {
+	setTimeout(function() {
+		$('.js-popup-menu').show();
+	}, 240);
+	},
+	function() {
+	$('.js-popup-menu').hide();
+	});*/
 	$('.js-link-advanced-search').on('click', function(e) {
 		e.preventDefault();
 		$(this).find('.glyphicon').toggleClass("glyphicon-menu-down glyphicon-menu-up");

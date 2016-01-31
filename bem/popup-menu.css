@@ -62,6 +62,13 @@
 	margin-right: 17px;
 	padding: 16px;
 }
+.popup-menu__item_flats:hover {
+	text-decoration: none;
+}
+.popup-menu__item_flats:hover > .link_red,
+.popup-menu__item_flats:hover > .link_white {
+	border-bottom-color: transparent;
+}
 .popup-menu__item_flats:last-child,
 .popup-menu__item-wrapper:last-child {
 	margin-right: 0;

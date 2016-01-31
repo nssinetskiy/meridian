@@ -30,3 +30,7 @@
 .menu__item_popup:hover > .popup-menu__wrapper {
 	display: block;
 }
+.menu__item-text {
+	display: inline-block;
+	position: relative;
+}

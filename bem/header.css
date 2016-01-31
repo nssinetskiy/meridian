@@ -15,10 +15,12 @@
 	vertical-align: middle;
 }
 .header__section_left {
-  padding: 16px 10px 22px 10px;
+  padding: 16px 20px 22px 10px;
+  font-size: 13px;
 }
 .header__section_middle {
   margin-top: -10px;
+  margin-left: 10px;
 }
 .header__section_right {
 	text-align: right;

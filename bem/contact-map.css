@@ -19,8 +19,13 @@
 	color: #fff;
 	line-height: 41px;
 	padding-bottom: 1px
+	-webkit-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
 }
 .contact-map__link:hover {
 	color: #fff;
 	text-decoration: none;
+	line-height: 50px;
+	opacity: 1;
 }

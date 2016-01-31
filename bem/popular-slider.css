@@ -16,6 +16,14 @@
 .popular-slider__item-top {
 	padding: 25px 0 13px 0;
 }
+.popular-slider__item-header {
+	display: block;
+	color: #1a1a1a;
+}
+.popular-slider__item-header:hover {
+	color: #1a1a1a;
+	text-decoration: none;
+}
 .popular-slider__item-title {
 	font-size: 18px;
 }
@@ -25,6 +33,7 @@
 	margin-left: -3px;
 }
 .popular-slider__item-img {
+	display: block;
 	margin: 17px 0 25px -5px;
 }
 .popular-slider__item-price {
