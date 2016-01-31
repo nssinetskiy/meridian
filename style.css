@@ -53,4 +53,8 @@
 @import url('bem/download-icon.css');
 @import url('bem/tabs-block.css');
 @import url('bem/nav-tabs.css');
+@import url('bem/tab-name.css');
+@import url('bem/tab-content.css');
+@import url('bem/medium.css');
+@import url('bem/even-row.css');
 @import url('bem/font-face.css');
