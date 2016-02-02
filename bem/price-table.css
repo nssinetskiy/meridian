@@ -4,17 +4,17 @@
 }
 .price-table > thead {
 	border-bottom: 2px solid #e2e2e2;
-	line-height: 54px;
+	line-height: 55px;
 }
 .price-table > tbody {
-	line-height: 38px;
+	line-height: 37px;
 }
 .price-table td:first-child {
 	padding-left: 30px;
 }
 .price-table_fixed-height > tbody {
 	display: block;
-	height: 305px;
+	height: 296px;
 	overflow-y: scroll;
 }
 .price-table_fixed-height > thead,
