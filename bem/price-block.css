@@ -10,17 +10,3 @@
 	color: #000;
 	line-height: 37px;
 }
-.price-block__table {
-	width: 100%;
-	font-size: 13px;
-}
-.price-block__table > thead {
-	border-bottom: 2px solid #e2e2e2;
-	line-height: 54px;
-}
-.price-block__table > tbody {
-	line-height: 38px;
-}
-.price-block__table td:first-child {
-	padding-left: 30px;
-}
