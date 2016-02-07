@@ -205,3 +205,13 @@
 .link_breadcrumb {
 	border-bottom: 1px solid #b2b2b2;
 }
+.link_contacts {
+	display: inline-block;
+	padding: 11px 0 12px;
+	margin-left: 26px;
+	width: 270px;
+}
+.link_about-office {
+	display: inline-block;
+	margin-right: 7px;
+}

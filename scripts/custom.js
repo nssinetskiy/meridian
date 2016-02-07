@@ -121,4 +121,19 @@ $(document).ready(function() {
 		delay: 0,
 		speed: 10
 	});
+	$('.price-table__space-inner span').on('click', function(e) {
+		$(this).closest("tr").toggleClass("price-table__row-hover");
+	});
+	var popovers = [];
+	$('[data-toggle="popover"]').each(function() {
+		var $this = $(this);
+		$this.popover();
+		popovers.push($this);
+	});
+	$('tbody').on('scroll', function() {
+		popovers.forEach(function($e) {
+			$e.popover('hide');
+		});
+		$('tr.price-table__row-hover').removeClass("price-table__row-hover");
+	});
 });

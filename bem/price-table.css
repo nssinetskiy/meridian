@@ -17,18 +17,31 @@
 	height: 296px;
 	overflow-y: scroll;
 }
+.price-table_fixed-height > tbody::-webkit-scrollbar {
+	width: 6px;
+}
+.price-table_fixed-height > tbody::-webkit-scrollbar-button {
+	display: none;
+}
+.price-table_fixed-height > tbody::-webkit-scrollbar-track {
+	background-color: #d9d9d9;
+}
+.price-table_fixed-height > tbody::-webkit-scrollbar-thumb {
+	background-color: #f2292f;
+}
 .price-table_fixed-height > thead,
 .price-table_fixed-height > tbody tr {
 	display: table;
-	width: calc(100%);
+	width: 100%;
 }
-.price-table > tbody > tr:hover {
-	cursor: pointer;
+.price-table > tbody > tr:hover,
+.price-table__row-hover {
 	background: #0f94bb;
 	color: #fff;
 	position: relative;
 }
-.price-table > tbody > tr:hover:before {
+.price-table > tbody > tr:hover:before,
+.price-table__row-hover:before {
 	position: absolute;
 	left: 0;
 	content: "";
@@ -36,7 +49,8 @@
 	height: 100%;
 	background: #fff;
 }
-.price-table > tbody > tr:hover .link_red {
+.price-table > tbody > tr:hover .link_red,
+.price-table__row-hover .link_red {
 	color: #fff;
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 }
@@ -50,6 +64,9 @@
 .price-table__space-inner {
 	position: absolute;
 	top: 0;
+}
+.price-table__space-inner > span {
+	cursor: pointer;
 }
 .price-table__type {
 	width: 66px;
@@ -74,19 +91,40 @@
 }
 .price-table__popup {
 	position: absolute;
-	top: 30px;
-	left: 160px;
-	width: 150px;
+	top: -187px;
+	left: -10px;
 	background: #fff;
 	font-size: 12px;
-	text-align: center;
 	z-index: 9;
 	color: #1a1a1a;
-	box-shadow: 0 0 10px #c9c9c9;
+	box-shadow: 0 -5px 25px #c9c9c9;
 	padding: 23px 10px;
 	line-height: normal;
+}
+.price-table__popup_wide {
+	width: 535px;
+}
+.price-table__popup-left,
+.price-table__popup-right {
+	float: left;
+}
+.price-table__popup-left {
+	width: 150px;
+	text-align: center;
+}
+.price-table__popup-right {
+	width: 365px;
+	border-left: 1px solid #e5e5e5;
 }
 .price-table__popup-emphasis {
 	font-size: 16px;
 	margin-bottom: 12px;
+}
+.price-table__popup-title {
+	font-weight: 700;
+	font-size: 16px;
+}
+.price-table__popup-text {
+	font-size: 12px;
+	color: #767676;
 }

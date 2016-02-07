@@ -58,4 +58,9 @@
 @import url('bem/tab-content.css');
 @import url('bem/medium.css');
 @import url('bem/even-row.css');
+@import url('bem/popover.css');
+@import url('bem/inline-block.css');
+@import url('bem/contact-agent.css');
+@import url('bem/agent.css');
+@import url('bem/recommendations.css');
 @import url('bem/font-face.css');

@@ -1,0 +1,17 @@
+.popover {
+	max-width: none;
+	font-family: inherit;
+	width: 0;
+	height: 0;
+	border: none;
+	border-radius: 0;
+}
+.popover.top > .arrow {
+	border-top-color: transparent !important;
+	bottom: -8px;
+	margin-left: 2px;
+	z-index: 99;
+}
+.popover > h3 {
+	display: none;
+}

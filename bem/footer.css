@@ -34,6 +34,9 @@
 	width: 230px;
 	line-height: 17px;
 }
+.footer__address_low {
+	margin-bottom: 10px;
+}
 .footer__copyright {
 	font-weight: 300;
 	color: #191919;

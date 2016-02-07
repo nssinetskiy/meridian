@@ -1,3 +1,6 @@
 .even-row {
 	background: #f9f9f9;
 }
+.even-row.price-table__row-hover {
+	background: #0f94bb;
+}

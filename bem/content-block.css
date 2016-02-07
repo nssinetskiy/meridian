@@ -6,6 +6,11 @@
 .content-block__title_about {
 	margin-bottom: 21px;
 }
+.content-block__title_blue {
+	font-weight: 700;
+	font-size: 26px;
+	color: #0f94bb;
+}
 .content-block__about {
 	margin-left: -16px;
 	padding-top: 59px;
