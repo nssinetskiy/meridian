@@ -89,42 +89,51 @@
 .price-table__promo {
 	width: 73px;
 }
-.price-table__popup {
+.price-table__popover {
+	display: table;
 	position: absolute;
 	top: -187px;
 	left: -10px;
+	width: 150px;
+	min-height: 190px;
 	background: #fff;
 	font-size: 12px;
 	z-index: 9;
 	color: #1a1a1a;
 	box-shadow: 0 -5px 25px #c9c9c9;
-	padding: 23px 10px;
 	line-height: normal;
 }
-.price-table__popup_wide {
-	width: 535px;
+.price-table__popover_wide {
+	width: 515px;
+	top: -219px;
+	left: -10px;
 }
-.price-table__popup-left,
-.price-table__popup-right {
-	float: left;
+.price-table__popover-left,
+.price-table__popover-right {
+	display: table-cell;
 }
-.price-table__popup-left {
-	width: 150px;
+.price-table__popover-left {
+	width: 160px;
 	text-align: center;
+	padding: 20px 10px 10px;
 }
-.price-table__popup-right {
-	width: 365px;
+.price-table__popover-right {
+	width: 385px;
 	border-left: 1px solid #e5e5e5;
+	padding: 20px;
 }
-.price-table__popup-emphasis {
+.price-table__popover-emphasis {
 	font-size: 16px;
 	margin-bottom: 12px;
 }
-.price-table__popup-title {
+.price-table__popover-title {
 	font-weight: 700;
 	font-size: 16px;
+	width: 180px;
+	margin-bottom: 10px;
 }
-.price-table__popup-text {
+.price-table__popover-text {
 	font-size: 12px;
 	color: #767676;
+	margin-bottom: 6px;
 }

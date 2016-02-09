@@ -89,6 +89,7 @@
 	color: #f3292e;
 	text-decoration: none;
 }
+
 .link_nav:active,
 .link_popular:active {
 	color: #0f95bb;
@@ -138,6 +139,15 @@
 	font-weight: 700;
 	font-size: 18px;
 	text-transform: uppercase;
+}
+.link_menu-main.active-item > .menu__item-text:after {
+	position: absolute;
+	left: 0;
+	content: "";
+	width: 100%;
+	top: -31px;
+	height: 3px;
+	background: #0f94bb;
 }
 .link_popular {
 	color: #f3292e;
@@ -214,4 +224,43 @@
 .link_about-office {
 	display: inline-block;
 	margin-right: 7px;
+}
+.link_bounded {
+	display: inline-block;
+	color: #1a1a1a;
+	border: 1px solid #e2e2e2;
+	position: relative;
+	padding: 5px;
+}
+.link_bounded:before {
+	position: absolute;
+	left: -2px;
+	top: -1px;
+	width: 2px;
+	height: calc(100% + 2px);
+	background: #f7ba50;
+	content: "";
+}
+.link_bounded:hover {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+.link_popover  {
+	margin-top: 14px;
+}
+.link_bounded-big {
+	border-width: 2px;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 6px 14px;
+}
+.link_bounded-big:before {
+	display: none;
+}
+.link_bounded-red {
+	border-color: #f3292e;
+	color: #f3292e;
+}
+.link_bounded-red:hover {
+	color: #f3292e;
 }

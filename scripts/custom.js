@@ -136,4 +136,11 @@ $(document).ready(function() {
 		});
 		$('tr.price-table__row-hover').removeClass("price-table__row-hover");
 	});
+	$('.price-table .link_nav').on('click', function(e) {
+		$('.price-table .link_nav').removeClass("active-item");
+		$(this).addClass("active-item");
+		$(this).find('.glyphicon').toggleClass("glyphicon-menu-down glyphicon-menu-up");
+		e.preventDefault();
+		e.stopPropagation();
+	});
 });
