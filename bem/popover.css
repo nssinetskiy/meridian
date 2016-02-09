@@ -8,8 +8,8 @@
 }
 .popover.top > .arrow {
 	border-top-color: transparent !important;
-	bottom: -8px;
-	margin-left: 2px;
+	bottom: -16px;
+	margin-left: -20px;
 	z-index: 99;
 }
 .popover > h3 {

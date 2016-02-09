@@ -14,9 +14,17 @@
 }
 .price-table_fixed-height > tbody {
 	display: block;
-	height: 296px;
-	overflow-y: scroll;
+	max-height: 296px;
+	overflow-y: auto;
+	/* Scrollbar customizations for IE */
+	scrollbar-3dlight-color: transparent;
+	scrollbar-highlight-color: #f2292f;
+	scrollbar-track-color: #d9d9d9;
+	scrollbar-arrow-color: transparent;
+	scrollbar-shadow-color: transparent;
+	scrollbar-dark-shadow-color: transparent;
 }
+/* Scrollbar customization fro Webkit */
 .price-table_fixed-height > tbody::-webkit-scrollbar {
 	width: 6px;
 }
@@ -29,6 +37,7 @@
 .price-table_fixed-height > tbody::-webkit-scrollbar-thumb {
 	background-color: #f2292f;
 }
+/* End of scrollbar styles for Webkit */
 .price-table_fixed-height > thead,
 .price-table_fixed-height > tbody tr {
 	display: table;
@@ -64,9 +73,11 @@
 .price-table__space-inner {
 	position: absolute;
 	top: 0;
+	width: 100%;
 }
 .price-table__space-inner > span {
 	cursor: pointer;
+	display: block;
 }
 .price-table__type {
 	width: 66px;
@@ -92,8 +103,8 @@
 .price-table__popover {
 	display: table;
 	position: absolute;
-	top: -187px;
-	left: -10px;
+	top: -178px;
+	left: -32px;
 	width: 150px;
 	min-height: 190px;
 	background: #fff;
@@ -105,8 +116,8 @@
 }
 .price-table__popover_wide {
 	width: 515px;
-	top: -219px;
-	left: -10px;
+	top: -208px;
+	left: -32px;
 }
 .price-table__popover-left,
 .price-table__popover-right {
@@ -135,5 +146,5 @@
 .price-table__popover-text {
 	font-size: 12px;
 	color: #767676;
-	margin-bottom: 6px;
+	margin-bottom: 26px;
 }
