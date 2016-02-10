@@ -18,6 +18,30 @@
 	padding-left: 15px;
 	font-size: 16px;
 	margin-right: 16px;
+	border: 1px solid #ccc;
+}
+/* Safari, Chrome, Opera */
+.contact-agent__input::-webkit-input-placeholder {
+	color: #1a1a1a;
+}
+/* Safari 18- */
+.contact-agent__input:-moz-placeholder {
+	color: #1a1a1a;
+}
+/* Safari 19+ */
+.contact-agent__input::-moz-placeholder {
+	color: #1a1a1a;
+}
+/* IE 10+ */
+.contact-agent__input:-ms-input-placeholder {
+	color: #1a1a1a;
+}
+/* IE Edge */
+.contact-agent__input::-ms-input-placeholder {
+	color: #1a1a1a;
+}
+.contact-agent__input:placeholder-shown {
+	color: #1a1a1a;
 }
 .contact-agent__submit {
 	display: inline-block;
