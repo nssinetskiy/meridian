@@ -2,3 +2,7 @@
 	display: inline-block;
 	vertical-align: top;
 }
+.inline-block_right {
+	margin-right: -15px;
+	padding-top: 3px;
+}

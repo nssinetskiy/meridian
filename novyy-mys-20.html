@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Меридиан - Описание объекта</title>
+	<!-- Latest Bootstrap compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">-->
+	<!-- Latest jQuery -->
+	<link rel="stylesheet" href="non-responsive.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="ui-slider.css">
+	<link rel="stylesheet" href="btn-objects.css">
+	<!-- Compiled and minified bootstrap-select CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__block">
+				<div class="container">
+					<div class="col-xs-4">
+						<a href="index.html" class="header-logo"></a>
+					</div>
+					<div class="col-xs-8">
+						<div id="navbar" class="menu menu_top">
+							<ul class="nav navbar-nav js-drop">
+								<li class="menu__item dropdown">
+									<a class="link_nav link_menu link_menu-top" href="about.html">
+										<span class="menu__item-text">О компании</span>
+										<span class="glyphicon glyphicon_nav glyphicon-menu-down" aria-hidden="true"></span>
+									</a>
+									<ul class="dropdown-menu inverse-dropdown">
+										<li>
+											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a class="link_nav link_menu link_menu-top" href="">
+										<span class="menu__item-text">Новости</span>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a class="link_nav link_menu link_menu-top" href="">
+										<span class="menu__item-text">Акции</span>
+									</a>
+								</li>
+								<li class="menu__item dropdown">
+									<a class="link_nav link_menu link_menu-top" href="">
+										<span class="menu__item-text">Для дольщиков</span>
+										<span class="glyphicon glyphicon_nav glyphicon-menu-down" aria-hidden="true"></span>
+									</a>
+									<ul class="dropdown-menu inverse-dropdown">
+										<li>
+											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item dropdown">
+									<a class="link_nav link_menu link_menu-top" href="">
+										<span class="menu__item-text">Как купить</span>
+										<span class="glyphicon glyphicon_nav glyphicon-menu-down" aria-hidden="true"></span>
+									</a>
+									<ul class="dropdown-menu inverse-dropdown">
+										<li>
+											<a>Опция 1 <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a>Опция 2 <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+									</ul>
+								</li>		
+							</ul>
+						</div>
+						<div class="city-selector">
+							<ul class="nav navbar-nav">
+								<li class="menu__item dropdown">
+									<a class="link_nav link_menu link_menu-top dropdown-toggle" data-toggle="dropdown" href="">
+										<span class="link_dotted">Тюмень</span>
+										<span class="glyphicon glyphicon_nav glyphicon-menu-down" aria-hidden="true"></span>
+									</a>
+									<ul class="dropdown-menu inverse-dropdown">
+										<li>
+											<a>Тобольск <i class="pull-right glyphicon ng-scope glyphicon_nav glyphicon-menu-right"></i></a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__block">
+				<div class="container">
+					<div class="col-xs-4"></div>
+					<div class="col-xs-8">
+						<div class="header__block-inner">
+							<div class="header__section header__section_left">Купить кавртиру от застройщика в Тюмени<br><a class="link_red header__lowest-price">от 1 250 000 руб.</a></div>
+							<div class="header__section header__section_middle">
+								<a href="" class="btn colored-link colored-link_red colored-link_header">Заказать звонок</a>
+							</div>
+							<div class="header__section header__section_right">
+								<span class="working-time">пн-пт: 9:00 &mdash; 20:00 сб: 10:00 &mdash; 16:00</span>
+								<br>
+								<span class="phone-number"><span class="phone-number phone-number_grey">+7 (3452)</span> 69-23-97</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__block_lower">
+				<div class="container">
+					<div id="navbar" class="menu">
+						<ul class="nav navbar-nav menu_main js-drop-main">
+							<li class="menu__item menu__item_main menu__item_popup js-menu__item_popup">
+								<a class="link_nav link_menu link_menu-main" href="flats.html">
+									<span class="menu__item-text">каталог квартир</span>
+									<i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i>
+									<div class="menu__item-subtitle">от 1&nbsp;250&nbsp;000 руб.</div>
+								</a>
+								<div class="popup-menu__wrapper popup-menu__wrapper_flats">
+									<div class="popup-menu__row">
+										<a href="" class="link link_popup-menu-big">Все квартиры</a>
+										<a href="" class="link link_popup-menu">Материнский капитал</a>
+										<a href="" class="link link_popup-menu">Программа переселения</a>
+										<a href="" class="link link_popup-menu">Бюджетники</a>
+									</div>
+									<div class="popup-menu__row">
+										<a href="" class="popup-menu__item_flats">
+											<span class="link_red link_16">Студии</span>
+											<div class="popup-menu__item-price">от 1&nbsp;250&nbsp;000 руб.</div>
+										</a>
+										<a href="" class="popup-menu__item_flats">
+											<span class="link_red link_16">1 комнатные</span>
+											<div class="popup-menu__item-price">от 2&nbsp;250&nbsp;000 руб.</div>
+										</a>
+										<a href="" class="popup-menu__item_flats">
+											<span class="link_red link_16">2 комнатные</span>
+											<div class="popup-menu__item-price">от 3&nbsp;250&nbsp;000 руб.</div>
+										</a>
+										<a href="" class="popup-menu__item_flats">
+											<span class="link_red link_16">3 комнатные</span>
+											<div class="popup-menu__item-price">от 4&nbsp;250&nbsp;000 руб.</div>
+										</a>
+										<a href="" class="popup-menu__item_flats popup-menu__item_promo">
+											<span class="link_white link_16">Акции</span>
+										</a>
+										<a href="" class="popup-menu__item_flats popup-menu__item_ready">
+											<span class="link_white link_16">Готовые</span>
+										</a>
+										<a href="" class="popup-menu__item_flats popup-menu__item_repair">
+											<span class="link_white link_16">С ремонтом</span>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item divider_vertical"></li>
+							<li class="menu__item menu__item_main menu__item_popup js-menu__item_popup">
+								<a class="link_nav link_menu link_menu-main active-item" href="">
+									<span class="menu__item-text">каталог проектов</span>
+									<i class="glyphicon glyphicon_uppercase glyphicon-chevron-down"></i>
+									<div class="menu__item-subtitle">390 квартир в 4 жилых кварталах</div>
+								</a>
+								<div class="popup-menu__wrapper popup-menu__wrapper_projects">
+									<div class="popup-menu__row">
+										<div class="popup-menu__item-wrapper">
+											<a href="" class="link popup-menu__item-title">Все проекты</a>
+											<div class="popup-menu__item_projects">
+												<div class="popup-menu__item-top">
+													<img src="img/all-projects.jpg" alt="">
+													<div class="popup-menu__item-top_hover">
+														<a href="" class="btn colored-link colored-link_white">Подробнее</a>
+													</div>
+												</div>
+												<div class="popup-menu__item-bottom">
+													<a href="" class="link link_catalog">1 комнатные (273)</a><br>
+													<a href="" class="link link_catalog">2 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">3 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">Квартиры со скидкой (10)</a><br>
+													<a href="" class="link link_catalog">Готовые квартиры (18)</a><br>
+													<a href="" class="link link_catalog">Квартиры с ремонтом (16)</a><br>
+													<a href="" class="link link_catalog">Материнский капитал (16)</a><br>
+													<a href="" class="link link_catalog">Программа переселения</a><br>
+													<a href="" class="link link_catalog">Бюджетники</a>
+												</div>
+											</div>
+										</div>
+										<div class="popup-menu__item-wrapper">
+											<a href="novyy-mys-20.html" class="link popup-menu__item-title">ЖК &laquo;Новый мыс 2.0&raquo;</a>
+											<div class="popup-menu__item_projects">
+												<div class="popup-menu__item-top">
+													<img src="img/novyy-mys20.jpg" alt="">
+													<div class="popup-menu__item-top_hover">
+														<a href="novyy-mys-20.html" class="btn colored-link colored-link_white">Подробнее</a>
+													</div>
+												</div>
+												<div class="popup-menu__item-bottom">
+													<a href="" class="link link_catalog">1 комнатные (273)</a><br>
+													<a href="" class="link link_catalog">2 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">3 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">Квартиры со скидкой (10)</a><br>
+													<a href="" class="link link_catalog">Готовые квартиры (18)</a><br>
+													<a href="" class="link link_catalog">Квартиры с ремонтом (16)</a><br>
+													<a href="" class="link link_catalog">Материнский капитал (16)</a><br>
+													<a href="" class="link link_catalog">Программа переселения</a><br>
+													<a href="" class="link link_catalog">Бюджетники</a>
+												</div>
+											</div>
+										</div>
+										<div class="popup-menu__item-wrapper">
+											<a href="" class="link popup-menu__item-title">ЖК &laquo;Новый Мыс&raquo;</a>
+											<div class="popup-menu__item_projects">
+												<div class="popup-menu__item-top">
+													<img src="img/novyy-mys.jpg" alt="">
+													<div class="popup-menu__item-top_hover">
+														<a href="" class="btn colored-link colored-link_white">Подробнее</a>
+													</div>
+												</div>
+												<div class="popup-menu__item-bottom">
+													<a href="" class="link link_catalog">1 комнатные (273)</a><br>
+													<a href="" class="link link_catalog">2 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">3 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">Квартиры со скидкой (10)</a><br>
+													<a href="" class="link link_catalog">Готовые квартиры (18)</a><br>
+													<a href="" class="link link_catalog">Квартиры с ремонтом (16)</a><br>
+													<a href="" class="link link_catalog">Материнский капитал (16)</a><br>
+													<a href="" class="link link_catalog">Программа переселения</a><br>
+													<a href="" class="link link_catalog">Бюджетники</a>
+												</div>
+											</div>
+										</div>
+										<div class="popup-menu__item-wrapper">
+											<a href="" class="link popup-menu__item-title">ЖК &laquo;Добрый&raquo;</a>
+											<div class="popup-menu__item_projects">
+												<div class="popup-menu__item-top">
+													<img src="img/dobryy.jpg" alt="">
+													<div class="popup-menu__item-top_hover">
+														<a href="" class="btn colored-link colored-link_white">Подробнее</a>
+													</div>
+												</div>
+												<div class="popup-menu__item-bottom">
+													<a href="" class="link link_catalog">1 комнатные (273)</a><br>
+													<a href="" class="link link_catalog">2 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">3 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">Квартиры со скидкой (10)</a><br>
+													<a href="" class="link link_catalog">Готовые квартиры (18)</a><br>
+													<a href="" class="link link_catalog">Квартиры с ремонтом (16)</a><br>
+													<a href="" class="link link_catalog">Материнский капитал (16)</a><br>
+													<a href="" class="link link_catalog">Программа переселения</a><br>
+													<a href="" class="link link_catalog">Бюджетники</a>
+												</div>
+											</div>
+										</div>
+										<div class="popup-menu__item-wrapper">
+											<a href="" class="link popup-menu__item-title">&laquo;Хороший&raquo; дом</a>
+											<div class="popup-menu__item_projects">
+												<div class="popup-menu__item-top">
+													<img src="img/khoroshiy.jpg" alt="">
+													<div class="popup-menu__item-top_hover">
+														<a href="" class="btn colored-link colored-link_white">Подробнее</a>
+													</div>
+												</div>
+												<div class="popup-menu__item-bottom">
+													<a href="" class="link link_catalog">1 комнатные (273)</a><br>
+													<a href="" class="link link_catalog">2 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">3 комнатные (34)</a><br>
+													<a href="" class="link link_catalog">Квартиры со скидкой (10)</a><br>
+													<a href="" class="link link_catalog">Готовые квартиры (18)</a><br>
+													<a href="" class="link link_catalog">Квартиры с ремонтом (16)</a><br>
+													<a href="" class="link link_catalog">Материнский капитал (16)</a><br>
+													<a href="" class="link link_catalog">Программа переселения</a><br>
+													<a href="" class="link link_catalog">Бюджетники</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item menu__item_main divider_vertical"></li>
+							<li class="menu__item">
+								<a class="link_nav link_menu link_menu-main" href="">
+									<span class="menu__item-text">подбор квартиры в ипотеку</span>
+									<div class="menu__item-subtitle">ежемесячный платеж от 9&nbsp;900 руб.</div>
+								</a>
+							</li>
+							<li class="menu__item menu__item_main divider_vertical"></li>
+							<li class="menu__item menu__item_main">
+								<a class="link_nav link_menu link_menu-main link_menu-last" href="">
+								<span class="menu__item-text">контакты</span>
+								<div class="menu__item-subtitle">офис продаж и схемы проезда</div>
+							</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="main-slider" class="carousel slide main-slider main-slider-object" data-ride="carousel">
+			<div class="container container_absolute">
+				<ol class="breadcrumb breadcrumb-arrows">
+					<li>
+						<a class="link link_white" href="#">Главная</a>
+					</li>
+					<li>
+						<a class="link link_white" href="#">Каталог проектов</a>
+					</li>
+					<li class="active white">ЖК &laquo;Новый мыс 2.0&raquo;</li>
+				</ol>
+			</div>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="main-slider__item main-slider__item-object" style="background: url('img/object1.jpg'); background-size: cover;">
+						<div class="container">
+							<div class="main-slider__item-object-info">
+								<div class="main-slider__item-object-headline">Купите квартиру на мысу в жилом квартале <span class="main-slider__item-object-headline_highlighted">&laquo;Новый мыс 2.0&raquo;</span></div>
+								<div class="main-slider__info-row">
+									<div class="main-slider__info-left">
+										<div class="main-slider__info-block">
+											<div class="main-slider__info-block-left">380</div>
+											<div class="main-slider__info-block-right">квартир<br>в продаже</div>
+										</div>
+										<div class="main-slider__info-block">
+											<a href="" class="link_object-price">от 1&nbsp;250&nbsp;000 руб.</a>
+										</div>
+									</div>
+									<div class="main-slider__info-right">
+										<div class="main-slider__link-wrapper main-slider__link-wrapper_left">
+											<a class="link_blue" href="">Кладовые (8)</a>
+										</div>
+										<div class="main-slider__link-wrapper">
+											<a class="link_blue" href="">Парковка (55)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="main-slider__item main-slider__item-object" style="background: url('img/object2.jpg'); background-size: cover;">
+						<div class="container">
+							<div class="main-slider__item-object-info">
+								<div class="main-slider__item-object-headline">Купите квартиру на мысу в жилом квартале <span class="main-slider__item-object-headline_highlighted">&laquo;Новый мыс 2.0&raquo;</span></div>
+								<div class="main-slider__info-row">
+									<div class="main-slider__info-left">
+										<div class="main-slider__info-block">
+											<div class="main-slider__info-block-left">380</div>
+											<div class="main-slider__info-block-right">квартир<br>в продаже</div>
+										</div>
+										<div class="main-slider__info-block">
+											<a href="" class="link_object-price">от 1&nbsp;250&nbsp;000 руб.</a>
+										</div>
+									</div>
+									<div class="main-slider__info-right">
+										<div class="main-slider__link-wrapper main-slider__link-wrapper_left">
+											<a class="link_blue" href="">Кладовые (8)</a>
+										</div>
+										<div class="main-slider__link-wrapper">
+											<a class="link_blue" href="">Парковка (55)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container main-slider__container">
+				<div class="main-slider__navigation">
+					<div class="main-slider__counter">1/3</div>
+					<div class="main-slider__arrows">
+						<a href="#main-slider" class="main-slider__link-left" role="button" data-slide="prev">
+							<span class="main-slider__arrow main-slider__arrow_left" aria-hidden="true"></span>
+						</a>
+						<div class="main-slider__arrows-divider"></div>
+						<a href="#main-slider" class="main-slider__link-right" role="button" data-slide="next">
+							<span class="main-slider__arrow main-slider__arrow_right" aria-hidden="true"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content-block">
+			<div class="container">
+				<div class="col-xs-3">
+					<div class="object-readiness__wrapper">
+						<div class="readiness moved-left">
+							Готовность первой очереди: <span class="readiness__value">82%</span>
+							<div class="readiness__scale">
+								<div class="readiness__current readiness__current_red" style="width: 82%;"></div>
+							</div>
+						</div>
+						<div class="readiness moved-left">
+							Готовность второй очереди: <span class="readiness__value">66%</span>
+							<div class="readiness__scale">
+								<div class="readiness__current" style="width: 66%;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="object-readiness__additional">
+						<div class="inline-block moved-left">
+							<div class="grey-text object-readiness__title">Расположение:</div>
+							<div>
+								<a href="" class="link_nav">
+									<span class="link_dotted">Мыс</span>
+								</a>
+							</div>
+						</div>
+						<div class="inline-block">
+							<div class="grey-text object-readiness__title">Срок ввода:</div>
+							I квартал 2016 г.
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-9">
+					<div class="object-on-sale moved-left">
+						<div class="object-on-sale__top">В продаже:</div>
+						<div class="object-on-sale__bottom">
+							<div class="inline-block">
+								<div class="inline-block object-on-sale__inline-block">
+									<div>
+										<a href="" class="link_blue">1 комнатные (273)</a>
+									</div>
+									<div>
+										<a href="" class="link_blue">2 комнатные (34)</a>
+									</div>
+								</div>
+								<div class="inline-block object-on-sale__inline-block">
+									<div>
+										<a href="" class="link_blue">Квартиры по акции (10)</a>
+									</div>
+									<div>
+										<a href="" class="link_blue">Квартиры с ремонтом (16)</a>
+									</div>
+									<div>
+										<a href="" class="link_blue">Готовые квартиры (18)</a>
+									</div>
+								</div>
+								<div class="inline-block object-on-sale__inline-block">
+									<div>
+										<a href="" class="link_blue">Материнский капитал (16)</a>
+									</div>
+									<div>
+										<a href="" class="link_blue">Программа переселения</a>
+									</div>
+									<div>
+										<a href="" class="link_blue">Бюджетники</a>
+									</div>
+								</div>
+							</div>
+							<div class="inline-block inline-block_right">
+								<div class="object-on-sale__download-links">
+									<a href="" class="link_nav">
+										<span class="download-icon download-icon_grey"></span>
+										<span class="link_dotted">Прайс-лист</span>
+									</a>
+									<a href="" class="link_nav">
+										<span class="download-icon download-icon_grey"></span>
+										<span class="link_dotted">Проектные декларации</span>
+									</a>
+								</div>
+								<a href="" class="btn colored-link colored-link_red colored-link_visit-office">Посетить офис продаж</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup-menu js-popup-menu"></div>
+	</div>
+	<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="col-xs-3">
+						<div class="contact-map">
+							<a href="https://maps.yandex.ru/55/tyumen/?text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%2C%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2051%D0%BA1&sll=37.620393%2C55.753960&sspn=2.068176%2C0.646683&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D65.545%252C57.156%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A2%25D1%258E%25D0%25BC%25D0%25B5%25D0%25BD%25D1%258C%252C%2520%25D0%25A1%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2582%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252051%25D0%25BA1&ll=65.544766%2C57.155919&z=16" class="contact-map__link">Увеличить карту</a>
+						</div>
+					</div>
+					<div class="footer__block footer__block_left col-xs-3">
+						<div class="footer__block-title">Наш отдел продаж на карте</div>
+						<p class="footer__address">г. Тюмень, ул. Советская, 51, корпус 1, БЦ &laquo;Ермак&raquo;, 7 этаж</p>
+						<a href="" class="link_blue">Узнать как добраться</a>
+					</div>
+					<div class="footer__block footer__block_middle col-xs-3">
+						<div class="working-time">пн-пт: 9:00 &mdash; 20:00 сб: 10:00 &mdash; 16:00</div>
+						<div class="phone-number phone-number_footer"><span class="phone-number phone-number_grey">+7 (3452)</span>  52-92-52</div>
+						<a href="" class="btn colored-link colored-link_red colored-link_header">Оставить заявку</a>
+					</div>
+					<div class="footer__block footer__block_right col-xs-3">
+						<div class="footer__block-title">Мы в социальных сетях:</div>
+						<div class="social__wrapper">
+							<a class="social social_vk"></a>
+							<a class="social social_fb"></a>
+							<a class="social social_ok"></a>
+						</div>
+						<form class="search" action="">
+							<input type="text" placeholder="Поиск по сайту">
+							<input type="submit" class="search__submit" value="">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="footer__bottom">
+					<div class="col-xs-9 footer__bottom-left">
+						<div class="footer__copyright">&copy; ООО &laquo;Меридиан&raquo;, 2007 &ndash; 2015г. Все права защищены.</div>
+						<div>
+							<div class="footer-logo"></div>
+							<div class="footer__legal-notice">Сайт носит информационный характер и ни при каких условиях не является публичной офертой, определяяемой положениями статьи 437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии и стоимости указанных квартир, пожалуйста, обращайтесь к специалистам отдела продаж с помощью специальной формы связи или по телефону: (3452) 52-92-52</div>
+						</div>
+					</div>
+					<div class="col-xs-3 footer__bottom-right">
+						<div class="remark-logo"></div>
+						<div class="footer__dev-info"><a class="link_black" href="http://remark72.ru/">Сайт создан</a> в интерактивном агентстве Ремарк в 2016 г.</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="scripts/autoNumeric/autoNumeric.js" type="text/javascript"></script>
+	<!-- Latest Bootstrap compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="scripts/jquery.ui-slider.js"></script>
+	<!-- Compiled and minified bootstrap-select JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+	<script src="scripts/superfish-1.7.5/src/js/superfish.js"></script>
+	<script src="scripts/hoverintent-1.8.0.js"></script>
+	<script src="scripts/custom.js"></script>
+</body>
+</html>

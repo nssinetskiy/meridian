@@ -15,6 +15,7 @@
 @import url('bem/divider.css');
 @import url('bem/colored-link.css');
 @import url('bem/main-slider.css');
+@import url('bem/main-slider-object.css');
 @import url('bem/grey-text.css');
 @import url('bem/content-block.css');
 @import url('bem/grey-section.css');
@@ -65,4 +66,7 @@
 @import url('bem/recommendations.css');
 @import url('bem/active-item.css');
 @import url('bem/brick.css');
+@import url('bem/moved-left.css');
+@import url('bem/object-readiness.css');
+@import url('bem/object-on-sale.css');
 @import url('bem/font-face.css');

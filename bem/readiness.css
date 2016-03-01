@@ -1,4 +1,7 @@
-.readiness {}
+.readiness {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
 .readiness__value {
 	font-size: 18px;
 }
@@ -11,4 +14,7 @@
 .readiness__current {
 	height: 4px;
 	background: #0f94bb;
+}
+.readiness__current_red {
+	background: #ea2e33;
 }

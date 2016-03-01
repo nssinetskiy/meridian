@@ -7,3 +7,12 @@
 .breadcrumb > .active {
 	color: #767676;
 }
+.breadcrumb > .white {
+	color: #fff;
+}
+.breadcrumb-arrows {
+	margin-top: 36px;
+}
+.breadcrumb-arrows > li + li:before {
+	content: "\003e";
+}

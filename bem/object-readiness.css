@@ -1,0 +1,17 @@
+.object-readiness__wrapper {
+	margin-bottom: 18px;
+}
+.object-readiness__additional {
+	font-size: 16px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 35px;
+}
+.object-readiness__title {
+	font-size: 13px;
+	margin-bottom: -2px;
+}
