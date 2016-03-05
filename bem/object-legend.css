@@ -1,4 +1,7 @@
-.object-legend {}
+.object-legend {
+	position: absolute;
+	z-index: 9;
+}
 .object-legend__left,
 .object-legend__right {
 	float: left;
