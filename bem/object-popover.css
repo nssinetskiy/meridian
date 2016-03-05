@@ -1,0 +1,31 @@
+.object-popover {
+	width: 215px;
+	position: absolute;
+	top: -15px;
+	left: -50px;
+	font-size: 13px;
+}
+.object-popover__top {
+	background: #fff;
+	padding: 15px 15px 15px 20px;
+}
+.object-popover__bottom {
+	background: rgba(26, 26, 26, 0.9);
+	padding: 15px 15px 5px 20px;
+}
+.object-popover__bottom-header {
+	color: #8a8a8a;
+	margin-bottom: 5px;
+}
+.object-popover__list-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.object-popover__list {
+	padding: 0;
+	line-height: 22px;
+}

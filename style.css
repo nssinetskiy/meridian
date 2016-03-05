@@ -70,7 +70,6 @@
 @import url('bem/object-readiness.css');
 @import url('bem/object-on-sale.css');
 @import url('bem/object-options.css');
-@import url('bem/flexbox.css');
 @import url('bem/section.css');
 @import url('bem/btn-border-grey.css');
 @import url('bem/object-map.css');
@@ -80,4 +79,5 @@
 @import url('bem/object-legend.css');
 @import url('bem/object-feature-icon.css');
 @import url('bem/available-bldg.css');
+@import url('bem/object-popover.css');
 @import url('bem/font-face.css');

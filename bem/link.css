@@ -67,11 +67,31 @@
 .link_dotted {
 	color: #f3292e;
     border-bottom: 1px dotted #f3292e;
-    margin-right: 10px;
 }
 .link_dotted:hover {
 	color: #f3292e;
 	text-decoration: none;
+}
+.link_dotted-blue {
+	color: #0f94bb;
+    border-bottom: 1px dotted #0f94bb;
+    margin-right: 10px;
+}
+.link_dotted-blue:hover {
+	color: #0f94bb;
+	text-decoration: none;
+}
+.link_dotted-white {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+.link_dotted-white:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.link_dotted-object-popover {
+	font-weight: 700;
+	font-size: 16px;
 }
 .link_advanced-search {
 	display: inline-block;

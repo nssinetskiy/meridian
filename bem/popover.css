@@ -12,6 +12,10 @@
 	margin-left: -20px;
 	z-index: 99;
 }
+.popover.bottom > .arrow {
+	top: -22px;
+	margin-left: -31px;
+}
 .popover > h3 {
 	display: none;
 }

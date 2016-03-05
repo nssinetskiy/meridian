@@ -25,6 +25,12 @@
 }
 .object-on-sale__download-links {
 	margin-bottom: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
 .object-on-sale__download-links > .link_nav:last-child > .link_dotted {
 	margin-right: 0;
