@@ -185,6 +185,10 @@
 .link_video-small {
 	width: 270px;
 	height: 165px;
+	color: #f3292e;
+}
+.link_video-small > .play-button {
+	background: #fff;
 }
 .link_block {
 	display: inline-block;
@@ -267,4 +271,8 @@
 .link_object-price:hover {
 	color: #fff;
 	text-decoration: none;
+}
+.link_highlighted {
+	font-size: 16px;
+	font-weight: 700;
 }

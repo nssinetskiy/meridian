@@ -71,9 +71,11 @@
 @import url('bem/object-on-sale.css');
 @import url('bem/object-options.css');
 @import url('bem/flexbox.css');
-@import url('bem/section-title.css');
+@import url('bem/section.css');
 @import url('bem/btn-border-grey.css');
-@import url('bem/section-col.css');
 @import url('bem/object-map.css');
 @import url('bem/block-absolute.css');
+@import url('bem/point-icon.css');
+@import url('bem/nowrap.css');
+@import url('bem/object-legend.css');
 @import url('bem/font-face.css');

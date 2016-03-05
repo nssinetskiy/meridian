@@ -1,0 +1,17 @@
+.object-legend {}
+.object-legend__left,
+.object-legend__right {
+	float: left;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+.object-legend__left {
+	font-weight: 700;
+	font-size: 14px;
+	padding: 5px 13px 3px 8px;
+	margin-right: 1px;
+}
+.object-legend__right {
+	font-size: 12px;
+	padding: 6px 8px 5px 10px;
+}
