@@ -1,0 +1,18 @@
+.floor {
+	font-weight: 300;
+	font-size: 12px;
+	overflow: hidden;
+}
+.floor__number {
+	border-bottom: 1px solid #e1e1e1;
+	display: inline-block;
+	padding: 11px 0;
+	width: 42px;
+	margin-right: 12px;
+}
+.floor:last-child > .floor__number {
+	border-bottom-color: transparent;
+}
+.floor__apts {
+	display: inline-block;
+}

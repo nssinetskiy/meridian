@@ -1,0 +1,25 @@
+.apt {
+	display: inline-block;
+	width: 23px;
+	height: 31px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.apt_promo {
+	background: #f7ba50;
+}
+.apt_sold {
+	background: #e4e4e4;
+	color: #b2b2b2;
+}
+.apt_booked {
+	background: #6e6e6e;
+}
+.apt_available {
+	background: #97c65b;
+}
+.apt-selected {
+	background: #f3292e;
+}

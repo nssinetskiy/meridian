@@ -1,0 +1,19 @@
+.flat-types {
+	padding-top: 4px;
+}
+.flat-types__menu {
+	margin-bottom: 10px;
+}
+.flat-types > .grey-text {
+	font-size: 14px;
+}
+.flat-types__list {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 13px;
+}
+.flat-types__list > li {
+	display: inline-block;
+	vertical-align: top;
+}
