@@ -13,8 +13,9 @@
 	z-index: 99;
 }
 .popover.bottom > .arrow {
-	top: -22px;
-	margin-left: -31px;
+	/*top: -22px;*/
+	/*margin-left: -31px;*/
+	display: none;
 }
 .popover > h3 {
 	display: none;

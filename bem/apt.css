@@ -6,20 +6,39 @@
 	text-align: center;
 	line-height: 30px;
 	cursor: pointer;
+	position: relative;
 }
 .apt_promo {
 	background: #f7ba50;
 }
+.apt_promo:hover {
+	background: #e68a19;
+}
 .apt_sold {
 	background: #e4e4e4;
 	color: #b2b2b2;
+	cursor: default;
 }
 .apt_booked {
 	background: #6e6e6e;
 }
+.apt_booked:hover {
+	background: #2e2e2e;
+}
 .apt_available {
 	background: #97c65b;
 }
-.apt-selected {
+.apt_available:hover {
+	background: #6d8f42;
+}
+.apt_selected {
 	background: #f3292e;
+    width: 34px;
+    height: 37px;
+    margin-right: -6px;
+    margin-left: -5px;
+    top: 0px;
+    z-index: 9;
+    line-height: 37px;
+    font-weight: 700;
 }

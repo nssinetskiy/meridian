@@ -4,6 +4,9 @@
 .flat-types__menu {
 	margin-bottom: 10px;
 }
+.flat-types__menu-label {
+	color: #767676;
+}
 .flat-types > .grey-text {
 	font-size: 14px;
 }
@@ -16,4 +19,7 @@
 .flat-types__list > li {
 	display: inline-block;
 	vertical-align: top;
+}
+.flat-types__list > li > span {
+	margin-right: 10px;
 }

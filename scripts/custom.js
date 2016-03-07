@@ -143,4 +143,8 @@ $(document).ready(function() {
 		e.preventDefault();
 		e.stopPropagation();
 	});
+	$('.apt_available, .apt_promo').on('click', function() {
+		$('.apt').removeClass("apt_selected");
+		$(this).toggleClass("apt_selected");
+	});
 });

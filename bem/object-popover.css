@@ -5,6 +5,14 @@
 	left: -50px;
 	font-size: 13px;
 }
+.object-popover:after {
+	content: "";
+    position: absolute;
+    top: -10px;
+    left: 27px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+}
 .object-popover__top {
 	background: #fff;
 	padding: 15px 15px 15px 20px;
