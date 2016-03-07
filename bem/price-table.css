@@ -119,6 +119,9 @@
 	top: -208px;
 	left: -32px;
 }
+.price-table__popover_wide .brick {
+	margin: 14px 0 0;
+}
 .price-table__popover-left,
 .price-table__popover-right {
 	display: table-cell;

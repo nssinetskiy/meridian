@@ -4,7 +4,7 @@
 	border: 1px solid #e2e2e2;
 	position: relative;
 	padding: 5px;
-	margin-top: 14px;
+	margin-bottom: 3px;
 }
 .brick:before {
 	position: absolute;
@@ -14,4 +14,7 @@
 	height: calc(100% + 2px);
 	background: #f7ba50;
 	content: "";
+}
+.brick_red:before {
+	background: #f3292e;
 }

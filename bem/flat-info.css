@@ -1,0 +1,25 @@
+.flat-info {
+	margin-left: -55px;
+	width: 322px;
+	text-align: center;
+}
+.flat-info__top {
+	margin: -6px 0 18px;
+	line-height: 24px;
+}
+.flat-info__title {
+	font-size: 18px;
+	color: #000;
+}
+.flat-info__image {
+	display: block;
+	margin: 0 auto 15px;
+}
+.flat-info__extra {
+	font-size: 13px;
+	margin: 26px 0 21px;
+}
+.flat-info__bottom-title {
+	color: #767676;
+	margin-bottom: 14px;
+}
