@@ -1,43 +1,38 @@
 .consultation {}
 .consultation__input {
 	display: block;
-	border: 1px solid #ccc;
 	width: 354px;
-	height: 40px;
-	line-height: 36px;
-	margin-bottom: 10px;
-	padding-left: 10px;
-	color: #303030;
-}
-/* Safari, Chrome, Opera */
-.consultation__input::-webkit-input-placeholder {
-	color: #303030;
-}
-/* Safari 18- */
-.consultation__input:-moz-placeholder {
-	color: #303030;
-}
-/* Safari 19+ */
-.consultation__input::-moz-placeholder {
-	color: #303030;
-}
-/* IE 10+ */
-.consultation__input:-ms-input-placeholder {
-	color: #303030;
-}
-/* IE Edge */
-.consultation__input::-ms-input-placeholder {
-	color: #303030;
-}
-.consultation__input:placeholder-shown {
-	color: #303030;
 }
 .consultation__textarea {
 	height: 80px;
 	padding-top: 2px;
 	margin-bottom: 20px;
+	border-color: #ccc;
 }
 .consultation__submit {
 	padding: 0 30px 2px;
     line-height: 40px;
+}
+/* Safari, Chrome, Opera */
+.consultation__textarea::-webkit-input-placeholder {
+	color: #303030;
+}
+/* Safari 18- */
+.consultation__textarea:-moz-placeholder {
+	color: #303030;
+}
+/* Safari 19+ */
+.consultation__textarea::-moz-placeholder {
+	color: #303030;
+}
+/* IE 10+ */
+.consultation__textarea:-ms-input-placeholder {
+	color: #303030;
+}
+/* IE Edge */
+.consultation__textarea::-ms-input-placeholder {
+	color: #303030;
+}
+.consultation__textarea:placeholder-shown {
+	color: #303030;
 }

@@ -1,0 +1,18 @@
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/functional-icons.png") no-repeat;
+	display: inline-block;
+	vertical-align: top;
+}
+.icon_printer {
+	background-position: -87px -1px;
+}
+.icon_email {
+	background-position: -87px -25px
+}
+.icon_talk {
+	background-position: -1px -29px;
+	vertical-align: middle;
+}

@@ -1,5 +1,6 @@
 .flat-variants {
-	width: 400px;
+	font-size: 12px;
+	width: 370px;
 }
 .flat-variants__top {
 	display: -webkit-flex;
@@ -9,21 +10,32 @@
 	display: flex;
 	justify-content: space-between;
 	margin: -2px 0 10px;
+	font-size: 14px;
 }
 .flat-variants__title {
 	display: inline-block;
 	font-size: 16px;
 }
+.flat-variants__subtitle {
+	color: #767676;
+	line-height: 15px;
+	margin-bottom: 6px;
+}
 .flat-variants__tabs-navigation {
 	font-size: 12px;
+	border: none;
 	border-top: 2px solid #e2e2e2;
-	padding-top: 10px;
+	padding: 10px 0 18px;
 }
 .flat-variants__tabs-navigation > li > a {
 	font-size: 12px;
 	width: 85px;
 	margin-right: 10px;
 	padding: 0;
+	border: none;
+}
+.flat-variants__tabs-navigation > li > a:hover {
+	border: none;
 }
 .flat-variants__tabs-navigation > li:last-child > a {
 	margin-right: 0;
@@ -41,4 +53,85 @@
     right: -2px;
     left: -2px;
     content: "";
+}
+.flat-variants__tabs-navigation > li.active > a > .flat-variants__img {
+	border: 1px solid #0f94bb;
+}
+.flat-variants__tabs-navigation > li.active > a > .flat-variants__img:before {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #0f94bb;
+	color: #fff;
+	font-weight: 700;
+	content: "Цена с ремонтом";
+	text-align: center;
+	line-height: 12px;
+	padding: 9px 0;
+}
+.flat-variants__tabs-navigation > li.active > a > .flat-variants__img:after {
+	position: absolute;
+	bottom: -50px;
+	border: 42px solid transparent;
+	border-top: 7px solid #0f94bb;
+	content: "";
+}
+.flat-variants__img {
+	position: relative;
+	border: 1px solid transparent;
+}
+.flat-variants__tab-content {
+	border: none;
+}
+.flat-variants__price-col {
+	margin-right: 18px;
+}
+.flat-variants__extra-price-col {
+	padding-top: 10px;
+}
+.flat-variants__old-price {
+	font-size: 15px;
+	color: #767676;
+	text-decoration: line-through;
+}
+.flat-variants__basic-price {
+	font-size: 30px;
+	color: #f3292e;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 4px;
+}
+.flat-variants__profit {
+	font-size: 14px;
+}
+.flat-variants__final-price {
+	font-size: 20px;
+	line-height: 22px;
+}
+.flat-variants__general {
+	font-size: 13px;
+	color: #3a3a3a;
+	margin: 19px 0 19px 1px;
+}
+.flat-variants__btn-primary {
+	font-size: 18px;
+	width: 290px;
+	margin-bottom: 13px;
+}
+.flat-variants__btn-bounded {
+	font-size: 18px;
+	width: 344px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+.flat-variants__bottom {
+	font-size: 14px;
+	margin-top: 13px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 78px;
 }
