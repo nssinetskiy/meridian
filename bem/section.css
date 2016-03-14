@@ -9,6 +9,11 @@
 .section__title_lighter {
 	color: #302d2e;
 }
+.section__title_big {
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
 .section__col {
 	float: left;
 	margin: 0 11px 20px 0;

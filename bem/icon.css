@@ -6,6 +6,10 @@
 	display: inline-block;
 	vertical-align: top;
 }
+.icon_point {
+	background-position: -61px 0;
+	height: 25px;
+}
 .icon_printer {
 	background-position: -87px -1px;
 }
