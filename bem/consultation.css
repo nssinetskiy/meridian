@@ -5,34 +5,9 @@
 }
 .consultation__textarea {
 	height: 80px;
-	padding-top: 2px;
 	margin-bottom: 20px;
-	border-color: #ccc;
 }
 .consultation__submit {
 	padding: 0 30px 2px;
     line-height: 40px;
-}
-/* Safari, Chrome, Opera */
-.consultation__textarea::-webkit-input-placeholder {
-	color: #303030;
-}
-/* Safari 18- */
-.consultation__textarea:-moz-placeholder {
-	color: #303030;
-}
-/* Safari 19+ */
-.consultation__textarea::-moz-placeholder {
-	color: #303030;
-}
-/* IE 10+ */
-.consultation__textarea:-ms-input-placeholder {
-	color: #303030;
-}
-/* IE Edge */
-.consultation__textarea::-ms-input-placeholder {
-	color: #303030;
-}
-.consultation__textarea:placeholder-shown {
-	color: #303030;
 }

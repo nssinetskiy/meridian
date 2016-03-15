@@ -1,0 +1,11 @@
+.small-title {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 22px;
+}
+.small-title_blue {
+	color: #0f94bb;
+}
+.small-title_red {
+	color: #f3292e;
+}

@@ -147,4 +147,14 @@ $(document).ready(function() {
 		$('.apt').removeClass("apt_selected");
 		$(this).toggleClass("apt_selected");
 	});
+	/*Custom horizontal scrollbar*/
+	$(".js-scroller").baron($(".js-scroller__wrapper"), {
+		direction: 'h',
+		scrollingCls: '_scrolling',
+        draggingCls: '_dragging',
+		scroller: '.js-scroller',
+		container: '.js-scroller__container',
+		track: '.js-scroller__track',
+		bar: '.js-scroller__bar'
+	});
 });

@@ -299,3 +299,9 @@
 .link_no-border {
 	border: none;
 }
+.link_location {
+	background: url("../img/red-point.png") no-repeat;
+	background-position: left 0 top 0;
+	padding-left: 38px;
+	display: inline-block;
+}

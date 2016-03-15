@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="btn-objects.css">
 	<!-- Compiled and minified bootstrap-select CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
+	<!-- Custom horizontal scrollbar styles -->
+	<link rel="stylesheet" href="scripts/baron/baron.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -7489,6 +7491,27 @@
 			<div class="content-block">
 				<div class="container">
 					<div class="section__title">Динамика строительства</div>
+					<div class="js-scroller__wrapper">
+					<div class="scrolled-gallery js-scroller">
+						<div class="js-scroller__container">
+							<img src="img/img1.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img2.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img3.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img4.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img5.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img6.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img1.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img2.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img3.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img4.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img5.jpg" width="170" height="170" alt="Строительство">
+							<img src="img/img6.jpg" width="170" height="170" alt="Строительство">
+						</div>
+						<div class="scrolled-gallery__track js-scroller__track">
+							<div class="scrolled-gallery__bar js-scroller__bar"></div>
+						</div>
+					</div>
+					</div>
 				</div>
 			</div>
 			<div class="content-block">
@@ -7532,11 +7555,159 @@
 						</div>
 					</div>
 				</div>
+				<div class="content-block grey-section bounded bounded_bottom">
+					<div class="container">
+						<div class="section__title">Понравился объект? Посмотрите своими глазами на строительство и квартиры в продаже!</div>
+						<div class="row seeit">
+							<div class="col-xs-3">
+								<div class="small-title small-title_blue">Экскурсия на стройку</div>
+								<form action="" class="excursion-form">
+									<input class="excursion-form__input" type="text" placeholder="Как к вам обращаться">
+									<input class="excursion-form__input" type="text" placeholder="Телефон">
+									<textarea class="excursion-form__input excursion-form__textarea" name="" id="" placeholder="Текст сообщения"></textarea>
+									<button type="submit" class="btn btn-blue excursion-form__input exscursion-form__btn">Отправить заявку на посещение стройки</button>
+									<div class="excursion-form__note grey-text">После отправки заявки сотрудник &laquo;Меридиан&raquo; свжется с вами в рабочее время в течение 2 часов. Индивидуальные показы: по будням с 9:00 до 18:00, по субботам с 10:00 до 17:00.</div>
+								</form>
+								<a href="" class="link link_no-border link_location">
+									<span class="link_red">Схема проезда на объект<br>в разделе &laquo;Контакты&raquo;</span>
+								</a>
+								<div class="seeit__contacts">
+									Телефон отдела продаж:
+									<div class="seeit__phone">+7&nbsp;(3452)&nbsp;69-23-97</div>		
+								</div>
+							</div>
+							<div class="col-xs-9">
+								<div class="small-title small-title_red">Сегодня были забронированы квартиры:</div>
+								<div class="booked-flats">
+									<div class="popular-slider__item">
+										<div class="popular-slider__item-top">
+											<a class="popular-slider__item-header" href="">
+												<div class="popular-slider__item-title">Студия, 19.05 м<sup>2</sup></div>
+												<div class="popular-slider__item-subtitle">Этаж: 3</div>
+											</a>
+											<a href="" class="popular-slider__item-img">
+												<img src="img/popsliderimg.jpg" alt="Планировка">
+											</a>
+											<div class="popular-slider__item-price">1&nbsp;310&nbsp;000 руб.</div>
+											<div class="popular-slider__item-payment">
+												Ипотека: от 10&nbsp;220 руб./мес<br>
+												<span class="popular-slider__item-hp">Рассрочка: от 25&nbsp;000 руб./мес</span>
+											</div>
+										</div>
+										<div class="popular-slider__item-bottom">
+											<div class="popular-slider__item-deadline">ЖК &laquo;Новый мыс 2.0&raquo;<br>Срок сдачи: IV кв. 2016</div>
+											<a href="" class="btn colored-link colored-link_red colored-link_popular">Оставить заявку</a>
+										</div>
+									</div>
+									<div class="popular-slider__item">
+										<div class="popular-slider__item-top">
+											<a class="popular-slider__item-header" href="">
+												<div class="popular-slider__item-title">Студия, 19.05 м<sup>2</sup></div>
+												<div class="popular-slider__item-subtitle">Этаж: 3</div>
+											</a>
+											<a href="" class="popular-slider__item-img">
+												<img src="img/popsliderimg.jpg" alt="Планировка">
+											</a>
+											<div class="popular-slider__item-price">1&nbsp;310&nbsp;000 руб.</div>
+											<div class="popular-slider__item-payment">
+												Ипотека: от 10&nbsp;220 руб./мес<br>
+												<span class="popular-slider__item-hp">Рассрочка: от 25&nbsp;000 руб./мес</span>
+											</div>
+										</div>
+										<div class="popular-slider__item-bottom">
+											<div class="popular-slider__item-deadline">ЖК &laquo;Новый мыс 2.0&raquo;<br>Срок сдачи: IV кв. 2016</div>
+											<a href="" class="btn colored-link colored-link_red colored-link_popular">Оставить заявку</a>
+										</div>
+									</div>
+									<div class="popular-slider__item">
+										<div class="popular-slider__item-top">
+											<a class="popular-slider__item-header" href="">
+												<div class="popular-slider__item-title">Студия, 19.05 м<sup>2</sup></div>
+												<div class="popular-slider__item-subtitle">Этаж: 3</div>
+											</a>
+											<a href="" class="popular-slider__item-img">
+												<img src="img/popsliderimg.jpg" alt="Планировка">
+											</a>
+											<div class="popular-slider__item-price">1&nbsp;310&nbsp;000 руб.</div>
+											<div class="popular-slider__item-payment">
+												Ипотека: от 10&nbsp;220 руб./мес<br>
+												<span class="popular-slider__item-hp">Рассрочка: от 25&nbsp;000 руб./мес</span>
+											</div>
+										</div>
+										<div class="popular-slider__item-bottom">
+											<div class="popular-slider__item-deadline">ЖК &laquo;Новый мыс 2.0&raquo;<br>Срок сдачи: IV кв. 2016</div>
+											<a href="" class="btn colored-link colored-link_red colored-link_popular">Оставить заявку</a>
+										</div>
+									</div>
+									<div class="popular-slider__item">
+										<div class="popular-slider__item-top">
+											<a class="popular-slider__item-header" href="">
+												<div class="popular-slider__item-title">Студия, 19.05 м<sup>2</sup></div>
+												<div class="popular-slider__item-subtitle">Этаж: 3</div>
+											</a>
+											<a href="" class="popular-slider__item-img">
+												<img src="img/popsliderimg.jpg" alt="Планировка">
+											</a>
+											<div class="popular-slider__item-price">1&nbsp;310&nbsp;000 руб.</div>
+											<div class="popular-slider__item-payment">
+												Ипотека: от 10&nbsp;220 руб./мес<br>
+												<span class="popular-slider__item-hp">Рассрочка: от 25&nbsp;000 руб./мес</span>
+											</div>
+										</div>
+										<div class="popular-slider__item-bottom">
+											<div class="popular-slider__item-deadline">ЖК &laquo;Новый мыс 2.0&raquo;<br>Срок сдачи: IV кв. 2016</div>
+											<a href="" class="btn colored-link colored-link_red colored-link_popular">Оставить заявку</a>
+										</div>
+									</div>
+									<div class="popular-slider__item">
+										<div class="popular-slider__item-top">
+											<a class="popular-slider__item-header" href="">
+												<div class="popular-slider__item-title">Студия, 19.05 м<sup>2</sup></div>
+												<div class="popular-slider__item-subtitle">Этаж: 3</div>
+											</a>
+											<a href="" class="popular-slider__item-img">
+												<img src="img/popsliderimg.jpg" alt="Планировка">
+											</a>
+											<div class="popular-slider__item-price">1&nbsp;310&nbsp;000 руб.</div>
+											<div class="popular-slider__item-payment">
+												Ипотека: от 10&nbsp;220 руб./мес<br>
+												<span class="popular-slider__item-hp">Рассрочка: от 25&nbsp;000 руб./мес</span>
+											</div>
+										</div>
+										<div class="popular-slider__item-bottom">
+											<div class="popular-slider__item-deadline">ЖК &laquo;Новый мыс 2.0&raquo;<br>Срок сдачи: IV кв. 2016</div>
+											<a href="" class="btn colored-link colored-link_red colored-link_popular">Оставить заявку</a>
+										</div>
+									</div>
+									<div class="popular-slider__item">
+										<div class="popular-slider__item-top">
+											<a class="popular-slider__item-header" href="">
+												<div class="popular-slider__item-title">Студия, 19.05 м<sup>2</sup></div>
+												<div class="popular-slider__item-subtitle">Этаж: 3</div>
+											</a>
+											<a href="" class="popular-slider__item-img">
+												<img src="img/popsliderimg.jpg" alt="Планировка">
+											</a>
+											<div class="popular-slider__item-price">1&nbsp;310&nbsp;000 руб.</div>
+											<div class="popular-slider__item-payment">
+												Ипотека: от 10&nbsp;220 руб./мес<br>
+												<span class="popular-slider__item-hp">Рассрочка: от 25&nbsp;000 руб./мес</span>
+											</div>
+										</div>
+										<div class="popular-slider__item-bottom">
+											<div class="popular-slider__item-deadline">ЖК &laquo;Новый мыс 2.0&raquo;<br>Срок сдачи: IV кв. 2016</div>
+											<a href="" class="btn colored-link colored-link_red colored-link_popular">Оставить заявку</a>
+										</div>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+			<div class="popup-menu js-popup-menu"></div>
 		</div>
-		<div class="popup-menu js-popup-menu"></div>
-	</div>
-	<footer class="footer">
+		<footer class="footer">
 			<div class="container">
 				<div class="footer__top">
 					<div class="col-xs-3">
@@ -7593,6 +7764,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
 	<script src="scripts/superfish-1.7.5/src/js/superfish.js"></script>
 	<script src="scripts/hoverintent-1.8.0.js"></script>
+	<script src="scripts/baron/baron.min.js"></script>
 	<script src="scripts/custom.js"></script>
 </body>
 </html>

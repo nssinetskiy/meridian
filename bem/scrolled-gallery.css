@@ -1,0 +1,16 @@
+.scrolled-gallery {
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+.scrolled-gallery > img {
+	margin-right: 27px;
+}
+.scrolled-gallery__track {
+	height: 8px;
+	background: #e7e7e7;
+}
+.scrolled-gallery__bar {
+	width: 93px !important;
+	height: 18px;
+	background: #f3292e;
+}
