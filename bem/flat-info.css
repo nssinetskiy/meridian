@@ -23,3 +23,19 @@
 	color: #767676;
 	margin-bottom: 14px;
 }
+.flat-info__plan {
+	cursor: pointer;
+}
+.flat-info__popup {
+	width: 1200px;
+	height: 1050px;
+	background: #fff;
+	margin: 0 auto;
+}
+.flat-info__popup:before {
+	content: "";
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 25px;
+}

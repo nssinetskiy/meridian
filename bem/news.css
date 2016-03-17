@@ -1,6 +1,7 @@
 .news {
 	padding: 70px 0 0 21px;
 	width: 125%;
+	font-size: 16px;
 }
 .news__item {
 	display: block;

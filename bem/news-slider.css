@@ -1,0 +1,19 @@
+.news-slider {
+	position: relative;
+	font-size: 16px;
+}
+.news-slider__navigation {
+	display: inline-block;
+	position: absolute;
+	top: -45px;
+	left: 123px;
+}
+.news-slider__navigation > a {
+	color: #8b8b8b;
+}
+.news-slider__navigation > a:focus,
+.news-slider__navigation > a:hover,
+.news-slider__navigation > a:active {
+	color: #8b8b8b;
+	text-decoration: none;
+}

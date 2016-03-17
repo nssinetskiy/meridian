@@ -207,6 +207,9 @@
 	height: 165px;
 	color: #f3292e;
 }
+.link_video-small:hover {
+	color: #f3292e;
+}
 .link_video-small > .play-button {
 	background: #fff;
 }

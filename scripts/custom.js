@@ -143,6 +143,13 @@ $(document).ready(function() {
 		e.preventDefault();
 		e.stopPropagation();
 	});
+	/* Flat info popup */
+	$(".js-flat-info__plan").on("click", function() {
+		$(".js-popup-overlay").show();
+	});
+	$(".js-popup-overlay").on("click", function() {
+		$(this).hide();
+	});
 	/* Chessboard flats selection */
 	$('.apt_available, .apt_promo').on('click', function() {
 		$('.apt').removeClass("apt_selected");

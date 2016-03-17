@@ -34,6 +34,7 @@
 @import url('bem/consultation.css');
 @import url('bem/advantages.css');
 @import url('bem/news.css');
+@import url('bem/news-slider.css');
 @import url('bem/contents.css');
 @import url('bem/contact-map.css');
 @import url('bem/footer.css');
@@ -113,4 +114,6 @@
 @import url('bem/excursion-form.css');
 @import url('bem/textarea.css');
 @import url('bem/booked-flats.css');
+@import url('bem/affix.css');
+@import url('bem/popup-overlay.css');
 @import url('bem/font-face.css');
