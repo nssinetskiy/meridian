@@ -6,6 +6,15 @@
 	display: inline-block;
 	vertical-align: top;
 }
+.icon_download {
+	background-position: -2px -54px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.icon_download-grey {
+	background-position: -30px -54px;
+	margin-right: 6px;
+}
 .icon_point {
 	background-position: -61px 0;
 	height: 25px;
@@ -14,7 +23,6 @@
 	background-position: -92px -45px;
     width: 27px;
     height: 35px;
-
 }
 .icon_printer {
 	background-position: -87px -1px;
