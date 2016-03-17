@@ -143,11 +143,19 @@ $(document).ready(function() {
 		e.preventDefault();
 		e.stopPropagation();
 	});
+	/* Chessboard flats selection */
 	$('.apt_available, .apt_promo').on('click', function() {
 		$('.apt').removeClass("apt_selected");
 		$(this).toggleClass("apt_selected");
 	});
-	/*Custom horizontal scrollbar*/
+	/* Affix block */
+	$(".js-flat-details").affix({
+		offset: {
+			top: $(".js-flat-details").offset().top,
+			bottom: $("footer").outerHeight(true) + 6205
+		}
+	});
+	/* Custom horizontal scrollbar */
 	$(".js-scroller").baron($(".js-scroller__wrapper"), {
 		direction: 'h',
 		scrollingCls: '_scrolling',

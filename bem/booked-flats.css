@@ -1,5 +1,5 @@
 .booked-flats {
-	margin-right: -35px;
+	margin-right: -15px;
 	max-height: 700px;
 	overflow: auto;
 	/* Scrollbar customizations for IE */
@@ -24,3 +24,26 @@
 	background-color: #f2292f;
 }
 /* End of scrollbar styles for Webkit */
+
+
+.affix {
+  top: 20px;
+  width: 213px;
+}
+
+@media (min-width: 1200px) {
+  .affix {
+    width: 263px;
+  }         
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 213px;
+}
+
+@media (min-width: 1200px) {
+  .affix-bottom {
+    width: 263px;
+  }
+}
