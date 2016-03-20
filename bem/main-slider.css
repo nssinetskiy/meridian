@@ -37,6 +37,7 @@
 	font-size: 36px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	padding-bottom: 16px;
+	font-weight: 700;
 }
 .main-slider__item-object-headline_highlighted {
 	font-size: 46px;

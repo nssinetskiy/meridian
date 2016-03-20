@@ -4,6 +4,7 @@
 .section__title {
 	font-weight: 700;
 	font-size: 26px;
+	margin-top: 0;
 	margin-bottom: 20px;
 }
 .section__title_lighter {
