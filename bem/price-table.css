@@ -121,6 +121,9 @@
 }
 .price-table__popover_wide .brick {
 	margin: 14px 0 0;
+    min-width: 0;
+    padding: 5px;
+    line-height: inherit;
 }
 .price-table__popover-left,
 .price-table__popover-right {

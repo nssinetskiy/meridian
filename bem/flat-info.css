@@ -27,15 +27,33 @@
 	cursor: pointer;
 }
 .flat-info__popup {
-	width: 1200px;
-	height: 1050px;
+	position: absolute;
+	width: 1170px;
 	background: #fff;
-	margin: 0 auto;
+	left: calc(50% - 585px);
+	z-index: 999;
+	padding: 48px 0 0;
+	display: none;
 }
-.flat-info__popup:before {
-	content: "";
-	position: fixed;
-	width: 100%;
-	top: 0;
-	height: 25px;
+.flat-info__popup-title {
+	font-size: 24px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.flat-info__popup-top {
+	text-align: center;
+    padding-top: 9px;
+    padding-left: 13px;
+    font-size: 13px;
+}
+.flat-info__popup-bottom {
+	padding: 30px 150px 35px 100px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.flat-info__popup-article {
+	font-size: 14px;
+	margin: -10px 0 5px;
+	line-height: 18px;
+	font-weight: normal;
 }

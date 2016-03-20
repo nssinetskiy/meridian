@@ -11,14 +11,6 @@
 	width: 66px;
 	height: 66px;
 	background: url("../img/ui-elements.png") no-repeat;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: center;
 }
 .object-slider__control_left {
 	left: 20px;

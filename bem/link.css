@@ -3,6 +3,11 @@
 	border-bottom: 1px solid #dfdfdf;
 	color: #1a1a1a;
 }
+.link:focus {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
 .link:hover {
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
@@ -119,15 +124,12 @@
 .link_dotted:after,
 .link_nav:hover > .link_dotted,
 .link_nav:active > .link_dotted {
-	border: none;
+	border-color: transparent;
 }
 .link_dotted:active,
 .link_nav:active > .glyphicon_advanced-search,
 .link_nav:active > .link_dotted {
 	color: #0f95bb;
-}
-.link_nav:focus {
-	text-decoration: none;
 }
 .link_nav:hover,
 .link_nav:hover > .glyphicon_advanced-search {

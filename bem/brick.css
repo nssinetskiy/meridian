@@ -1,10 +1,13 @@
 .brick {
 	display: inline-block;
-	color: #1a1a1a;
-	border: 1px solid #e2e2e2;
-	position: relative;
-	padding: 5px;
-	margin-bottom: 3px;
+    color: #1a1a1a;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    padding: 0 22px 0 15px;
+    margin-bottom: 3px;
+    margin-right: 8px;
+    min-width: 215px;
+    line-height: 23px;
 }
 .brick:before {
 	position: absolute;

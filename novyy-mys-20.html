@@ -614,18 +614,40 @@
 		<div class="content-block">
 			<div class="container">
 				<div class="section__title">Выберите квартиру на схеме дома</div>
-
-				<!--<form class="js-select my-select">
-  <label for="select1" class="js-label my-select__label">Select</label>
-  <input class="js-value" type="hidden">
-  <input type="checkbox" class="js-input my-select__checkbox" id="select1">
-  <ul class="js-list my-select__list">
-    <li class="js-option" data-id="3" data-value='test-3,label'>test3</li>
-    <li class="js-option" data-id="2" data-value='test-2,label'>test2</li>
-    <li class="js-option" data-id="1" data-value='test-1,label'>test1</li>
-  </ul>
-</form>-->
-
+				<form class="flat-location-select js-flat-location-select">
+  					<label for="select1" class="flat-location-select__label js-flat-location-select__label">Выберите из списка</label>
+  					<span class="flat-location-select__icon js-flat-location-select__icon">
+  						<span class="glyphicon glyphicon-menu-down"></span>
+  					</span>
+  					<input class="js-flat-location-select-value" type="hidden">
+  					<!-- <input type="checkbox" class="js-input my-select__checkbox" id="select1"> -->
+  					<ul class="flat-location-select__list js-flat-location-select__list">
+    					<li>
+    						<div class="flat-location-select__item">
+    							<div class="flat-location-select__item-title">ГП-1</div>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="3" data-value='ГП-1, подъезд 1'>Подъезд 1</a>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="2" data-value='ГП-1, подъезд 2'>Подъезд 2</a>
+    						</div>
+    						<div class="flat-location-select__item">
+    							<div class="flat-location-select__item-title">ГП-2</div>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="1" data-value='ГП-2, подъезд 1'>Подъезд 1</a>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="1" data-value='ГП-2, подъезд 2'>Подъезд 2</a>
+    						</div>
+    					</li>
+    					<li>
+    						<div class="flat-location-select__item">
+    							<div class="flat-location-select__item-title">ГП-3</div>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="1" data-value='ГП-3, подъезд 1'>Подъезд 1</a>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="1" data-value='ГП-3, подъезд 2'>Подъезд 2</a>
+    						</div>
+    						<div class="flat-location-select__item">
+    							<div class="flat-location-select__item-title">ГП-4</div>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="1" data-value='ГП-4, подъезд 1'>Подъезд 1</a>
+    							<a href="" class="link link_dotted link_dotted-blue js-flat-location-select-option" data-id="1" data-value='ГП-4, подъезд 2'>Подъезд 2</a>
+    						</div>
+    					</li>
+  					</ul>
+				</form>
 				<div class="flat-types">
 					<div class="flat-types__menu">
 						<span class="flat-types__menu-label">Показать:</span>
@@ -945,6 +967,12 @@
 									<span class="apt apt_available" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-trigger="hover" data-content='<div class="apt-popover"><img src="img/floor-plan-popover.jpg" width="125" height="64"><div class="apt-popover__title">1-комн. квартира</div><div class="apt-popover__price"><div class="apt-popover__highlighted">3&nbsp;250&nbsp;000 руб.</div>от 11&nbsp;200 руб./мес.</div><div class="apt-popover__bottom"><span class="apt-popover__grey-text">Площадь:</span> 64.7 м<sup>2</sup><br><span class="apt-popover__grey-text">Лоджия:</span> 4.7 м<sup>2</sup></div></div>'>К.</span>
 								</div>
 							</div>
+							<div class="chessboard__legend">
+								<span class="chessboard__status chessboard__status_available">В продаже</span>
+								<span class="chessboard__status chessboard__status_promo">Акция</span>
+								<span class="chessboard__status chessboard__status_booked">Бронь</span>
+								<span class="chessboard__status chessboard__status_sold">Продано</span>
+							</div>
 						</div>
 						<div class="col-xs-3">
 							<div class="flat-info">
@@ -973,107 +1001,105 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-4">
-							<div class="flat-details js-flat-details" data-spy="affix">
-								<div class="flat-variants">
-									<div class="flat-variants__top">
-										<div class="flat-variants__title">Выберите цену квартиры 19.05 м<sup>2</sup></div>&nbsp;
-										<a href="" class="link_red inline-block">В чём отличие?</a>
-									</div>
-									<ul class="nav nav-tabs flat-variants__tabs-navigation" role="tablist">
-										<li role="presentation" class="active">
-											<a class="flat-variants__tab-link" href="#initial" aria-controls="initial" role="tab" data-toggle="tab">
-												<strong>0</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Под чистовую</div>
-												<div class="flat-variants__img">
-													<img src="img/initial.jpg" width="83" height="83" alt="Под чистовую">
-												</div>
-											</a>
-										</li>
-										<li role="presentation">
-											<a class="flat-variants__tab-link" href="#base" aria-controls="base" role="tab" data-toggle="tab">
-												<strong>+5000</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Базовый</div>
-												<div class="flat-variants__img">
-													<img src="img/base.jpg" width="83" height="83" alt="Базовый">
-												</div>
-											</a>
-										</li>
-										<li role="presentation">
-											<a class="flat-variants__tab-link" href="#base-plus" aria-controls="base-plus" role="tab" data-toggle="tab">
-												<strong>+6200</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Базовый +</div>
-												<div class="flat-variants__img">
-													<img src="img/base-plus.jpg" width="83" height="83" alt="Базовый +">
-												</div>
-											</a>
-										</li>
-										<li role="presentation">
-											<a class="flat-variants__tab-link" href="#comfort" aria-controls="comfort" role="tab" data-toggle="tab">
-												<strong>+6700</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Комфорт</div>
-												<div class="flat-variants__img">
-													<img src="img/comfort.jpg" width="83" height="83" alt="Комфорт">
-												</div>
-											</a>
-										</li>
-									</ul>
-									<div class="tab-content flat-variants__tab-content">
-										<div role="tabpanel" class="tab-pane active" id="initial">
-											<div>
-												<div class="inline-block">
-													<div class="flat-variants__price-col">
-														<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
-														<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
-														<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
-													</div>
-												</div>
-												<div class="inline-block">
-													<div class="flat-variants__extra-price-col">
-														<div class="grey-text">+0 руб. ремонт</div>
-														<div class="flat-variants__final-price">1&nbsp;300&nbsp;000 руб.</div>
-													</div>
+						<div class="col-xs-4">							
+							<div class="flat-variants js-flat-variants">
+								<div class="flat-variants__top">
+									<div class="flat-variants__title">Выберите цену квартиры 19.05 м<sup>2</sup></div>&nbsp;
+									<a href="" class="link_red inline-block">В чём отличие?</a>
+								</div>
+								<ul class="nav nav-tabs flat-variants__tabs-navigation" role="tablist">
+									<li role="presentation" class="active">
+										<a class="flat-variants__tab-link" href="#initial" aria-controls="initial" role="tab" data-toggle="tab">
+											<strong>0</strong> руб./м<sup>2</sup>
+											<div class="flat-variants__subtitle">Под чистовую</div>
+											<div class="flat-variants__img">
+												<img src="img/initial.jpg" width="83" height="83" alt="Под чистовую">
+											</div>
+										</a>
+									</li>
+									<li role="presentation">
+										<a class="flat-variants__tab-link" href="#base" aria-controls="base" role="tab" data-toggle="tab">
+											<strong>+5000</strong> руб./м<sup>2</sup>
+											<div class="flat-variants__subtitle">Базовый</div>
+											<div class="flat-variants__img">
+												<img src="img/base.jpg" width="83" height="83" alt="Базовый">
+											</div>
+										</a>
+									</li>
+									<li role="presentation">
+										<a class="flat-variants__tab-link" href="#base-plus" aria-controls="base-plus" role="tab" data-toggle="tab">
+											<strong>+6200</strong> руб./м<sup>2</sup>
+											<div class="flat-variants__subtitle">Базовый +</div>
+											<div class="flat-variants__img">
+												<img src="img/base-plus.jpg" width="83" height="83" alt="Базовый +">
+											</div>
+										</a>
+									</li>
+									<li role="presentation">
+										<a class="flat-variants__tab-link" href="#comfort" aria-controls="comfort" role="tab" data-toggle="tab">
+											<strong>+6700</strong> руб./м<sup>2</sup>
+											<div class="flat-variants__subtitle">Комфорт</div>
+											<div class="flat-variants__img">
+												<img src="img/comfort.jpg" width="83" height="83" alt="Комфорт">
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content flat-variants__tab-content">
+									<div role="tabpanel" class="tab-pane active" id="initial">
+										<div>
+											<div class="inline-block">
+												<div class="flat-variants__price-col">
+													<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
+													<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
+													<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
 												</div>
 											</div>
-											<div class="mortgage">
-												<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
-												<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
-												<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
+											<div class="inline-block">
+												<div class="flat-variants__extra-price-col">
+													<div class="grey-text">+0 руб. ремонт</div>
+													<div class="flat-variants__final-price">1&nbsp;300&nbsp;000 руб.</div>
+												</div>
 											</div>
 										</div>
-										<div role="tabpanel" class="tab-pane" id="base">
-											<div>
-												<div class="inline-block">
-													<div class="flat-variants__price-col">
-														<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
-														<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
-														<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
-													</div>
-												</div>
-												<div class="inline-block">
-													<div class="flat-variants__extra-price-col">
-														<div class="grey-text">+95&nbsp;250 руб. ремонт</div>
-														<div class="flat-variants__final-price">1&nbsp;395&nbsp;250 руб.</div>
-													</div>
+										<div class="mortgage">
+											<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
+											<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
+											<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="base">
+										<div>
+											<div class="inline-block">
+												<div class="flat-variants__price-col">
+													<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
+													<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
+													<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
 												</div>
 											</div>
-											<div class="mortgage">
-												<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
-												<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
-												<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
+											<div class="inline-block">
+												<div class="flat-variants__extra-price-col">
+													<div class="grey-text">+95&nbsp;250 руб. ремонт</div>
+													<div class="flat-variants__final-price">1&nbsp;395&nbsp;250 руб.</div>
+												</div>
 											</div>
 										</div>
-										<div role="tabpanel" class="tab-pane" id="base-plus">3</div>
-										<div role="tabpanel" class="tab-pane" id="comfort">4</div>
+										<div class="mortgage">
+											<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
+											<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
+											<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
+										</div>
 									</div>
-									<div class="flat-variants__general">ЖК &laquo;Новый мыс 2.0&raquo;, ГП-3, 16 этаж. Срок сдачи: II кв. 2016 г.</div>
-									<button type="button" class="btn btn-primary flat-variants__btn-primary">Записаться на просмотр</button>
-									<button type="button" class="btn btn-bounded btn-bounded_blue flat-variants__btn-bounded">Оставить заявку по этой квартире</button>
-									<div class="grey-text">По вашей заявке возможно бесплатное бронирование квартиры сроком на 2 дня. Для подтверждения брони мы перезвоним вам в течение 2 часов.</div>
-									<div class="flat-variants__bottom">
-										<a href="" class="link link_no-border"><span class="icon icon_printer"></span> <span class="link link_black">Распечатать</span></a>
-										<a href="" class="link link_no-border"><span class="icon icon_email"></span> <span class="link link_black">Отправить на почту</span></a>
-									</div>
+									<div role="tabpanel" class="tab-pane" id="base-plus">3</div>
+									<div role="tabpanel" class="tab-pane" id="comfort">4</div>
+								</div>
+								<div class="flat-variants__general">ЖК &laquo;Новый мыс 2.0&raquo;, ГП-3, 16 этаж. Срок сдачи: II кв. 2016 г.</div>
+								<button type="button" class="btn btn-primary flat-variants__btn-primary">Записаться на просмотр</button>
+								<button type="button" class="btn btn-bounded btn-bounded_blue flat-variants__btn-bounded">Оставить заявку по этой квартире</button>
+								<div class="grey-text">По вашей заявке возможно бесплатное бронирование квартиры сроком на 2 дня. Для подтверждения брони мы перезвоним вам в течение 2 часов.</div>
+								<div class="flat-variants__bottom">
+									<a href="" class="link link_no-border"><span class="icon icon_printer"></span> <span class="link link_black">Распечатать</span></a>
+									<a href="" class="link link_no-border"><span class="icon icon_email"></span> <span class="link link_black">Отправить на почту</span></a>
 								</div>
 							</div>
 						</div>
@@ -7492,27 +7518,32 @@
 			<div class="content-block">
 				<div class="container">
 					<div class="section__title">Динамика строительства</div>
-					<div class="js-scroller__wrapper">
-					<div class="scrolled-gallery js-scroller">
-						<div class="js-scroller__container">
-							<img src="img/img1.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img2.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img3.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img4.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img5.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img6.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img1.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img2.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img3.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img4.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img5.jpg" width="170" height="170" alt="Строительство">
-							<img src="img/img6.jpg" width="170" height="170" alt="Строительство">
-						</div>
-						<div class="scrolled-gallery__track js-scroller__track">
-							<div class="scrolled-gallery__bar js-scroller__bar"></div>
+					<div class="scrolled-gallery__milestones">
+						<div class="row">
+							<div class="col-xs-5">2014</div>
+							<div class="col-xs-5">2015</div>
+							<div class="col-xs-2">2016</div>
 						</div>
 					</div>
-					</div>
+					<div class="scrolled-gallery js-scrolled-gallery">
+       					 <div class="scrolled-gallery__container js-scrolled-gallery__container">
+            				<img src="img/img1.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img2.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img3.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img4.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img5.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img6.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img1.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img2.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img3.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img4.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img5.jpg" width="170" height="170" alt="Строительство">
+                            <img src="img/img6.jpg" width="170" height="170" alt="Строительство">
+        				</div>
+        				<div class="scrolled-gallery__track">
+        					<div class="scrolled-gallery__bar js-scrolled-gallery__bar">II квартал</div>
+        				</div>
+   					 </div>
 				</div>
 			</div>
 			<div class="content-block">
@@ -7888,115 +7919,154 @@
 			</div>
 		</div>
 		<div class="popup-menu js-popup-menu"></div>
-		<div class="popup-overlay js-popup-overlay">
-			<div class="flat-info__popup">
-				<div class="row">
-					<div class="col-xs-7"></div>
-					<div class="col-xs-4">
-							<div class="flat-details js-flat-details">
-								<div class="flat-variants">
-									<div class="flat-variants__top">
-										<div class="flat-variants__title">Выберите цену квартиры 19.05 м<sup>2</sup></div>&nbsp;
-										<a href="" class="link_red inline-block">В чём отличие?</a>
+		<div class="popup-overlay js-popup-overlay"></div>
+		<div class="flat-info__popup js-flat-info-popup">
+			<div class="row">
+				<div class="col-xs-7">
+					<div class="flat-info__popup-top">
+						<div class="brick brick_red">Готовая квартира, дом сдан</div>
+						<div class="brick">Квартира участвует в акции</div>
+					</div>
+					<div id="flat-view" class="carousel slide flat-view-slider" data-ride="carousel">
+  						<!-- Wrapper for slides -->
+  						<div class="carousel-inner" role="listbox">
+    						<div class="item active">
+      							<img src="img/flat-plan-big-popup.png" width="288" height="578" alt="Планировка">
+    						</div>
+    						<div class="item">
+      							<img src="img/flat-plan-big-popup.png" width="288" height="578" alt="Планировка">
+    						</div>
+    						<div class="item">
+      							<img src="img/flat-plan-big-popup.png" width="288" height="578" alt="Планировка">
+    						</div>
+    						<div class="item">
+      							<img src="img/flat-plan-big-popup.png" width="288" height="578" alt="Планировка">
+    						</div>
+  						</div>
+  						<!-- Controls -->
+  						<a class="object-slider__control object-slider__control_left" href="#flat-view" role="button" data-slide="prev">
+    						<span class="sr-only">Предыдущий слайд</span>
+  						</a>
+  						<a class="object-slider__control object-slider__control_right" href="#flat-view" role="button" data-slide="next">
+    						<span class="sr-only">Следующий слайд</span>
+  						</a>
+  						<!-- Indicators -->
+  						<ol class="carousel-indicators flat-view-slider__carousel-indicators">
+    						<li data-target="#flat-view" data-slide-to="0" class="active">Планировка</li>
+    						<li data-target="#flat-view" data-slide-to="1">Квартира в 3D</li>
+    						<li data-target="#flat-view" data-slide-to="2">На плане этажа</li>
+    						<li data-target="#flat-view" data-slide-to="3">Внешний вид дома</li>
+  						</ol>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="flat-info__popup-title">1 комнатная квартира, 19.05 м<sup>2</sup></div>
+					<div class="flat-variants">
+						<div class="flat-variants__top">
+							<div class="flat-variants__title">Выберите цену квартиры 19.05 м<sup>2</sup></div>&nbsp;
+							<a href="" class="link_red inline-block">В чём отличие?</a>
+						</div>
+						<ul class="nav nav-tabs flat-variants__tabs-navigation" role="tablist">
+							<li role="presentation" class="active">
+							<a class="flat-variants__tab-link" href="#initial" aria-controls="initial" role="tab" data-toggle="tab">
+									<strong>0</strong> руб./м<sup>2</sup>
+									<div class="flat-variants__subtitle">Под чистовую</div>
+									<div class="flat-variants__img">
+										<img src="img/initial.jpg" width="83" height="83" alt="Под чистовую">
 									</div>
-									<ul class="nav nav-tabs flat-variants__tabs-navigation" role="tablist">
-										<li role="presentation" class="active">
-											<a class="flat-variants__tab-link" href="#initial" aria-controls="initial" role="tab" data-toggle="tab">
-												<strong>0</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Под чистовую</div>
-												<div class="flat-variants__img">
-													<img src="img/initial.jpg" width="83" height="83" alt="Под чистовую">
-												</div>
-											</a>
-										</li>
-										<li role="presentation">
-											<a class="flat-variants__tab-link" href="#base" aria-controls="base" role="tab" data-toggle="tab">
-												<strong>+5000</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Базовый</div>
-												<div class="flat-variants__img">
-													<img src="img/base.jpg" width="83" height="83" alt="Базовый">
-												</div>
-											</a>
-										</li>
-										<li role="presentation">
-											<a class="flat-variants__tab-link" href="#base-plus" aria-controls="base-plus" role="tab" data-toggle="tab">
-												<strong>+6200</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Базовый +</div>
-												<div class="flat-variants__img">
-													<img src="img/base-plus.jpg" width="83" height="83" alt="Базовый +">
-												</div>
-											</a>
-										</li>
-										<li role="presentation">
-											<a class="flat-variants__tab-link" href="#comfort" aria-controls="comfort" role="tab" data-toggle="tab">
-												<strong>+6700</strong> руб./м<sup>2</sup>
-												<div class="flat-variants__subtitle">Комфорт</div>
-												<div class="flat-variants__img">
-													<img src="img/comfort.jpg" width="83" height="83" alt="Комфорт">
-												</div>
-											</a>
-										</li>
-									</ul>
-									<div class="tab-content flat-variants__tab-content">
-										<div role="tabpanel" class="tab-pane active" id="initial">
-											<div>
-												<div class="inline-block">
-													<div class="flat-variants__price-col">
-														<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
-														<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
-														<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
-													</div>
-												</div>
-												<div class="inline-block">
-													<div class="flat-variants__extra-price-col">
-														<div class="grey-text">+0 руб. ремонт</div>
-														<div class="flat-variants__final-price">1&nbsp;300&nbsp;000 руб.</div>
-													</div>
-												</div>
-											</div>
-											<div class="mortgage">
-												<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
-												<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
-												<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
-											</div>
-										</div>
-										<div role="tabpanel" class="tab-pane" id="base">
-											<div>
-												<div class="inline-block">
-													<div class="flat-variants__price-col">
-														<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
-														<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
-														<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
-													</div>
-												</div>
-												<div class="inline-block">
-													<div class="flat-variants__extra-price-col">
-														<div class="grey-text">+95&nbsp;250 руб. ремонт</div>
-														<div class="flat-variants__final-price">1&nbsp;395&nbsp;250 руб.</div>
-													</div>
-												</div>
-											</div>
-											<div class="mortgage">
-												<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
-												<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
-												<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
-											</div>
-										</div>
-										<div role="tabpanel" class="tab-pane" id="base-plus">3</div>
-										<div role="tabpanel" class="tab-pane" id="comfort">4</div>
+								</a>
+							</li>
+							<li role="presentation">
+								<a class="flat-variants__tab-link" href="#base" aria-controls="base" role="tab" data-toggle="tab">
+									<strong>+5000</strong> руб./м<sup>2</sup>
+									<div class="flat-variants__subtitle">Базовый</div>
+									<div class="flat-variants__img">
+										<img src="img/base.jpg" width="83" height="83" alt="Базовый">
 									</div>
-									<div class="flat-variants__general">ЖК &laquo;Новый мыс 2.0&raquo;, ГП-3, 16 этаж. Срок сдачи: II кв. 2016 г.</div>
-									<button type="button" class="btn btn-primary flat-variants__btn-primary">Записаться на просмотр</button>
-									<button type="button" class="btn btn-bounded btn-bounded_blue flat-variants__btn-bounded">Оставить заявку по этой квартире</button>
-									<div class="grey-text">По вашей заявке возможно бесплатное бронирование квартиры сроком на 2 дня. Для подтверждения брони мы перезвоним вам в течение 2 часов.</div>
-									<div class="flat-variants__bottom">
-										<a href="" class="link link_no-border"><span class="icon icon_printer"></span> <span class="link link_black">Распечатать</span></a>
-										<a href="" class="link link_no-border"><span class="icon icon_email"></span> <span class="link link_black">Отправить на почту</span></a>
+								</a>
+							</li>
+							<li role="presentation">
+								<a class="flat-variants__tab-link" href="#base-plus" aria-controls="base-plus" role="tab" data-toggle="tab">
+									<strong>+6200</strong> руб./м<sup>2</sup>
+									<div class="flat-variants__subtitle">Базовый +</div>
+									<div class="flat-variants__img">
+										<img src="img/base-plus.jpg" width="83" height="83" alt="Базовый +">
+									</div>
+								</a>
+							</li>
+							<li role="presentation">
+								<a class="flat-variants__tab-link" href="#comfort" aria-controls="comfort" role="tab" data-toggle="tab">
+									<strong>+6700</strong> руб./м<sup>2</sup>
+									<div class="flat-variants__subtitle">Комфорт</div>
+									<div class="flat-variants__img">
+										<img src="img/comfort.jpg" width="83" height="83" alt="Комфорт">
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content flat-variants__tab-content">
+							<div role="tabpanel" class="tab-pane active" id="initial">
+								<div>
+									<div class="inline-block">
+										<div class="flat-variants__price-col">
+											<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
+											<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
+											<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
+										</div>
+									</div>
+									<div class="inline-block">
+										<div class="flat-variants__extra-price-col">
+											<div class="grey-text">+0 руб. ремонт</div>
+											<div class="flat-variants__final-price">1&nbsp;300&nbsp;000 руб.</div>
+										</div>
 									</div>
 								</div>
+								<div class="mortgage">
+									<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
+									<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
+									<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
+								</div>
 							</div>
+							<div role="tabpanel" class="tab-pane" id="base">
+								<div>
+									<div class="inline-block">
+										<div class="flat-variants__price-col">
+											<div class="flat-variants__old-price">1&nbsp;400&nbsp;000 руб.</div>
+											<div class="flat-variants__basic-price">1&nbsp;300&nbsp;000 руб.</div>
+											<div class="flat-variants__profit">Выгода: <span class="red-text">100&nbsp;000 руб.</span></div>
+										</div>
+									</div>
+									<div class="inline-block">
+										<div class="flat-variants__extra-price-col">
+											<div class="grey-text">+95&nbsp;250 руб. ремонт</div>
+											<div class="flat-variants__final-price">1&nbsp;395&nbsp;250 руб.</div>
+										</div>
+									</div>
+								</div>
+								<div class="mortgage">
+									<div class="mortgage__title">В ипотеку от <strong>9&nbsp;904</strong> руб./мес.</div>
+									<div class="mortgage__subtitle">под 11.5% на 30 лет</div>
+									<div class="grey-text">Средняя цена аренды подобной квартиры в этом районе 15&nbsp;200 руб./мес.</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="base-plus">3</div>
+							<div role="tabpanel" class="tab-pane" id="comfort">4</div>
 						</div>
+						<div class="flat-variants__general">ЖК &laquo;Новый мыс 2.0&raquo;, ГП-3, 16 этаж. Срок сдачи: II кв. 2016 г.</div>
+						<button type="button" class="btn btn-primary flat-variants__btn-primary">Записаться на просмотр</button>
+						<button type="button" class="btn btn-bounded btn-bounded_blue flat-variants__btn-bounded">Оставить заявку по этой квартире</button>
+						<div class="grey-text">По вашей заявке возможно бесплатное бронирование квартиры сроком на 2 дня. Для подтверждения брони мы перезвоним вам в течение 2 часов.</div>
+						<div class="flat-variants__bottom">
+							<a href="" class="link link_no-border"><span class="icon icon_printer"></span> <span class="link link_black">Распечатать</span></a>
+							<a href="" class="link link_no-border"><span class="icon icon_email"></span> <span class="link link_black">Отправить на почту</span></a>
+						</div>
+					</div>
 				</div>
+			</div>
+			<div class="flat-info__popup-bottom contents bounded bounded_top">
+				<div class="flat-info__popup-title">Квартира с чистовой по цене черновой</div>
+				<article class="flat-info__popup-article">Вы получаете ключи от квартиры с чистовой отделкой &laquo;стандарт&raquo;. В квартире: на полу &mdash; линолеум, установлены плнитуса с кабель-каналом, стены оклеены обоями &laquo;под покраску&raquo; приятных пастельных тонов, установлен натядной потолок (белый, матовый).</article>
+				<a href="" class="link link_red link_16">Подробнее</a>
 			</div>
 		</div>
 	</div>

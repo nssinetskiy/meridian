@@ -76,6 +76,7 @@
 @import url('bem/nowrap.css');
 @import url('bem/object-legend.css');
 @import url('bem/object-feature-icon.css');
+@import url('bem/flat-location-select.css');
 @import url('bem/available-bldg.css');
 @import url('bem/object-popover.css');
 @import url('bem/flat-types.css');
@@ -85,7 +86,6 @@
 @import url('bem/apt-popover.css');
 @import url('bem/flat-info.css');
 @import url('bem/search-icon.css');
-@import url('bem/flat-details.css');
 @import url('bem/flat-variants.css');
 @import url('bem/red-text.css');
 @import url('bem/mortgage.css');
@@ -116,4 +116,5 @@
 @import url('bem/booked-flats.css');
 @import url('bem/affix.css');
 @import url('bem/popup-overlay.css');
+@import url('bem/flat-view-slider.css');
 @import url('bem/font-face.css');

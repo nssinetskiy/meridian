@@ -1,0 +1,32 @@
+.flat-view-slider {
+	margin: 62px 40px 134px;
+}
+.flat-view-slider img {
+	margin: 0 auto;
+}
+.flat-view-slider .carousel-indicators {
+	width: 75%;
+	bottom: -112px;
+	left: 40%;
+	white-space: nowrap;
+}
+.flat-view-slider .carousel-indicators li {
+	text-indent: 0;
+	white-space: nowrap;
+	color: #1a1a1a;
+	font-size: 14px;
+	font-weight: 700;
+	width: auto;
+	height: auto;
+	border: none;
+	border-bottom: 1px dotted #d1d1d1;
+	border-radius: 0;
+	margin: 0;
+	margin-right: 10px;
+}
+.flat-view-slider .carousel-indicators li.active {
+	background-color: transparent;
+	color: #f3292e;
+	border-bottom: 2px solid #f3292e;
+	padding-bottom: 10px;
+}

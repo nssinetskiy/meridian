@@ -143,12 +143,69 @@ $(document).ready(function() {
 		e.preventDefault();
 		e.stopPropagation();
 	});
+	/* Flat locaion select */
+	var JS_SELECT_CLASS = '.js-flat-location-select';
+	$(document).on('click', function(){
+  		closeAllSelects();
+  	})
+  	$(document).on('closeAll', closeAllSelects)
+  	$(JS_SELECT_CLASS).each(function(number, item){
+  		var ACTIVE = 'active';
+    	var SELECT_OPEN_CLASS = 'flat-location-select__list_open';
+  		var $item = $(item);
+  		var $input = $('.js-input', $item);
+    	var $list = $('.js-flat-location-select__list', $item);
+    	var $options = $('.js-flat-location-select-option');
+    	var $label = $('.js-flat-location-select__label, .js-flat-location-select__icon', $item);
+    	var $value = $('.js-flat-location-select-value', $item);
+    	$item.on('click', function(e){
+			e.stopPropagation();
+    	});
+    	$item.on('close', closeList);
+		$label.on('click', toggleList);
+    	$options.on('click', function(e){
+    		var $target = $(this);
+      		unselectItems();
+      		closeList();
+      		toggleItem($target);
+      		changeLabelValue($target.data('value'));
+      		setActive($target.data('id'));
+      		e.preventDefault();
+    	})
+    	function toggleList(){
+    		$(document).trigger('closeAll');
+    		$list.toggleClass(SELECT_OPEN_CLASS);
+    	}
+    	function closeList(){
+    		$list.removeClass(SELECT_OPEN_CLASS);
+    	}
+    	function toggleItem($listItem){
+    		$listItem.toggleClass(ACTIVE);
+    	}
+    	function changeLabelValue(name){
+    		$('.js-flat-location-select__label').text(name);
+    	}
+    	function unselectItems(){
+    		$options.removeClass(ACTIVE);
+    	}
+    	function setActive(id){
+    		$value.val(id);
+    	}
+  	});
+  	function closeAllSelects(){
+  		$(JS_SELECT_CLASS).trigger('close')
+  	}
 	/* Flat info popup */
 	$(".js-flat-info__plan").on("click", function() {
-		$(".js-popup-overlay").show();
+		var screenHeight = $(window).height();
+			modalPosition = $(document).scrollTop() + screenHeight/2 - $(".js-flat-info-popup").height() / 2;
+		$(".js-popup-overlay").fadeIn(1000);
+		// $(".js-popup-overlay").fadeTo("slow", 0.8);
+		$(".js-flat-info-popup").css({"top": modalPosition + "px", "display": "block"});
+		return false;
 	});
 	$(".js-popup-overlay").on("click", function() {
-		$(this).hide();
+		$(".js-popup-overlay, .js-flat-info-popup").hide();
 	});
 	/* Chessboard flats selection */
 	$('.apt_available, .apt_promo').on('click', function() {
@@ -156,20 +213,22 @@ $(document).ready(function() {
 		$(this).toggleClass("apt_selected");
 	});
 	/* Affix block */
-	$(".js-flat-details").affix({
+	$(".js-flat-variants").affix({
 		offset: {
-			top: $(".js-flat-details").offset().top,
+			top: $(".js-flat-variants").offset().top,
 			bottom: $("footer").outerHeight(true) + 6205
 		}
 	});
-	/* Custom horizontal scrollbar */
-	$(".js-scroller").baron($(".js-scroller__wrapper"), {
-		direction: 'h',
-		scrollingCls: '_scrolling',
-        draggingCls: '_dragging',
-		scroller: '.js-scroller',
-		container: '.js-scroller__container',
-		track: '.js-scroller__track',
-		bar: '.js-scroller__bar'
-	});
 });
+/* Custom horizontal scrollbar */
+window.onload = function() {
+// Horizontal
+baron({
+    root: '.js-scrolled-gallery',
+    scroller: '.js-scrolled-gallery__container',
+    bar: '.js-scrolled-gallery__bar',
+    scrollingCls: '_scrolling',
+    draggingCls: '_dragging',
+    direction: 'h'
+    });
+};

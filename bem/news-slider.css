@@ -11,9 +11,12 @@
 .news-slider__navigation > a {
 	color: #8b8b8b;
 }
-.news-slider__navigation > a:focus,
+.news-slider__navigation > a:focus {
+	color: #8b8b8b;
+	text-decoration: none;
+}
 .news-slider__navigation > a:hover,
 .news-slider__navigation > a:active {
-	color: #8b8b8b;
+	color: #f3292e;
 	text-decoration: none;
 }
