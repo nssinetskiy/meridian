@@ -6,6 +6,7 @@
 }
 .header__block_lower {
   background: #fff;
+  border-bottom: 1px solid #e2e2e2;
 }
 .header__block-inner {
   margin-left: -30px;
