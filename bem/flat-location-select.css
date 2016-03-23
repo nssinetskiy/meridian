@@ -1,7 +1,8 @@
 .flat-location-select {
+    display: inline-block;
 	position: absolute;
     top: -10px;
-    left: 813px;
+    margin-left: 15px;
     font-size: 26px;
     font-weight: 700;
     color: #f3292e;
@@ -31,7 +32,8 @@
 .flat-location-select__label {
 	cursor: pointer;
 	padding-left: 15px;
-	line-height: 40px;
+	line-height: 45px;
+    margin: 0;
 }
 .my-celect__checkbox {
     font-size: 0;

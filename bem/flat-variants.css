@@ -59,23 +59,24 @@
 }
 .flat-variants__tabs-navigation > li.active > a > .flat-variants__img:before {
 	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background: #0f94bb;
-	color: #fff;
-	font-weight: 700;
-	content: "Цена с ремонтом";
-	text-align: center;
-	line-height: 12px;
-	padding: 9px 0;
+    bottom: -8px;
+    width: 100%;
+    background: url("../img/bg-arrow.svg");
+    color: #fff;
+    font-weight: 700;
+    content: "Цена с ремонтом";
+    text-align: center;
+    line-height: 12px;
+    padding: 9px 0;
+    height: 50px;
 }
-.flat-variants__tabs-navigation > li.active > a > .flat-variants__img:after {
+/*.flat-variants__tabs-navigation > li.active > a > .flat-variants__img:after {
 	position: absolute;
 	bottom: -50px;
 	border: 42px solid transparent;
 	border-top: 7px solid #0f94bb;
 	content: "";
-}
+}*/
 .flat-variants__img {
 	position: relative;
 	border: 1px solid transparent;
