@@ -1,0 +1,10 @@
+.quote-icon {
+	display: inline-block;
+	width: 55px;
+	height: 38px;
+	background: url("../img/icons.png") no-repeat;
+	background-position: 0 -72px;
+	position: absolute;
+	top: 9px;
+	left: -57px;
+}

@@ -1,0 +1,15 @@
+.management-slider-info {
+	padding-top: 14px;
+}
+.management-slider-info__name {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 5px 0 10px;
+}
+.management-slider-info__phone {
+	font-size: 20.09px;
+	line-height: 14px;
+}
+.management-slider-info__phone > small {
+	font-size: 14.06px;
+}
