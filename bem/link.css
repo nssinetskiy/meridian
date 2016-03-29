@@ -314,3 +314,7 @@
 	font-size: 16px;
 	font-weight: 700;
 }
+.link_to-news {
+	display: inline-block;
+	margin-top: 7px;
+}

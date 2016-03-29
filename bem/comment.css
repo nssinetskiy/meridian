@@ -1,0 +1,37 @@
+.comment {
+	border-bottom: 1px solid #e0dede;
+	padding-bottom: 22px;
+	margin-bottom: 26px;
+}
+.comment:last-of-type {
+	border: none;
+	margin-bottom: -5px;
+}
+.comment__date {
+	font-size: 12px;
+	color: #999;
+}
+.comment__title {
+	font-size: 16px;
+	color: #191919;
+	margin-bottom: 17px;
+}
+.comment__top {
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+.comment__top-left,
+.comment__top-right {
+	display: inline-block;
+	vertical-align: top;
+}
+.comment__top-right {
+	width: 228px;
+	padding: 0 40px 0 12px;
+}
+.comment__text {
+	font-size: 12px;
+	line-height: 16px;
+	height: 64px;
+	overflow: hidden;
+}
