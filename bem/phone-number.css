@@ -9,3 +9,8 @@
 .phone-number_footer {
 	margin: 10px 0 22px;
 }
+.phone-number_print {
+	font-size: 28px;
+	display: inline-block;
+	margin-bottom: 7px;
+}

@@ -42,3 +42,8 @@
 .header__phone_grey {
 	color: #767676;
 }
+.header_print {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 47px 0 31px;
+}

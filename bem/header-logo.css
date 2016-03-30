@@ -11,3 +11,11 @@
 	top: -1px;
 	left: 0;
 }
+.header-logo_print {
+	background: none;
+	width: 287px;
+	height: 111px;
+	border: none;
+	top: -38px;
+	left: -17px;
+}
