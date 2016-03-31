@@ -11,5 +11,13 @@
 @import url('bem/content-block.css');
 @import url('bem/print-page-title.css');
 @import url('bem/flat-info.css');
+@import url('bem/flat-variants.css');
 @import url('bem/text-center.css');
+@import url('bem/flat-price.css');
+@import url('bem/red-text.css');
+@import url('bem/section.css');
+@import url('bem/contact-person.css');
+@import url('bem/object-description.css');
+@import url('bem/red-checkmarks-list.css');
+@import url('bem/visible-print-block.css');
 @import url('bem/font-face.css');

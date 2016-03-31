@@ -57,3 +57,27 @@
 	line-height: 18px;
 	font-weight: normal;
 }
+.print .flat-info {
+	width: auto;
+	text-align: left;
+	padding-left: 93px;
+}
+.print .flat-info__image {
+	margin: 0;
+	margin-left: 2px;
+}
+.print .flat-info__title {
+	font-size: 36px;
+}
+.print .flat-info__top {
+	font-size: 22px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+.print .flat-info__bottom {
+	font-size: 22px;
+	padding-left: 3px;
+}
+.print .flat-info__bottom-title {
+	margin-bottom: 35px;
+}

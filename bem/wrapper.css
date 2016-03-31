@@ -4,3 +4,6 @@
 	padding-bottom: 367px;
 	position: relative;
 }
+.print .wrapper {
+	padding-bottom: 0;
+}
