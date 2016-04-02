@@ -28,10 +28,23 @@
 	margin: 0 auto;
 	padding: 6px;
 }
+.btn_price-table {
+	display: inline-block;
+	margin: -2px 0 0 -10px;
+	padding: 6px 7px;
+	font-size: 13px;
+	line-height: 9px;
+}
 .btn_download-price {
 	position: absolute;
     top: 19px;
     right: 0px;
     line-height: 42px;
     padding: 0 20px 0 18px !important;
+}
+.btn_contacts {
+	display: inline-block;
+	padding: 11px 0 12px;
+	margin-left: 26px;
+	width: 270px;
 }

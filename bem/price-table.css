@@ -43,23 +43,10 @@
 	display: table;
 	width: 100%;
 }
-.price-table > tbody > tr:hover,
-.price-table__row-hover {
-	background: #0f94bb;
+.price-table > tbody > tr:hover {
 	color: #fff;
-	position: relative;
 }
-.price-table > tbody > tr:hover:before,
-.price-table__row-hover:before {
-	position: absolute;
-	left: 0;
-	content: "";
-	width: 4px;
-	height: 100%;
-	background: #fff;
-}
-.price-table > tbody > tr:hover .link_red,
-.price-table__row-hover .link_red {
+.price-table > tbody > tr:hover .link_red {
 	color: #fff;
 	border-bottom-color: rgba(255, 255, 255, 0.2);
 }

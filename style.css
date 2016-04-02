@@ -58,9 +58,8 @@
 @import url('bem/tab-name.css');
 @import url('bem/tab-content.css');
 @import url('bem/medium.css');
-@import url('bem/even-row.css');
+@import url('bem/table-striped.css');
 @import url('bem/popover.css');
-@import url('bem/contact-agent.css');
 @import url('bem/agent.css');
 @import url('bem/recommendations.css');
 @import url('bem/active-item.css');
@@ -92,10 +91,11 @@
 @import url('bem/btn-primary.css');
 @import url('bem/btn-blue.css');
 @import url('bem/btn-bounded.css');
-@import url('bem/btn-default.css');
 @import url('bem/btn-border-grey.css');
 @import url('bem/btn.css');
+@import url('bem/btn-default.css');
 @import url('bem/consultation.css');
+@import url('bem/contact-agent.css');
 @import url('bem/icon.css');
 @import url('bem/tab.css');
 @import url('bem/contact-person.css');
