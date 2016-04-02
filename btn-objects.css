@@ -13,6 +13,7 @@
 	border-radius: 0;
 	position: relative;
 	color: #302d2e;
+	font-size: 14px;
 }
 .btn-objects:active,
 .btn-objects:focus,

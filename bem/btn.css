@@ -1,10 +1,32 @@
 .btn {
 	border: none;
 	border-radius: 0;
+	font-size: 16px;
 }
 .btn:active,
 .btn:focus {
 	outline: none;
+}
+.btn_header,
+.btn_footer {
+	width: 200px;
+	padding: 7px 6px 9px 0;
+}
+.btn_main-slider {
+	width: 220px;
+	padding: 9px 0 12px 0;
+}
+.btn_flat-search {
+	width: 100%;
+	font-size: 18px;
+	padding: 10px 0;
+}
+.btn_popular,
+.btn_support {
+	line-height: 30px;
+	width: 168px;
+	margin: 0 auto;
+	padding: 6px;
 }
 .btn_download-price {
 	position: absolute;

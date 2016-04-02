@@ -4,6 +4,7 @@
 	width: 354px;
 }
 .consultation__textarea {
+	border: 1px solid #ccc;
 	height: 80px;
 	margin-bottom: 20px;
 }
