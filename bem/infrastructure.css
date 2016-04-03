@@ -2,13 +2,6 @@
 	position: relative;
 	margin-bottom: 47px;
 }
-.infrastructure__btn {
-	position: absolute;
-	top: 20px;
-	right: 5px;
-	width: 190px;
-	font-size: 16px;
-}
 .infrastructure__glyphicon {
 	margin-right: 7px;
 }

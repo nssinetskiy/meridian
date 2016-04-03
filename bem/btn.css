@@ -48,3 +48,15 @@
 	margin-left: 26px;
 	width: 270px;
 }
+.btn_gethelp {
+	font-size: 16px;
+	width: 100%;
+	margin-top: 53px;
+}
+.btn_infrastructure {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 190px;
+	font-size: 16px;
+}

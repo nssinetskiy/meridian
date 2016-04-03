@@ -90,10 +90,10 @@
 @import url('bem/mortgage.css');
 @import url('bem/btn-primary.css');
 @import url('bem/btn-blue.css');
-@import url('bem/btn-bounded.css');
-@import url('bem/btn-border-grey.css');
 @import url('bem/btn.css');
 @import url('bem/btn-default.css');
+@import url('bem/btn-bounded.css');
+@import url('bem/btn-border-grey.css');
 @import url('bem/consultation.css');
 @import url('bem/contact-agent.css');
 @import url('bem/icon.css');
@@ -133,4 +133,5 @@
 @import url('bem/comment.css');
 @import url('bem/tab-pane_social.css');
 @import url('bem/bottom-navigation.css');
+@import url('bem/flats-list.css');
 @import url('bem/font-face.css');

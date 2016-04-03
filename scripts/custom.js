@@ -216,7 +216,16 @@ $(document).ready(function() {
 	$(".js-flat-variants").affix({
 		offset: {
 			top: $(".js-flat-variants").offset().top,
-			bottom: $("footer").outerHeight(true) + 6205
+			bottom: $(".footer").outerHeight(true) + 
+					$(".js-bottom-navigation").outerHeight(true) + 
+					$(".js-booked").outerHeight(true) + 
+					$(".js-comments").outerHeight(true) + 
+					$(".js-dynamics").outerHeight(true) + 
+					$(".js-location").outerHeight(true) + 
+					$(".js-about-project").outerHeight(true) + 
+					$(".js-object-carousels").outerHeight(true) + 
+					$(".js-gethelp").outerHeight(true) + 
+					$(".js-flats-list").outerHeight(true)
 		}
 	});
 });
