@@ -1,9 +1,0 @@
-.table-striped>tbody>tr:nth-of-type(odd) {
-	background: none;
-}
-.table-striped>tbody>tr:nth-of-type(even) {
-	background: #f9f9f9;
-}
-.table-striped>tbody>tr:hover {
-	background: #0f94bb;
-}
