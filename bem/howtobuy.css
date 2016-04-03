@@ -1,0 +1,89 @@
+.howtobuy {
+	margin-right: -5px;
+}
+.howtobuy__contact-left {
+	border-right: 1px solid #e2e2e2;
+	padding-right: 60px;
+}
+.howtobuy__contact-right {
+	width: 340px;
+    padding-left: 40px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.howtobuy__contact-form {
+	font-size: 16px;
+	margin: 10px 0 18px;
+}
+.howtobuy__input {
+	margin-right: 15px;
+}
+.howtobuy__input_name {
+	width: 340px;
+}
+.howtobuy__input_phone {
+	width: 260px;
+}
+.howtobuy__input_first-payment {
+	width: 175px;
+	margin-right: 7px;
+	font-size: 22px;
+}
+.howtobuy__input_wide {
+	width: 205px;
+}
+.howtobuy__btn-blue {
+	font-size: 16px;
+	width: 315px;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+.howtobuy__link {
+	font-weight: 700;
+	font-size: 14px;
+}
+.howtobuy__block {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 14px;
+	margin-bottom: 20px;
+}
+.howtobuy__form-field {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.howtobuy__calculation-form {
+	margin-left: -2px;
+	padding-top: 2px;
+	font-size: 14px;
+}
+.howtobuy__label {
+	font-weight: normal;
+	margin: 0 8px 9px 0;
+	font-size: 14px;
+}
+.howtobuy__calculation-result {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 0 0 26px;
+}
+.howtobuy__emphasis {
+	font-size: 28px;
+	margin: 2px 0 4px;
+}
+.howtobuy__banks {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0;
+	list-style: none;
+	margin: 10px 0 5px;
+}
+.howtobuy__banks > li {
+	display: inline-block;
+	margin-right: 25px;
+}
+.howtobuy__info {
+	padding: 13px 0 0 77px;
+	background: url("../img/check-mark.png") no-repeat;
+	background-position: left 2px top 18px;
+}

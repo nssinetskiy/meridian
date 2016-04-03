@@ -1,0 +1,83 @@
+.colored-link {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 0;
+	text-align: center;
+	display: block;
+}
+.colored-link_red {
+	background: #f3292e;
+}
+.colored-link_header {
+	width: 200px;
+	padding: 7px 6px 9px 0;
+}
+.colored-link_main-slider {
+	width: 220px;
+	padding: 9px 0 12px 0;
+}
+.colored-link_red:hover {
+	background: #f3292e;
+	color: #fff;
+	text-decoration: none;
+}
+.colored-link_red:active {
+	background: #b50005;
+	text-decoration: none
+}
+.colored-link_blue {
+	background: #0f94bb;
+}
+.colored-link_blue:hover {
+	background: #00a6d6;
+	color: #fff;
+	text-decoration: none;
+}
+.colored-link_blue:active {
+	background: #0074d8;
+	text-decoration: none;
+}
+.colored-link_white {
+	background: #fff;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 26px;
+    width: 160px;
+}
+.colored-link_transparent {
+	border: 2px solid #c7c7c7;
+	font-weight: 700;
+	font-size: 14px;
+	color: #1a1a1a;
+}
+.colored-link_flat-search {
+	margin-left: -15px;
+	width: 103%;
+	font-size: 18px;
+	padding: 10px 0;
+}
+.colored-link_popular,
+.colored-link_support {
+	line-height: 30px;
+	width: 168px;
+	margin: 0 auto;
+}
+.colored-link_download-price {
+	position: absolute;
+    top: 19px;
+    right: 0px;
+    line-height: 42px;
+    padding: 0 20px 0 18px;
+}
+.colored-link_price-table {
+	display: inline-block;
+	margin: -2px 0 0 -10px;
+	padding: 6px 7px;
+	font-size: 13px !important;
+	line-height: 9px;
+}
+.colored-link_visit-office {
+	width: 287px;
+}

@@ -1,0 +1,38 @@
+.content-block {
+	position: relative;
+}
+.content-block__title {
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.content-block__title_about {
+	margin-bottom: 22px;
+}
+.content-block__title_blue {
+	font-weight: 700;
+	font-size: 26px;
+	color: #0f94bb;
+}
+.content-block__about {
+	margin-left: -16px;
+	padding-top: 59px;
+	width: 865px;
+}
+.content-block__subtitle {
+	font-size: 16px;
+}
+.content-block__big-subtitle {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+}
+.content-block__about-wrapper {
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 15px;
+}
+.content-block_about {
+	margin-bottom: 40px;
+	padding-bottom: 45px;
+}

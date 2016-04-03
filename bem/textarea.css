@@ -1,0 +1,27 @@
+textarea {
+	padding: 10px;
+	border-color: #ccc;
+}
+/* Safari, Chrome, Opera */
+textarea::-webkit-input-placeholder {
+	color: #303030;
+}
+/* Safari 18- */
+textarea:-moz-placeholder {
+	color: #303030;
+}
+/* Safari 19+ */
+textarea::-moz-placeholder {
+	color: #303030;
+}
+/* IE 10+ */
+textarea:-ms-input-placeholder {
+	color: #303030;
+}
+/* IE Edge */
+textarea::-ms-input-placeholder {
+	color: #303030;
+}
+textarea:placeholder-shown {
+	color: #303030;
+}

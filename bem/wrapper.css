@@ -1,0 +1,9 @@
+.wrapper {
+	min-width: 1270px;
+	min-height: 100%;
+	padding-bottom: 367px;
+	position: relative;
+}
+.print .wrapper {
+	padding-bottom: 0;
+}

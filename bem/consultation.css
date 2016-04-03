@@ -1,0 +1,14 @@
+.consultation {}
+.consultation__input {
+	display: block;
+	width: 354px;
+}
+.consultation__textarea {
+	border: 1px solid #ccc;
+	height: 80px;
+	margin-bottom: 20px;
+}
+.consultation__submit {
+	padding: 0 30px 2px;
+    line-height: 40px;
+}

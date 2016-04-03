@@ -1,0 +1,31 @@
+input[type="text"] {
+	border: 1px solid #ccc;
+	height: 40px;
+	line-height: 36px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	color: #303030;
+}
+/* Safari, Chrome, Opera */
+input::-webkit-input-placeholder {
+	color: #303030;
+}
+/* Safari 18- */
+input:-moz-placeholder {
+	color: #303030;
+}
+/* Safari 19+ */
+input::-moz-placeholder {
+	color: #303030;
+}
+/* IE 10+ */
+input:-ms-input-placeholder {
+	color: #303030;
+}
+/* IE Edge */
+input::-ms-input-placeholder {
+	color: #303030;
+}
+input:placeholder-shown {
+	color: #303030;
+}

@@ -1,0 +1,16 @@
+.phone-number {
+	font-size: 24px;
+	font-weight: 700;
+  	line-height: 30px;
+}
+.phone-number_grey {
+	color: #767676;
+}
+.phone-number_footer {
+	margin: 10px 0 22px;
+}
+.print .phone-number {
+	font-size: 28px;
+	display: inline-block;
+	margin-bottom: 7px;
+}

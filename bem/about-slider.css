@@ -1,0 +1,42 @@
+.about-slider {
+	margin: 32px 0 70px;
+}
+.about-slider__control {
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    width: 66px;
+    height: 66px;
+    background: url("../img/ui-elements.png") no-repeat;
+}
+.about-slider__control_left {
+	left: 7px;
+    background-position: 0 -72px;
+}
+.about-slider__control_right {
+	right: 5px;
+    background-position: -80px -72px;
+}
+.about-slider__carousel-indicators {
+	bottom: -63px;
+}
+.about-slider__carousel-indicators > li {
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+    border: 2px solid #d8d8d8;
+    vertical-align: middle;
+}
+.about-slider__carousel-indicators > li.active {
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+}
+.about-slider__item {
+	display: inline-block;
+	width: 270px;
+}
+.about-slider__item_chief {
+	width: 170px;
+	display: inline-block;
+}

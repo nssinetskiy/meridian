@@ -1,0 +1,62 @@
+.btn {
+	border: none;
+	border-radius: 0;
+	font-size: 16px;
+}
+.btn:active,
+.btn:focus {
+	outline: none;
+}
+.btn_header,
+.btn_footer {
+	width: 200px;
+	padding: 7px 6px 9px 0;
+}
+.btn_main-slider {
+	width: 220px;
+	padding: 9px 0 12px 0;
+}
+.btn_flat-search {
+	width: 100%;
+	font-size: 18px;
+	padding: 10px 0;
+}
+.btn_popular,
+.btn_support {
+	line-height: 30px;
+	width: 168px;
+	margin: 0 auto;
+	padding: 6px;
+}
+.btn_price-table {
+	display: inline-block;
+	margin: -2px 0 0 -10px;
+	padding: 6px 7px;
+	font-size: 13px;
+	line-height: 9px;
+}
+.btn_download-price {
+	position: absolute;
+    top: 19px;
+    right: 0px;
+    line-height: 42px;
+    padding: 0 20px 0 18px !important;
+}
+.btn_contacts {
+	display: inline-block;
+	padding: 11px 0 12px;
+	margin-left: 26px;
+	width: 270px;
+}
+.btn_gethelp {
+	font-size: 16px;
+	width: 100%;
+	margin-top: 53px;
+}
+.btn_infrastructure {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 190px;
+	font-size: 16px;
+}

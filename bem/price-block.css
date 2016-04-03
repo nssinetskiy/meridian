@@ -1,0 +1,17 @@
+.price-block {
+	position: relative;
+	margin-bottom: 29px;
+}
+.price-block__top {
+	margin-bottom: 15px;
+}
+.price-block__title {
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	line-height: 37px;
+	margin-bottom: 0;
+}
+.price-block__subtitle {
+	font-size: 16px;
+}

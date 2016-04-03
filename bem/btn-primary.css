@@ -1,0 +1,23 @@
+.btn-primary {
+	background: #f3292e;
+	font-weight: 700;
+	padding: 12px;
+}
+.btn-primary:hover {
+	background: #f3292e;
+}
+.btn-primary:focus {
+	background: #f3292e;
+	border: none;
+}
+.btn-primary:active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+	background: #b50005;
+	border: none;
+	outline: none;
+}

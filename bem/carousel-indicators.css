@@ -1,0 +1,19 @@
+.carousel-indicators_custom {
+	bottom: -45px;
+}
+.carousel-indicators_custom > li {
+	width: 19px;
+	height: 19px;
+	border: 1px solid #c5c5c5;
+	margin-right: 10px;
+}
+.carousel-indicators_custom > li:hover {
+	border: 1px solid #f3292e;
+}
+.carousel-indicators_custom > li.active {
+	width: 19px;
+	height: 19px;
+	background: #f3292e;
+	border: 1px solid #f3292e;
+	margin-right: 10px;
+}

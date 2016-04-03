@@ -1,0 +1,9 @@
+.btn-bounded {
+	background: transparent;
+	border: 2px solid;
+	padding: 12px;
+}
+.btn-bounded_blue {
+	color: #0f94bb;
+	border-color: #0f94bb;
+}

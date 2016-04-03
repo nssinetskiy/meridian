@@ -1,0 +1,102 @@
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: auto !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li a span.text {
+	white-space: normal;
+}
+.bootstrap-select>.dropdown-toggle.btn-objects {
+	padding-right: 40px;
+}
+.btn-objects {
+	background: transparent;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	position: relative;
+	color: #302d2e;
+	font-size: 14px;
+}
+.btn-objects:active,
+.btn-objects:focus,
+.btn-group.open .dropdown-toggle.btn-objects {
+	box-shadow: none;
+}
+.bootstrap-select .dropdown-toggle.btn-objects:focus {
+	outline: none !important;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	white-space: normal;
+}
+.btn-objects.btn-objects_complex > .bs-caret {
+	border-left: 1px solid #ccc;
+	position: absolute;
+	width: 35px;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+.btn-objects > .bs-caret > .caret {
+	display: block;
+	width: 12px;
+	height: 9px;
+	border: none;
+	background: url('img/ui-elements.png') -48px 0 no-repeat;
+	margin-top: -5px !important;
+}
+.btn-objects.btn-objects_social > .bs-caret,
+.btn-objects.btn-objects_select-default > .bs-caret {
+	border-left: 1px solid #ccc;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+.btn-objects.btn-objects_social > .bs-caret {
+	width: 28px;
+}
+.btn-objects.btn-objects_select-default > .bs-caret {
+	width: 32px;
+}
+.btn-objects.btn-objects_social > .bs-caret > .caret {
+	top: 52% !important;
+	right: 7px !important;
+}
+.bootstrap-select.btn-group .btn-objects + .dropdown-menu {
+	width: 184px;
+}
+.btn-objects + .dropdown-menu {
+	margin-top: -1px;
+	border-radius: 0;
+	color: #2f2f2f;
+	padding: 3px;
+}
+.btn-objects + .dropdown-menu > ul > li > a {
+	padding: 0 14px;
+	line-height: 33px;
+}
+.btn-objects + .dropdown-menu > ul > li:focus,
+.btn-objects + .dropdown-menu > ul > li > a:focus {
+	outline: none;
+}
+.btn-objects + .dropdown-menu > ul > li > a:focus,
+.btn-objects + .dropdown-menu > ul > li > a:hover {
+	background: #0f94bb;
+	color: #fff;
+}
+.btn-objects_complex {
+	width: 166px !important;
+	line-height: 26px;
+	padding-left: 7px;
+	margin-right: 4px;
+}
+.btn-objects_social {
+	line-height: 14px;
+	width: 182px !important;
+	padding-left: 26px;
+}
+.btn-objects_select-default {
+	line-height: 26px;
+	width: 86px !important;
+	padding-left: 11px;
+	font-size: 22px;
+	margin-right: 7px;
+}

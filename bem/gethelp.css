@@ -1,0 +1,13 @@
+.gethelp {
+	margin: 33px 0 0 -30px;
+	overflow: hidden;
+}
+.gethelp__title {
+	font-size: 33px;
+	margin: 3px 0 -3px;
+}
+.gethelp__emphasis {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 48px;
+}

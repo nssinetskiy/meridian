@@ -1,0 +1,13 @@
+.btn-border-grey {
+	display: inline-block;
+	width: 100%;
+	border: 2px solid #d1d1d1;
+	border-radius: 0;
+	font-weight: 700;
+	color: #f3292e;
+	line-height: 24px;
+}
+.btn-border-grey:hover {
+	border-color: #f3292e;
+	color: #f3292e;
+}

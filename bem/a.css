@@ -1,0 +1,6 @@
+a {
+	cursor: pointer;
+}
+a.link_menu.link_menu-main.link_menu-last {
+	padding-right: 0;
+}
