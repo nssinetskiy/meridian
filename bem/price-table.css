@@ -141,3 +141,35 @@
 	color: #767676;
 	margin-bottom: 26px;
 }
+.mobile .price-table > thead {
+	font-size: 12px;
+	line-height: 46px;
+}
+.mobile .price-table tr {
+	vertical-align: top;
+}
+.mobile .price-table > tbody > tr:hover {
+	background: inherit;
+	color: inherit;
+}
+.mobile .price-table td:first-child {
+	padding-left: 11px;
+}
+.mobile .price-table__price {
+	width: 120px;
+}
+.mobile .price-table__space {
+	width: 70px;
+}
+.mobile .price-table__type {
+	width: 80px;
+}
+.mobile .price-table > tbody {
+	line-height: 15px;
+}
+.mobile tbody td {
+	padding: 10px 0 7px;
+}
+.mobile .price-table_fixed-height > tbody {
+	max-height: 330px;
+}

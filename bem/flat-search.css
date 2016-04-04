@@ -55,3 +55,24 @@
 	line-height: 18px;
 	margin: 0 50px 0 -8px;
 }
+.mobile .flat-search {
+	margin: 23px 0 49px 7px;
+}
+.mobile .flat-search__label {
+	margin-bottom: 10px;
+}
+.mobile .flat-search__price-input {
+	width: 121px;
+	font-size: 20px;
+	line-height: 36px;
+}
+.mobile .flat-search__row {
+	margin-bottom: 13px;
+}
+.mobile .flat-search__notice {
+	display: block;
+	color: #767676;
+	padding: 0;
+	margin: 24px 0 16px;
+	text-align: center;
+}

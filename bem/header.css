@@ -47,3 +47,14 @@
   border-bottom: 1px solid #ccc;
   padding: 47px 0 31px;
 }
+.mobile .header {
+  background: #fff;
+  margin-bottom: 17px;
+}
+.mobile .header__block {
+  background: #fcfcfc;
+  text-align: center;
+  border-bottom-width: 2px;
+  padding: 22px 0;
+  border-top: 1px solid #e2e2e2;
+}

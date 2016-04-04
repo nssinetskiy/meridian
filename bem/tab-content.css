@@ -3,3 +3,7 @@
 	border-width: 0 2px 2px 2px;
 	background: #fff;
 }
+.mobile .tab-content {
+	margin-left: -20px;
+	width: 320px;
+}

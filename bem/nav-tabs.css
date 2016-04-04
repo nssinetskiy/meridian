@@ -39,3 +39,7 @@
 .nav-tabs > li.active > a > .tab-name {
 	border-bottom-color: transparent;
 }
+.mobile .nav-tabs > li > a {
+	font-size: 15px;
+	padding: 15px 9px;
+}
