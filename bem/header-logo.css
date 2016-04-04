@@ -19,3 +19,11 @@
 	top: -38px;
 	left: -17px;
 }
+.mobile .header-logo {
+	position: static;
+	width: 320px;
+	height: 110px;
+	background: url("../img/logo-mobile.png");
+	border: none;
+	margin-left: -20px;
+}

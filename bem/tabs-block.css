@@ -11,3 +11,10 @@
 .tabs-block__navigation_social > li > a {
 	padding: 12px 20px 17px 20px !important;
 }
+.mobile .tabs-block {
+	margin-bottom: 15px;
+}
+.mobile .tabs-block__navigation {
+	margin-left: -20px;
+	width: 320px;
+}

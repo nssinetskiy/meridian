@@ -36,3 +36,13 @@
 	margin-bottom: 40px;
 	padding-bottom: 45px;
 }
+.mobile .content-block__title {
+	font-weight: 700;
+	font-size: 22px;
+	text-align: center;
+	text-transform: none;
+	margin-bottom: 13px;
+}
+.mobile .content-block__subtitle {
+	text-align: center;
+}

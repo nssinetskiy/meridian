@@ -8,3 +8,6 @@
 .grey-section__row {
 	padding-top: 27px;
 }
+.mobile .grey-section_price {
+	padding: 12px 0 44px 0;
+}
