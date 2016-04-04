@@ -312,3 +312,6 @@
 	display: inline-block;
 	margin-top: 7px;
 }
+.mobile .link_block {
+	margin-bottom: 20px;
+}

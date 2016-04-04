@@ -48,3 +48,15 @@
 	vertical-align: top;
 	padding: 9px 17px;
 }
+.mobile .contact-agent__form {
+	margin: 12px 0 0 3px;
+}
+.mobile .contact-agent__input {
+	display: block;
+	width: 270px;
+	margin: 0 0 10px 0;
+}
+.mobile .contact-agent__submit {
+	padding: 12px 18px;
+	margin-bottom: 40px;
+}

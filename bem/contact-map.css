@@ -29,3 +29,13 @@
 	line-height: 50px;
 	opacity: 1;
 }
+.mobile .contact-map {
+	margin-left: 3px;
+	height: 150px;
+	background: url(../img/map-preview-mobile.png);
+	margin-bottom: 20px;
+}
+.mobile .contact-map__link {
+	font-size: 16px;
+	line-height: 50px;
+}

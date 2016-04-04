@@ -46,3 +46,6 @@
 .mobile .content-block__subtitle {
 	text-align: center;
 }
+.mobile .content-block__title_blue {
+	margin: 26px 0 0 4px;
+}

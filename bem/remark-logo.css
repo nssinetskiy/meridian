@@ -3,3 +3,6 @@
 	height: 29px;
 	background: url('../img/remark-logo.png');
 }
+.mobile .remark-logo {
+	margin-left: 17px;
+}

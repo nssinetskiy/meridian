@@ -8,6 +8,7 @@
 @import url('bem/bounded.css');
 @import url('bem/content-block.css');
 @import url('bem/grey-text.css');
+@import url('bem/btn-primary.css');
 @import url('bem/btn.css');
 @import url('bem/btn-blue.css');
 @import url('bem/grey-section.css');
@@ -24,3 +25,13 @@
 @import url('bem/price-table.css');
 @import url('bem/glyphicon.css');
 @import url('bem/table-striped.css');
+@import url('bem/contact-agent.css');
+@import url('bem/recommendations.css');
+@import url('bem/contents.css');
+@import url('bem/footer.css');
+@import url('bem/footer-logo.css');
+@import url('bem/contact-map.css');
+@import url('bem/working-time.css');
+@import url('bem/social.css');
+@import url('bem/search.css');
+@import url('bem/remark-logo.css');

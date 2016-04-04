@@ -7,3 +7,7 @@
 .print .wrapper {
 	padding-bottom: 0;
 }
+.mobile .wrapper {
+	min-width: 1px;
+	padding-bottom: 999px;
+}

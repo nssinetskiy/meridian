@@ -64,3 +64,33 @@
 	padding: 5px 0 0 33px;
 	line-height: 19px;
 }
+.mobile .footer {
+	padding-top: 30px;
+}
+.mobile .footer__block {
+	padding-left: 3px;
+}
+.mobile .footer__address {
+	margin: 11px 0 16px;
+}
+.mobile .footer__office-images {
+	margin-bottom: 22px;
+}
+.mobile .footer__top {
+	padding-bottom: 30px;
+}
+.mobile .footer__legal-notice {
+	width: auto;
+}
+.mobile .footer__copyright {
+	margin-bottom: 8px;
+}
+.mobile .footer__bottom {
+	position: relative;
+}
+.mobile .footer__legal-notice {
+	padding: 2px 0 0 51px;
+}
+.mobile .footer__dev-info {
+	padding: 5px 0 0 50px;
+}

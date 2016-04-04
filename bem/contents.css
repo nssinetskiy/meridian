@@ -27,3 +27,9 @@
 	padding: 0;
 	margin: -3px 0px 7px 27px;
 }
+.mobile .contents {
+	padding-bottom: 11px;
+}
+.mobile .contents__wrapper {
+	margin-left: 3px;
+}

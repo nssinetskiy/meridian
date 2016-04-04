@@ -14,3 +14,6 @@
 	display: inline-block;
 	margin-bottom: 7px;
 }
+.mobile .phone-number_footer {
+	margin: 12px 0 14px;
+}
